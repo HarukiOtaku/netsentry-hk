@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NetSentry HK — 每日科技與資安摘要</title>
+    <link>https://netsentry-hk.vercel.app</link>
+    <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+    <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
+    <language>zh-HK</language>
+    <lastBuildDate>Tue, 15 Sep 2026 21:45:50 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-16（星期三）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-16</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-16</guid>
+      <pubDate>Tue, 15 Sep 2026 21:30:00 GMT</pubDate>
+      <description>Gemini 3.8 Live 與 Live Extended Thinking 發布（9月15日）：Google 稱兩者為最新實時對話模型，Extended Thinking 在 Artificial Analysis 語音對語音質素指數得 82.6 排第一，τ-Voice 任務完成率 68.6%，音頻輸入定價每分鐘 0.005 美元、輸出 0.018 美元，支援 97 種語言中途轉換。為何重要：語音 agent 進入實用價格區間。來源：https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ （類型：官方；查證：已抽原文） / Salesforce 與 NVIDIA 發表 CRM 推理模型「Koa」（9月15日）：以 NVIDIA Nemotron 3 Super 後訓練，只用合成資料、無使用客戶數據，官方稱在自家 CRM 基準上錯誤比領先模型少三倍；現已供指定試點客戶使用，預計 2026 年冬季在美國正式推出。為何重要：企業把推理模型收進自家信任邊界。來源：https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/ （類型：官方；查證：已抽原文） / DeepL Voice 更新（9月15日）：新增「保留說話者聲音」功能，涵蓋 14 種語言，語音對語音翻譯正式支援 30+ 種語言，並推出桌面應用；同時為 Dreamforce 2026 全部 50 個舞台提供即時翻譯。為何重要：多語會議由字幕走向原生語音。來源：https://www.prnewswire.com/news-releases/deepl-voice-now-preserves-your-voice-in-real-time-multilingual-conversations-302878386.html （類型：官方新聞稿；查證：已抽原文）</description>
+    </item>
+    <item>
+      <title>每日科技與資安摘要 — 2026年9月15日（星期二）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-15</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-15</guid>
+      <pubDate>Mon, 14 Sep 2026 21:30:00 GMT</pubDate>
+      <description>Cloudflare 新 AI 流量預設今日（9月15日）正式生效：預設會封鎖「混合用途」爬蟲進入有廣告嘅頁面，並把 AI 爬蟲重新分成 Search／Agent／Training 三類，Search 類預設仍獲放行；但若站主選擇封鎖 Training，連 Googlebot、Applebot、BingBot 呢類混合用途爬蟲都會一併被封。全球約兩成網站行 Cloudflare，對 AI 訓練資料來源影響直接。[來源：blog.cloudflare.com](https://blog.cloudflare.com/content-independence-day-ai-options/)[來源：techcrunch.com](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/) / Waymo 拉斯維加斯正式做生意：9月14日起向公眾開放付費 robotaxi，首批「幾十部」第六代 Ojai 電動 minivan，服務範圍約 24 平方英里（涵蓋 Strip 南段一帶），候補名單已逾 10 萬人。呢個係 Waymo 第 15 個城市、首度入內華達州，Tesla、Zoox、Motional 亦已獲批同期落場。[來源：techcrunch.com](https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/)[來源：fox5vegas.com](https://fox5vegas.com/2026/09/14/waymo-launches-robotaxi-service-las-vegas) / （過去 24 小時無其他大型發布會；Apple iOS 27 等六大系統正式版已於上一輪報道，唔重覆。）</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,106 @@
+/* NetSentry HK — 主題樣式（深色／淺色皆適用） */
+
+:root {
+  --vp-c-brand-1: #1f7a8c;
+  --vp-c-brand-2: #2a94a8;
+  --vp-c-brand-3: #35a7bd;
+  --vp-c-brand-soft: rgba(31, 122, 140, 0.14);
+  --vp-font-family-base: 'Inter', -apple-system, 'PingFang HK', 'Microsoft JhengHei', 'Noto Sans CJK TC',
+    'Noto Sans TC', sans-serif;
+}
+
+.dark {
+  --vp-c-brand-1: #4fc3d9;
+  --vp-c-brand-2: #6fd6e8;
+  --vp-c-brand-3: #8fe4f2;
+  --vp-c-brand-soft: rgba(79, 195, 217, 0.16);
+}
+
+/* 中文閱讀舒適度：行距放寬、字級微調 */
+.vp-doc {
+  line-height: 1.85;
+  font-size: 16.5px;
+}
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.9;
+}
+.vp-doc h2 {
+  margin-top: 2.2em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* 每個摘要模塊做成一張卡，方便閱讀 */
+.ns-section {
+  display: block;
+  margin: 0 0 20px;
+  padding: 2px 16px 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-left: 3px solid var(--vp-c-brand-1);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+}
+.ns-section > h2 {
+  border-top: 0;
+  margin-top: 0.9em;
+  padding-top: 0;
+  font-size: 1.15rem;
+}
+.ns-section[data-key='tldr'] {
+  border-left-color: #e8a33d;
+}
+.ns-section[data-key='followup'] {
+  border-left-color: #7a8cf0;
+}
+.ns-section[hidden] {
+  display: none !important;
+}
+
+/* 「閱讀原文」連結：清楚、可以一眼見到 */
+.vp-doc a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.vp-doc a[href^='http']::after {
+  content: ' ↗';
+  font-size: 0.85em;
+  opacity: 0.75;
+}
+
+/* 摘要頁最後更新時間、footer 等細節 */
+.ns-footer {
+  margin-top: 28px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+}
+
+/* 首頁小標題 */
+.ns-lead {
+  font-size: 15px;
+  color: var(--vp-c-text-2);
+  margin: -6px 0 18px;
+}
+
+/* 📌 頂部總結卡：放喺所有模塊之上，第一眼就見到 */
+.ns-summary {
+  margin: 0 0 22px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-brand-1);
+  border-left: 5px solid var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+.ns-summary p {
+  margin: 0;
+  font-size: 16.5px;
+  line-height: 1.9;
+}
+.ns-summary strong {
+  color: var(--vp-c-brand-1);
+}
+.ns-footer p {
+  margin: 0;
+}

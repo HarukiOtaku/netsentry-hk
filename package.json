@@ -1,0 +1,22 @@
+{
+  "name": "netsentry-hk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "NetSentry HK — 每日科技與資安摘要（AI 彙整，全部導向原文）",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "publish": "node scripts/publish-digest.mjs",
+    "publish:dry": "node scripts/publish-digest.mjs --dry-run",
+    "scan": "node scripts/publish-digest.mjs --scan-public",
+    "linkcheck": "node scripts/link-check.mjs",
+    "verify": "bash scripts/verify-site.sh"
+  },
+  "devDependencies": {
+    "markdown-it-container": "^4.0.0",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.42"
+  }
+}
