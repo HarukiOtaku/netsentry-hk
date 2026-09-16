@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-17",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-17",
+      "title": "每日科技與資安摘要 — 2026-09-17（星期四）",
+      "date_published": "2026-09-17T05:30:00+08:00",
+      "summary": "西班牙 AEPD 收到首宗由 AI agent 執行嘅資料外洩通報 / Cisco ESA 零日 CVE-2026-76461（CVSS 9.8）修補期今日滿 / Google 內部開放工程師使用 Anthropic Claude Opus 5"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-16",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-16",
       "title": "每日科技與資安摘要 — 2026-09-16（星期三）",

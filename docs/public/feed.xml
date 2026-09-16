@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Tue, 15 Sep 2026 21:45:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 21:45:19 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-17（星期四）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-17</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-17</guid>
+      <pubDate>Wed, 16 Sep 2026 21:30:00 GMT</pubDate>
+      <description>西班牙 AEPD 收到首宗由 AI agent 執行嘅資料外洩通報 / Cisco ESA 零日 CVE-2026-76461（CVSS 9.8）修補期今日滿 / Google 內部開放工程師使用 Anthropic Claude Opus 5</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-16（星期三）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-16</link>
