@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Wed, 16 Sep 2026 21:45:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 21:45:38 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-18（星期五）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-18</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-18</guid>
+      <pubDate>Thu, 17 Sep 2026 21:30:00 GMT</pubDate>
+      <description>Samsung 推送 One UI 9 穩定版：9 月 16 日先在韓國向 Galaxy S26／S26+／S26 Ultra 推送，基於 Android 17，歷經約五個月 beta；beta 用戶升級包約 550MB，其餘用戶可能超過 2GB，並綑綁 9 月安全補丁，加拿大排期 9 月 21 日。為何重要：手機端 AI 功能（My FanCam、Now Nudge、詐騙來電偵測）正式落地。來源：[來源：webpronews.com](https://webpronews.com/samsung-pushes-one-ui-9-to-galaxy-s26-flagships-as-ai-tools-mature)（類型：媒體；查證：已抽原文） / Apple 被指研製企業級 AI 伺服器：The Information 報道指向未來 M8 Ultra 處理器、雙晶片及四晶片配置，對象為開發者、企業及政府，最快 2029 年出貨；若成事將是 2011 年 Xserve 停產後首條專用伺服器產品線。為何重要：Apple 由賣裝置走向賣算力。來源：[來源：techstartups.com](https://techstartups.com/2026/09/17/top-tech-news-today-september-17-2026-apple-ai-server-huaweis-ai-push-openai-misalignment-robotaxis-quantum-computing-snap-specs-more)（類型：媒體；查證：已抽原文） / Huawei 公布大型 AI 運算系統 Atlas 960 SuperPoD：於上海年度大會發布，以大量處理器組成緊密互連叢集，訓練及運行大型模型。為何重要：中國持續建構國產替代算力。來源：同上 techstartups 綜合報道（類型：媒體；查證：已抽原文，細節以廠方公布為準）</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-17（星期四）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-17</link>
