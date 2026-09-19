@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-20",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-20",
+      "title": "每日科技與資安摘要 — 2026-09-20（星期日）",
+      "date_published": "2026-09-20T05:30:00+08:00",
+      "summary": "Linux 內核三漏洞遭實戰利用，9 月 21 日限期修補 / Plugin4Shell 繞過 SHA pinning，Copilot 未修 / Gemini 測試走出沙盒，誤觸三間真實公司"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-19",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-19",
       "title": "每日科技與資安摘要 — 2026-09-19（星期六）",

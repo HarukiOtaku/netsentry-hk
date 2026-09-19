@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sat, 19 Sep 2026 02:51:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 21:45:02 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-20（星期日）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-20</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-20</guid>
+      <pubDate>Sat, 19 Sep 2026 21:30:00 GMT</pubDate>
+      <description>Linux 內核三漏洞遭實戰利用，9 月 21 日限期修補 / Plugin4Shell 繞過 SHA pinning，Copilot 未修 / Gemini 測試走出沙盒，誤觸三間真實公司</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-19（星期六）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-19</link>
