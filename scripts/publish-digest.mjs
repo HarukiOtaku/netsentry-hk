@@ -134,6 +134,24 @@ function cleanHeading(line) {
     .trim()
 }
 
+/** 偵測用：移除粗體標記同項目符號，令 `📌 **今日總結**`、`⚡ **TL;DR**` 之類都認得到 */
+function probeOf(line) {
+  return line.replace(/\*\*/g, '').replace(/^[•]\s*/, '').trim()
+}
+
+/** 移除總結行嘅前綴（📌、**、今日總結／趨勢總結、冒號） */
+function stripSummaryPrefix(line) {
+  return line
+    .replace(/^[#>\s]*/, '')
+    .replace(/^\*{0,2}\s*/, '')
+    .replace(/^📌\s*/, '')
+    .replace(/^\*{0,2}\s*/, '')
+    .replace(/^(?:今日總結|趨勢總結)\s*/, '')
+    .replace(/^\*{0,2}\s*/, '')
+    .replace(/^[：:—-]\s*/, '')
+    .trim()
+}
+
 /** Discord markdown → 網站 markdown */
 function convertInline(line) {
   let out = line
@@ -162,17 +180,18 @@ function parseDigest(raw) {
 
   for (const line of lines) {
     const trimmed = line.trim()
+    const probe = probeOf(trimmed)
 
-    if (INDEX_START.test(trimmed)) {
+    if (INDEX_START.test(probe)) {
       inIndex = true
       continue
     }
-    if (INDEX_END.test(trimmed)) {
+    if (INDEX_END.test(probe)) {
       inIndex = false
       continue
     }
     if (inIndex) {
-      const m = trimmed.match(/^([a-z0-9_]+)\s*:\s*(.*)$/i)
+      const m = probe.match(/^([a-z0-9_]+)\s*:\s*(.*)$/i)
       if (m) indexMeta[m[1].toLowerCase()] = m[2].trim()
       continue
     }
@@ -182,7 +201,7 @@ function parseDigest(raw) {
       if (trimmed) footer.push(convertInline(line))
       continue
     }
-    if (DATE_LINE_RE.test(trimmed)) {
+    if (DATE_LINE_RE.test(probe)) {
       inFooter = true
       current = null
       footer.push(convertInline(line))
@@ -190,16 +209,16 @@ function parseDigest(raw) {
     }
 
     // 今日總結／趨勢總結（不分位置）→ 抽出做頂部總結卡
-    if (SUMMARY_RE.test(trimmed)) {
+    if (SUMMARY_RE.test(probe)) {
       inSummary = true
       current = null
-      const rest = trimmed.replace(SUMMARY_PREFIX_RE, '').trim()
+      const rest = stripSummaryPrefix(trimmed)
       if (rest) summary.push(rest)
       continue
     }
     if (inSummary) {
-      const nextDef = SECTION_DEFS.find((d) => d.test(trimmed))
-      if (!nextDef && !DATE_LINE_RE.test(trimmed) && trimmed) {
+      const nextDef = SECTION_DEFS.find((d) => d.test(probeOf(trimmed)))
+      if (!nextDef && !DATE_LINE_RE.test(probeOf(trimmed)) && trimmed) {
         summary.push(convertInline(line))
         continue
       }
@@ -213,7 +232,7 @@ function parseDigest(raw) {
       }
     }
 
-    const def = SECTION_DEFS.find((d) => d.test(trimmed))
+    const def = SECTION_DEFS.find((d) => d.test(probe))
     if (def) {
       current = { key: def.key, title: def.title, lines: [] }
       sections.push(current)
@@ -225,7 +244,10 @@ function parseDigest(raw) {
       continue
     }
 
-    current.lines.push(convertInline(line))
+    let body = convertInline(line)
+    // TL;DR 段：把「1. 2. 3.」統一成項目符號，方便網站同通知一致顯示
+    if (current.key === 'tldr') body = body.replace(/^\s*\d+[.、)]\s+/, '- ')
+    current.lines.push(body)
   }
 
   return { title, intro, summary, sections, footer, indexMeta }
@@ -502,13 +524,13 @@ function buildNotifyMessage(date, parsed) {
   const summary = (parsed.summary || []).join(' ').replace(/\s+/g, ' ').trim()
   const tldrSection = parsed.sections.find((s) => s.key === 'tldr')
   const bullets = (tldrSection ? tldrSection.lines : [])
-    .filter((l) => /^\s*-\s+\S/.test(l))
+    .filter((l) => /^\s*(?:-\s+|\d+[.、)]\s+)\S/.test(l))
     .slice(0, 3)
     .map(
       (l) =>
         '• ' +
         l
-          .replace(/^\s*-\s+/, '')
+          .replace(/^\s*(?:-\s+|\d+[.、)]\s+)/, '')
           .replace(/\[來源：[^\]]*\]\([^)]*\)/g, '')
           .replace(/\s+/g, ' ')
           .trim(),
@@ -517,7 +539,9 @@ function buildNotifyMessage(date, parsed) {
   const counts = parsed.sections
     .filter((s) => order.includes(s.key))
     .map((s) => `${s.title} ${s.lines.filter((l) => /^\s*-\s+\*\*/.test(l)).length}`)
-  const lines = [title, summary ? `📌 ${summary}` : '']
+  const lines = [title]
+  if (summary) lines.push(`📌 ${summary}`)
+  else lines.push('⚠️ 今日摘要缺 📌 總結（已記錄，稍後修正）')
   if (bullets.length) lines.push('⚡ 今日重點：', ...bullets)
   if (counts.length) lines.push(`📊 ${counts.join('｜')}`)
   lines.push(`🔗 全文（每條附原始來源連結）：${SITE}/digests/${date}`, `📚 存檔：${SITE}/digests/`)

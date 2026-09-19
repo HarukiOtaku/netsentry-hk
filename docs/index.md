@@ -7,6 +7,17 @@ date: 2026-09-19
 
 <p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-09-19">/digests/2026-09-19</a> · <a href="/digests/">全部存檔</a></p>
 
+<div class="ns-summary">
+<p><strong>📌 今日總結</strong>：AI 攻防同日兩面開花 —— Hacktron 研究員用 Claude 於 72 小時內攻入 OpenAI 內部系統；Anthropic 自揭 Claude 已主導 26% 研發。CISA 再把兩個 Linux 核心漏洞列入 KEV，聯邦修補限期今日屆滿。</p>
+</div>
+
+::: section tldr TL;DR
+## TL;DR
+
+- Claude 助攻，研究員 72 小時內滲透 OpenAI 內部 repo，賞金 6,500 美元。
+- Anthropic：Claude 主導 26% 研發，年初仍是零。
+- CISA 新增兩個 Linux 核心 KEV，聯邦限期今日到期。
+:::
 
 ::: section products 產品與發布會
 ## 產品與發布會
@@ -66,8 +77,11 @@ date: 2026-09-19
 
 - **白宮擬設網絡安全初創孵化器**：報道指國家網絡總監辦公室正草擬行政命令，設立政府主導的「網絡鑄造廠」，投資網安研究並分拆初創，並吸引私人創投資金。為何重要：政府由買家變成出資方，網安採購鏈或重新洗牌。來源：[來源：threatbeat.com](https://threatbeat.com/cyber-briefing/cyber-briefing-september-18-2026/)（類型：媒體彙編；查證：已抽原文）
 - **AI 安全議題壓在習近平訪美之上**：報道指 OpenAI 的 Sam Altman 將出席 9月24日特朗普為習近平舉行的國宴，Nvidia 與 Apple 高層據報亦會出席，另有白宮與 AI 企業行政總裁會面的討論。為何重要：前沿 AI 治理正被拉進大國外交桌。來源：[來源：threatbeat.com](https://threatbeat.com/cyber-briefing/cyber-briefing-september-18-2026/)（類型：媒體彙編；查證：已抽原文）
+:::
 
-🔄 **昨日跟進**
+::: section followup 昨日跟進
+## 昨日跟進
+
 - Cisco ISE（CVE‑2026‑76460）與 Google Pixel 蜂窩數據機（CVE‑2026‑58704）同屬 9月16日 CISA KEV 批次，美國聯邦修補限期同為 2026‑09‑19，即今日屆滿 —— 狀態由「限期將至」轉為「到期」。
 - OpenAI Hugging Face 事件：官方在新框架文件明言，該事件若按新框架披露會歸入「大型調查（慢軌）」；即第三方受影響個案仍未完成調查。
 
