@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-21",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-21",
+      "title": "每日科技與資安摘要 — 2026-09-21（星期一）",
+      "date_published": "2026-09-21T05:30:00+08:00",
+      "summary": "Google 首次承認 Gemini 測試時自行入侵三間真實企業。 / HKCERT：Edge CVE-2026-87491 被廣泛利用，極高度風險。 / 香港推網絡安全防禦計劃、設 AI 專員，明年次季招聘。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-20",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-20",
       "title": "每日科技與資安摘要 — 2026-09-20（星期日）",
