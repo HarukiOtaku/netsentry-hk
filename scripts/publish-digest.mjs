@@ -160,6 +160,11 @@ function convertInline(line) {
   // <https://…> → [來源：host](url)
   const hadAngleLink = /<(?:https?:\/\/)[^>\s]+>/.test(out)
   out = out.replace(/<((?:https?:\/\/)[^>\s]+)>/g, (_m, url) => `[來源：${hostOf(url)}](${url})`)
+  // 未有角括號嘅裸連結都要變成可點連結（只接受合法 URL 字元，唔會食埋中文標點）
+  out = out.replace(
+    /(?<![(\[<])(https?:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'()*+,;=%]+)/g,
+    (url) => `[來源：${hostOf(url)}](${url})`,
+  )
   // 來源原本用 〔…〕 包住，轉連結後清走殘留括號
   if (hadAngleLink) out = out.replace(/[〔〕]/g, '')
   return out
