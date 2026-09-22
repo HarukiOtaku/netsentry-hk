@@ -55,7 +55,7 @@ async function main() {
   // --- 1. 最新摘要的來源連結 ---
   const latest = fs.readFileSync(path.join(DIGEST_DIR, files[0]), 'utf8')
   // 只接受合法 URL 字元（RFC 3986），避免把中文標點／後綴（例如「（類型：官方）」）當成 URL 一部分
-  const URL_RE = /https?:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'()*+,;=%]+/g
+  const URL_RE = /https?:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&*+,;=%]+/g
   const urls = [...new Set((latest.match(URL_RE) || []).map((u) => u.replace(/[.,;:]+$/, '')))].slice(0, MAX_LINKS)
   let ok = 0
   const broken = []
