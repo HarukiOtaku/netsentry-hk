@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sun, 20 Sep 2026 21:45:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 01:01:25 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-22（星期二）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-22</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-22</guid>
+      <pubDate>Mon, 21 Sep 2026 21:30:00 GMT</pubDate>
+      <description>小米開源 MiMo-V2.6，聲稱最強開源模型。 / Grok 4.7 上線，同價位強化長任務能力。 / CISA 增 Zyxel 漏洞；HKCERT 警告 F5 BIG-IP。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-21（星期一）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-21</link>

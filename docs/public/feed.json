@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-22",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-22",
+      "title": "每日科技與資安摘要 — 2026-09-22（星期二）",
+      "date_published": "2026-09-22T05:30:00+08:00",
+      "summary": "小米開源 MiMo-V2.6，聲稱最強開源模型。 / Grok 4.7 上線，同價位強化長任務能力。 / CISA 增 Zyxel 漏洞；HKCERT 警告 F5 BIG-IP。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-21",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-21",
       "title": "每日科技與資安摘要 — 2026-09-21（星期一）",
