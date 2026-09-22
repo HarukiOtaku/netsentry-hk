@@ -445,7 +445,11 @@ function loadExtraPatterns() {
     const arr = JSON.parse(fs.readFileSync(p, 'utf8'))
     return arr
       .filter((x) => x && x.pattern)
-      .map((x) => ({ re: new RegExp(x.pattern, x.flags || 'i'), label: x.label || x.pattern }))
+      .map((x) => ({
+        re: new RegExp(x.pattern, x.flags || 'i'),
+        label: x.label || x.pattern,
+        allowIf: x.allowIf || null,
+      }))
   } catch (e) {
     die(`守門規則檔格式錯誤（${p}）：${e.message}`)
   }
@@ -477,14 +481,34 @@ function applyOverrides(text, date) {
   return { text: out, applied }
 }
 
-/** 掃描一段文字（基本規則＋外部規則）；回傳命中清單 */
+/** 取命中位置所在嘅整行（用嚟做 allowIf 判斷） */
+function lineAround(text, idx) {
+  const start = text.lastIndexOf('\n', idx) + 1
+  let end = text.indexOf('\n', idx)
+  if (end === -1) end = text.length
+  return text.slice(start, end)
+}
+
+/** 掃描一段文字（基本規則＋外部規則）；回傳命中清單。規則可帶 allowIf（命中行符合就放行） */
 function scanText(text, extra = null) {
   const sets = [BASE_PATTERNS, extra || loadExtraPatterns()]
   const hits = []
   for (const set of sets) {
-    for (const { re, label } of set) {
-      const m = text.match(re)
-      if (m) hits.push({ label, sample: String(m[0]).slice(0, 40) })
+    for (const rule of set) {
+      const { re, label, allowIf } = rule
+      const allowRe = allowIf ? new RegExp(allowIf, 'i') : null
+      const g = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g')
+      let m
+      while ((m = g.exec(text)) !== null) {
+        if (m[0].length === 0) {
+          g.lastIndex += 1
+          continue
+        }
+        const line = lineAround(text, m.index)
+        if (allowRe && allowRe.test(line)) continue
+        hits.push({ label, sample: String(m[0]).slice(0, 40) })
+        break // 同一條規則最多報一次
+      }
     }
   }
   return hits
