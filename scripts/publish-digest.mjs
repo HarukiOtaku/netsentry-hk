@@ -627,6 +627,17 @@ function main() {
   const fileDate = path.basename(src).slice(0, 10)
   const ovDate = DATE_OPT || fileDate
   const { text: response, applied: ovApplied } = applyOverrides(extractResponse(raw), ovDate)
+
+  // 上游任務失敗（例如 LLM 被內容審查阻擋／API 出錯）→ 輸出檔只會有錯誤報告，唔可以當摘要發佈
+  if (
+    /^##\s*Error\s*$/m.test(response) ||
+    /Traceback \(most recent call last\)/.test(response) ||
+    /Content Exists Risk/.test(response)
+  ) {
+    const errLine = (response.match(/^(?:RuntimeError|Exception|Error):.*$/m) || [''])[0].trim()
+    die(`上游摘要任務失敗（輸出係錯誤報告，未產生摘要內容）${errLine ? '：' + errLine : ''}`)
+  }
+
   const parsed = parseDigest(response)
 
   const dateFromFile = fileDate
