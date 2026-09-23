@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Tue, 22 Sep 2026 23:28:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 21:45:59 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-24（星期四）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-24</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-24</guid>
+      <pubDate>Wed, 23 Sep 2026 21:30:00 GMT</pubDate>
+      <description>F5 BIG-IP 漏洞正被廣泛利用，HKCERT 列高度風險 / 聯合國專家小組：AI 代理安全措施不能再等 / NVIDIA Isaac ROS 5.0 讓 AI 代理參與機械人開發</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-23（星期三）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-23</link>
