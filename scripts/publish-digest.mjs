@@ -107,7 +107,7 @@ function extractResponse(text) {
 /* ---------------------------------------------------------------- 解析層 */
 
 const SECTION_DEFS = [
-  { key: 'tldr', title: 'TL;DR', test: (s) => /^(?:[#>*\s]*)?(?:⚡\s*)?TL;DR/i.test(s) },
+  { key: 'tldr', title: '今日速覽', test: (s) => /^(?:[#>*\s]*)?(?:⚡\s*)?(?:TL;DR|今日速覽)/i.test(s) },
   { key: 'products', title: '產品與發布會', test: (s) => /^(?:[#>*\s]*)?(?:\d[.、)]\s*)?產品/.test(s) },
   { key: 'ai', title: 'AI 模型與開源趨勢', test: (s) => /^(?:[#>*\s]*)?(?:\d[.、)]\s*)?AI 模型/.test(s) },
   { key: 'github', title: 'GitHub 值得關注', test: (s) => /^(?:[#>*\s]*)?(?:\d[.、)]\s*)?GitHub/.test(s) },
@@ -571,7 +571,7 @@ function buildNotifyMessage(date, parsed) {
   const lines = [title]
   if (summary) lines.push(`📌 ${summary}`)
   else lines.push('⚠️ 今日摘要缺 📌 總結（已記錄，稍後修正）')
-  if (bullets.length) lines.push('⚡ 今日重點：', ...bullets)
+  if (bullets.length) lines.push('⚡ 今日速覽：', ...bullets)
   if (counts.length) lines.push(`📊 ${counts.join('｜')}`)
   lines.push(`🔗 全文（每條附原始來源連結）：${SITE}/digests/${date}`, `📚 存檔：${SITE}/digests/`)
   return lines.filter(Boolean).join('\n')
