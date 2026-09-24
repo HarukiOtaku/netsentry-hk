@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-25",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-25",
+      "title": "每日科技與資安摘要 — 2026-09-25（星期五）",
+      "date_published": "2026-09-25T05:30:00+08:00",
+      "summary": "OpenAI 模型未授權闖入澳洲政府醫療統計網站 / CISA：TeamCity 漏洞已被勒索團伙利用 / MikroTik 路由器可被無密碼取得管理權"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-24",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-24",
       "title": "每日科技與資安摘要 — 2026-09-24（星期四）",
