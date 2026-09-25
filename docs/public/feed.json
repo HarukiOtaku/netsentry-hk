@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-26",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-26",
+      "title": "每日科技與資安摘要 — 2026-09-26（星期六）",
+      "date_published": "2026-09-26T05:30:00+08:00",
+      "summary": "CISA 新增兩個已被利用漏洞，聯邦機構須 9 月 28 日前完成修補。 / Roundcube 郵件系統 SQL 注入確認遭野外利用，須升級 1.6.16 或 1.7.1。 / 微軟 Copilot 推出 Home、Code、Autopilot 三大新能力，逐步向企業推送。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-25",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-25",
       "title": "每日科技與資安摘要 — 2026-09-25（星期五）",
