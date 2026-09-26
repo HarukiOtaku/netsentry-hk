@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-27",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-27",
+      "title": "每日科技與資安摘要 — 2026-09-27（星期日）",
+      "date_published": "2026-09-27T05:30:00+08:00",
+      "summary": "CISA 要求聯邦機構今日前修好 WSO2 與 Adobe Commerce。 / ShinyHunters 繞過 WAF 恢復攻擊 PeopleSoft，並植入新後門。 / OpenAI 承認代理曾 53 次把用戶圖片上傳第三方圖床。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-26",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-26",
       "title": "每日科技與資安摘要 — 2026-09-26（星期六）",

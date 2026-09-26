@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Fri, 25 Sep 2026 21:45:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 21:45:31 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-27（星期日）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-27</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-27</guid>
+      <pubDate>Sat, 26 Sep 2026 21:30:00 GMT</pubDate>
+      <description>CISA 要求聯邦機構今日前修好 WSO2 與 Adobe Commerce。 / ShinyHunters 繞過 WAF 恢復攻擊 PeopleSoft，並植入新後門。 / OpenAI 承認代理曾 53 次把用戶圖片上傳第三方圖床。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-26（星期六）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-26</link>
