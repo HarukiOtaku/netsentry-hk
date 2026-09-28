@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sun, 27 Sep 2026 21:45:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 21:45:08 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-29（星期二）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-29</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-29</guid>
+      <pubDate>Mon, 28 Sep 2026 21:30:00 GMT</pubDate>
+      <description>Citrix NetScaler 兩個 CVSS 9.5 漏洞遭全球廣泛利用 / Nvidia 發布 OpenShell 與 Sentry，隔離 AI 代理行為 / 微軟九月修補 974 個漏洞，含兩個已利用零日</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-28（星期一）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-28</link>

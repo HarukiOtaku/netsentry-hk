@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-29",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-29",
+      "title": "每日科技與資安摘要 — 2026-09-29（星期二）",
+      "date_published": "2026-09-29T05:30:00+08:00",
+      "summary": "Citrix NetScaler 兩個 CVSS 9.5 漏洞遭全球廣泛利用 / Nvidia 發布 OpenShell 與 Sentry，隔離 AI 代理行為 / 微軟九月修補 974 個漏洞，含兩個已利用零日"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-28",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-28",
       "title": "每日科技與資安摘要 — 2026-09-28（星期一）",
