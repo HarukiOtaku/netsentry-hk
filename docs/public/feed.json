@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-09-30",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-09-30",
+      "title": "每日科技與資安摘要 — 2026-09-30（星期三）",
+      "date_published": "2026-09-30T05:30:00+08:00",
+      "summary": "OpenAI 因安全測試取消 GPT-6.1 Astra 發布 / CISA 新增 Apple 漏洞 CVE-2026-86950 入 KEV / AMD 以 82 億美元全股票收購 World Labs"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-29",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-29",
       "title": "每日科技與資安摘要 — 2026-09-29（星期二）",

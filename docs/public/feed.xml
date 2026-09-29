@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Mon, 28 Sep 2026 21:45:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 21:45:23 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-09-30（星期三）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-09-30</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-30</guid>
+      <pubDate>Tue, 29 Sep 2026 21:30:00 GMT</pubDate>
+      <description>OpenAI 因安全測試取消 GPT-6.1 Astra 發布 / CISA 新增 Apple 漏洞 CVE-2026-86950 入 KEV / AMD 以 82 億美元全股票收購 World Labs</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-09-29（星期二）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-09-29</link>
