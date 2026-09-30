@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-01",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-01",
+      "title": "每日科技與資安摘要 — 2026-10-01（星期四）",
+      "date_published": "2026-10-01T05:30:00+08:00",
+      "summary": "白宮與六家前沿 AI 公司簽署無約束力安全協議，業界自我規管成主軸。 / CISA 於 9 月 30 日把 Cisco Catalyst SD-WAN Manager 漏洞列入 KEV，限期 10 月 3 日修補。 / HKCERT 將 Citrix 產品漏洞評為「極高度風險」，兩個 CVE 正被廣泛利用。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-09-30",
       "url": "https://netsentry-hk.vercel.app/digests/2026-09-30",
       "title": "每日科技與資安摘要 — 2026-09-30（星期三）",
