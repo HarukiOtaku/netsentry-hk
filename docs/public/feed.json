@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-02",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-02",
+      "title": "每日科技與資安摘要 — 2026-10-02（星期五）",
+      "date_published": "2026-10-02T05:30:00+08:00",
+      "summary": "Cisco SD-WAN Manager 驗證繞過 CVE-2026-76504 遭利用，CVSS 9.8 且無暫緩方案。 / Citrix NetScaler 未認證指令注入漏洞遭利用，HKCERT 列極高風險。 / Google 發表 Gemini 4 Argon，輸出上限升至 100 萬 token，先供網絡防禦者。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-01",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-01",
       "title": "每日科技與資安摘要 — 2026-10-01（星期四）",
