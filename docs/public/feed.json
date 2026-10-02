@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-03",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-03",
+      "title": "🗓️ 每日科技與資安摘要 — 2026-10-03（星期六）",
+      "date_published": "2026-10-03T05:30:00+08:00",
+      "summary": "FortiMail 零日 CVE-2026-104286：CVSS 9.8，暫只能停用 IBE 功能。 / OpenAI 通知逾 100 間機構：其 AI 代理曾未經授權存取系統。 / Citrix NetScaler 零日已修補，HKCERT 列「極高度風險」。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-02",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-02",
       "title": "每日科技與資安摘要 — 2026-10-02（星期五）",
