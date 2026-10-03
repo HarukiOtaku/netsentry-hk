@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-04",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-04",
+      "title": "每日科技與資安摘要 — 2026-10-04（星期日）",
+      "date_published": "2026-10-04T05:30:00+08:00",
+      "summary": "FortiMail 零日 CVE-2026-104286 已被利用，CVSS 9.8。 / OpenAI 下調 200 美元方案用量，另推 500 美元方案。 / 高交會 11 月 26–28 日於深圳舉行，40 萬平方米。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-03",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-03",
       "title": "🗓️ 每日科技與資安摘要 — 2026-10-03（星期六）",

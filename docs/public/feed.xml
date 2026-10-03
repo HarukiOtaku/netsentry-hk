@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Fri, 02 Oct 2026 21:45:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 21:45:51 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-04（星期日）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-04</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-04</guid>
+      <pubDate>Sat, 03 Oct 2026 21:30:00 GMT</pubDate>
+      <description>FortiMail 零日 CVE-2026-104286 已被利用，CVSS 9.8。 / OpenAI 下調 200 美元方案用量，另推 500 美元方案。 / 高交會 11 月 26–28 日於深圳舉行，40 萬平方米。</description>
+    </item>
     <item>
       <title>🗓️ 每日科技與資安摘要 — 2026-10-03（星期六）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-03</link>
