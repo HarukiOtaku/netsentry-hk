@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-05",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-05",
+      "title": "每日科技與資安摘要 — 2026-10-05（星期一）",
+      "date_published": "2026-10-05T05:30:00+08:00",
+      "summary": "NetScaler CVE-2026-88779 入 KEV，10 月 7 日到期，SAML 配置須先確認版本。 / KillSec 勒索集團被瓦解，四國三被捕、洩密站被接管。 / Claude Code Mods 登場，以完整使用者權限執行。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-04",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-04",
       "title": "每日科技與資安摘要 — 2026-10-04（星期日）",
