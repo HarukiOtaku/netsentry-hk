@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-06",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-06",
+      "title": "每日科技與資安摘要 — 2026-10-06（星期二）",
+      "date_published": "2026-10-06T05:30:00+08:00",
+      "summary": "Cisco SD-WAN Manager 漏洞 CVE-2026-76504 遭利用，港府發高危警報。 / Chrome 修臨界 WebGL 沙盒逃逸漏洞 CVE-2026-103628。 / HKCERT 中小企研討會 10月28日講供應鏈風險，26日截止報名。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-05",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-05",
       "title": "每日科技與資安摘要 — 2026-10-05（星期一）",
