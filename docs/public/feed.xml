@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Mon, 05 Oct 2026 21:45:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 21:45:41 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-07（星期三）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-07</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-07</guid>
+      <pubDate>Tue, 06 Oct 2026 21:30:00 GMT</pubDate>
+      <description>Citrix NetScaler 漏洞被廣泛利用，港列高度風險。 / 韓國七間金融機構疑遭 AI 代理入侵，6.8 萬人受影響。 / DeepSeek 融資最多達 150 億美元，擬明年上市。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-06（星期二）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-06</link>
