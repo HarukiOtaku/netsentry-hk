@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-08",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-08",
+      "title": "每日科技與資安摘要 — 2026-10-08（星期四）",
+      "date_published": "2026-10-08T05:30:00+08:00",
+      "summary": "丹麥 CPR 人口登記被濫用合法權限，外洩約 880 萬人資料。 / Atlassian 多款 Data Center 產品漏洞 CVE-2026-21589 已遭利用。 / Mistral 發布 1.05 兆參數 Le Chonk，月底開放權重。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-07",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-07",
       "title": "每日科技與資安摘要 — 2026-10-07（星期三）",
