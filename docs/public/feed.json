@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-09",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-09",
+      "title": "每日科技與資安摘要 — 2026-10-09（星期五）",
+      "date_published": "2026-10-09T05:30:00+08:00",
+      "summary": "Cisco NX-OS 六個漏洞，最高 CVSS 9.8，部分由 AI 模型發現。 / ASOS 遭冒充信任聯絡人騙取憑證，客戶基本資料外洩。 / OpenAI 在歐盟為 ChatGPT／Codex 文字加隱形水印 textGrain。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-08",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-08",
       "title": "每日科技與資安摘要 — 2026-10-08（星期四）",

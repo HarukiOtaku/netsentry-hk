@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:45:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 21:45:41 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-09（星期五）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-09</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-09</guid>
+      <pubDate>Thu, 08 Oct 2026 21:30:00 GMT</pubDate>
+      <description>Cisco NX-OS 六個漏洞，最高 CVSS 9.8，部分由 AI 模型發現。 / ASOS 遭冒充信任聯絡人騙取憑證，客戶基本資料外洩。 / OpenAI 在歐盟為 ChatGPT／Codex 文字加隱形水印 textGrain。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-08（星期四）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-08</link>
