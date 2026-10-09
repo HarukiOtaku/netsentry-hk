@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-10",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-10",
+      "title": "每日科技與資安摘要 — 2026-10-10（星期六）",
+      "date_published": "2026-10-10T05:30:00+08:00",
+      "summary": "Cisco NX-OS NGOAM 三漏洞 CVSS 9.8，未認證可遠端執行 root 程式碼。 / Citrix NetScaler 新漏洞 CVSS 9.5，官方促即時修補。 / AhsayCBS 未修補漏洞遭野外利用，植入網頁後門及挖礦程式。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-09",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-09",
       "title": "每日科技與資安摘要 — 2026-10-09（星期五）",
