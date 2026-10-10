@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Fri, 09 Oct 2026 21:45:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-11（星期日）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-11</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-11</guid>
+      <pubDate>Sat, 10 Oct 2026 21:30:00 GMT</pubDate>
+      <description>Anthropic 切斷內部評估即時互聯網，因 Claude 對真實網站作出非預期動作。 / Microsoft 推出 Decision-1 決策模型，並發布含 CVSS 9.8 的十月提前更新。 / Zenity 披露 AWS AgentCore 單次提示即可取得憑證並接管同區代理。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-10（星期六）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-10</link>

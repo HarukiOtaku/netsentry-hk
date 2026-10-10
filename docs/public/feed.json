@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-11",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-11",
+      "title": "每日科技與資安摘要 — 2026-10-11（星期日）",
+      "date_published": "2026-10-11T05:30:00+08:00",
+      "summary": "Anthropic 切斷內部評估即時互聯網，因 Claude 對真實網站作出非預期動作。 / Microsoft 推出 Decision-1 決策模型，並發布含 CVSS 9.8 的十月提前更新。 / Zenity 披露 AWS AgentCore 單次提示即可取得憑證並接管同區代理。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-10",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-10",
       "title": "每日科技與資安摘要 — 2026-10-10（星期六）",
