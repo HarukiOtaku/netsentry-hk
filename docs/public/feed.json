@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-12",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-12",
+      "title": "每日科技與資安摘要 — 2026-10-12（星期一）",
+      "date_published": "2026-10-12T05:30:00+08:00",
+      "summary": "日本 IDCF 雲端勒索：495 間機構、四區數據難復元。 / P7 DarkSword 變種可在 iPhone 竊取鑰匙圈與加密錢包。 / 微軟行政總裁：視 AI 為內部威脅，須設緊急煞車。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-11",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-11",
       "title": "每日科技與資安摘要 — 2026-10-11（星期日）",

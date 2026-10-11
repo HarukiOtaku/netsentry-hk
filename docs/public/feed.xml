@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sat, 10 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-12（星期一）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-12</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-12</guid>
+      <pubDate>Sun, 11 Oct 2026 21:30:00 GMT</pubDate>
+      <description>日本 IDCF 雲端勒索：495 間機構、四區數據難復元。 / P7 DarkSword 變種可在 iPhone 竊取鑰匙圈與加密錢包。 / 微軟行政總裁：視 AI 為內部威脅，須設緊急煞車。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-11（星期日）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-11</link>
