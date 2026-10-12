@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-13",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-13",
+      "title": "每日科技與資安摘要 — 2026-10-13（星期二）",
+      "date_published": "2026-10-13T05:30:00+08:00",
+      "summary": "GitLab CI/CD 正則編譯器 CVSS 10.0，須升至 19.4.2／19.3.5／19.2.8。 / Meta 推出 Muse Wonder；微軟公布 Maia 300，2027 年起作主推理系統。 / HKCERT：Ubuntu 核心 CVE-2026-53266 正被廣泛利用，評高度風險。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-12",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-12",
       "title": "每日科技與資安摘要 — 2026-10-12（星期一）",
