@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-14",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-14",
+      "title": "每日科技與資安摘要 — 2026-10-14（星期三）",
+      "date_published": "2026-10-14T05:30:00+08:00",
+      "summary": "Gemini 4 Argon 對 AI Pro／Ultra 及付費 API 全面開放。 / CISA 新增兩項 KEV：Windows 與 Ivanti Connect Secure。 / 微軟 Patch Tuesday 修 1,417 項，一項已遭利用。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-13",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-13",
       "title": "每日科技與資安摘要 — 2026-10-13（星期二）",
