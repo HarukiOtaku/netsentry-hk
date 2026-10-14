@@ -1,89 +1,97 @@
 ---
 title: "今日摘要"
-date: 2026-10-14
+date: 2026-10-15
 ---
 
-# 每日科技與資安摘要 — 2026-10-14（星期三）
+# 每日科技與資安摘要 — 2026-10-15（星期四）
 
-<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-10-14">/digests/2026-10-14</a> · <a href="/digests/">全部存檔</a></p>
+<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-10-15">/digests/2026-10-15</a> · <a href="/digests/">全部存檔</a></p>
 
 <div class="ns-summary">
-<p><strong>📌 今日總結</strong>：Google 向付費用戶全面開放前線模型 Gemini 4 Argon；CISA 把 Windows 指令注入及 Ivanti 遠端存取漏洞列入已知利用目錄；微軟十月修補 1,417 項漏洞，其中一項已被利用。</p>
+<p><strong>📌 今日總結</strong>：CISA 新增四項已知利用漏洞，涵蓋防火牆與電郵閘道；NVIDIA 向英國捐 2.5 億美元代理安全算力；香港評微軟十月更新為高度風險。</p>
 </div>
 
 ::: section tldr 今日速覽
 ## 今日速覽
 
-- Gemini 4 Argon 對 AI Pro／Ultra 及付費 API 全面開放。
-- CISA 新增兩項 KEV：Windows 與 Ivanti Connect Secure。
-- 微軟 Patch Tuesday 修 1,417 項，一項已遭利用。
+- CISA 新增四項 KEV，含 Palo Alto 與 Cisco。
+- NVIDIA 五年向英國捐 2.5 億美元代理安全算力。
+- HKCERT 評微軟十月更新為高度風險。
 :::
 
 ::: section products 產品與發布會
 ## 產品與發布會
 
-- **Google 全面開放 Gemini 4 Argon**：10月13日起，開發者與企業可經 AI Studio／Gemini API 使用，Google AI Ultra 可用於 Antigravity，Ultra 與 Pro 可用於 Gemini 應用及 Search 的 AI Mode。官方稱 DeepSWE v1.1 達 77.9%、Vals Index 68.9% 暫列第一；導入價每百萬 token 輸入 2 美元、輸出 10 美元，至 2026-11-30，其後為 4／20 美元，快取輸入九五折。內部稱 Antigravity 令代理程式碼提交增逾 35%、回滾約減三分一。為何重要：前線模型進入付費大眾層。來源：[來源：blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)（官方；查證：已抽原文）
-- **Anthropic 稱蒸餾攻擊收穫降約 90% 至 99%**：10月12日研究文指，雙階段分類器令平台內被取走的推理 token 降至先前的十分一至百分一，並已封禁數以萬計相關帳戶；誤報率稱低於 0.1%。Fable 5.1／Opus 5.5 的 preserved thinking 禁止 2026-08-31 起新 API 帳戶改寫先前脈絡。為何重要：推理痕跡成模型智財主戰場。來源：[來源：anthropic.com](https://www.anthropic.com/research/distillation-defenses)（官方；查證：已抽原文）
-- **SAP 十月 Patch Day**：10月13日發布 16 則新保安備註及 4 則 GitHub 公告。最嚴重為 CVE-2026-89111，SAP Cloud SDK for Python 低於 0.45.2 的 OAuth2 SSRF，CVSS 10.0。為何重要：雲端開發套件可成入侵跳板。來源：[來源：support.sap.com](https://support.sap.com/en/my-support/knowledge-base/security-notes-news/october-2026.html)（官方；查證：已抽原文）
-:::
-
-::: section ai AI 模型與開源趨勢
-## AI 模型與開源趨勢
-
-- **openbmb/MiniCPM-V-4.7-35B-A3B**：35.21B MoE（啟動約 3B），Apache-2.0；近月下載 630、like 453。官方稱 iPhone 17 Pro Max 約 3GB 記憶體可達每秒 13+ token，並支援 iOS／Android／HarmonyOS。為何重要：開源 MoE 視覺模型開始能在手機流暢跑。來源：[來源：huggingface.co](https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B)（官方；查證：已抽原文）
-- **Qwen/Qwen-Image-2.1-Turbo**：7B 文生圖／修圖加速版，預設 8 步去噪；近月下載 9,665；授權為 Qwen Research License。為何重要：開源圖像生成轉向更短步數。來源：[來源：huggingface.co](https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo)（官方；查證：已抽原文）
-- **google/embeddinggemma-2 熱度更新**：Hub 現列近月下載 124,930、like 2,090，總參數約 7.40 億，Apache-2.0。為何重要：昨日未列之下載／like 現已可核。來源：[來源：huggingface.co](https://huggingface.co/google/embeddinggemma-2)（官方；查證：已抽原文）
+- **NVIDIA 五年向英國捐 2.5 億美元代理安全算力**：10月13日公布，每年約 5,000 萬美元算力，經英國 NVIDIA Cloud Partners 提供；部分支援 BOLD、SOFAIR 及 Imperial College London。供應商與商務條款仍待敲定。為何重要：代理安全研究獲國家級算力。來源：[來源：nvidianews.nvidia.com](https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years)（官方；查證：已抽原文）
+- **NVIDIA 加大歐洲初創投資**：官方稱全歐累計承諾近 100 億美元，並計劃投資 Doctolib、Entalpic、Genesis AI、Pigment。為何重要：歐洲主權 AI 基建加碼。來源：[來源：blogs.nvidia.com](https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/)（官方；查證：已抽原文）
 :::
 
 ::: section github GitHub 值得關注
 ## GitHub 值得關注
 
-- **paperclipai/paperclip**（MIT，100,584 星、16,934 fork）：以任務單、組織圖、預算與審批協調多個編碼代理。用途：把分散的代理工作收成可審計流程。為何值得留意：代理編排工具星數已破十萬。來源：[來源：github.com](https://github.com/paperclipai/paperclip)（官方；查證：已抽原文）
-- **Armur-Ai/Pentest-Swarm-AI**（AGPL-3.0）：以多個代理並行偵察、分類、驗證與報告，自稱須獲授權測試。用途：自建自動化滲透測試編排。為何值得留意：開源攻防代理熱度上升。來源：[來源：github.com](https://github.com/Armur-Ai/Pentest-Swarm-AI)（官方；查證：已抽原文）
-- **microsoft/litebox**（MIT）：縮減對宿主介面的函式庫作業系統，用於沙箱。用途：收窄應用攻擊面。為何值得留意：系統層隔離重新成為開源焦點。來源：[來源：github.com](https://github.com/microsoft/litebox)（官方；查證：已抽原文）
+- **Liquid AI 發布 LFM2.5-24B-A2B**：24.0B 參數、啟動約 2.45B，上下文 131,072；官方稱 Apple M5 Max 約 184 token/s，單卡 B300 可逾 21K 輸出 token/s。授權為 LFM 1.0。為何重要：端側 MoE 代理模型再推高。來源：[來源：liquid.ai](https://www.liquid.ai/blog/lfm2-5-24b-a2b)（官方；查證：已抽原文）
+:::
+
+::: section ai AI 模型與開源趨勢
+## AI 模型與開源趨勢
+
+- **LiquidAI/LFM2.5-24B-A2B**：24.0B（啟動 2.45B），近月下載 4,067，讚數卡頁未列，LFM 1.0。為何重要：開源端側推理模型對標更大 MoE。來源：[來源：huggingface.co](https://huggingface.co/LiquidAI/LFM2.5-24B-A2B)（官方；查證：已抽原文）
+- **jialinyyzz/humanizer**：12B 本地改寫模型，近月下載 65,616，讚數卡頁未列，Apache-2.0。為何重要：開源改寫模型熱度急升。來源：[來源：huggingface.co](https://huggingface.co/jialinyyzz/humanizer)（官方；查證：已抽原文）
+- **google/embeddinggemma-2**：約 7.40 億參數，近月下載 135,175，讚數卡頁未列，Apache-2.0。為何重要：多模態嵌入仍居熱門前列。來源：[來源：huggingface.co](https://huggingface.co/google/embeddinggemma-2)（官方；查證：已抽原文）
+:::
+
+::: section github GitHub 值得關注
+## GitHub 值得關注
+
+- **morluto/rea**（MIT，230,246 星、57,342 fork）：以代理連接反組譯與應用行為分析。用途：在無源碼時檢查二進制與應用。為何值得留意：代理輔助逆向工程星數已破 23 萬。來源：[來源：github.com](https://github.com/morluto/rea)（官方；查證：已抽原文）
+- **Graphify-Labs/graphify**（Apache-2.0，126,077 星）：把程式庫、文件與設定建成可查詢圖譜。用途：以圖譜取代全文搜尋給編碼代理。為何值得留意：本地 AST 圖譜成為代理記憶方案。來源：[來源：github.com](https://github.com/Graphify-Labs/graphify)（官方；查證：已抽原文）
+- **NVIDIA/OpenShell**（Apache-2.0，16,216 星）：為自主代理提供政策沙箱與核心層隔離。用途：限制檔案、系統呼叫與網絡。為何值得留意：晶片廠開源代理執行時。來源：[來源：github.com](https://github.com/NVIDIA/OpenShell)（官方；查證：已抽原文）
+- **DietrichGebert/ponytail**（MIT，162,965 星）：令編碼代理先用現有元件、少寫多餘程式。用途：壓低代幣與回歸風險。為何值得留意：代理技能庫星數持續高位。來源：[來源：github.com](https://github.com/DietrichGebert/ponytail)（官方；查證：已抽原文）
 :::
 
 ::: section global 全球重點新聞
 ## 全球重點新聞
 
-- **CISA 新增兩項 KEV**：10月13日列入 CVE-2026-96951（Microsoft Windows 指令注入）及 CVE-2026-104935（Ivanti Connect Secure 以欺騙繞過認證）。CVE-2026-96951｜CVSS：已抽原文未列｜Windows Shell｜已被利用(KEV)？是｜修補：2026年10月微軟月度更新｜HKCERT 級別：未列。CVE-2026-104935｜CVSS：已抽原文未列｜Ivanti Connect Secure｜已被利用(KEV)？是｜修補：CISA 公告未列版本｜HKCERT 級別：未列。為何重要：VPN 與桌面捷徑仍是現行利用鏈。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
-- **微軟十月 Patch Tuesday**：SANS 統計修補 1,417 項，76 項評為嚴重，7 項雲端修復毋須客戶操作；確認遭利用的是 CVE-2026-96951，可繞過 Mark of the Web，受害端仍須開啟檔案。另有 10 項 Windows DHCP 遠端執行（5 項嚴重），以及公開但未見利用的 .NET CVE-2026-108398。為何重要：單月修補量已達四位數。來源：[來源：isc.sans.edu](https://isc.sans.edu/diary/33422)（媒體；查證：已抽原文）
-- **SAP Cloud SDK CVSS 10.0**：CVE-2026-89111｜CVSS 10.0｜Python SDK < 0.45.2｜已被利用(KEV)？否｜修補：0.45.2 起｜HKCERT 級別：未列。同期 CVE-2026-89110 評 9.9，影響 NetWeaver Visual Composer VC70RUNTIME 7.50。為何重要：企業核心套件出現滿分 SSRF。來源：[來源：support.sap.com](https://support.sap.com/en/my-support/knowledge-base/security-notes-news/october-2026.html)（官方；查證：已抽原文）
-- **Docker Hub 個人存取權杖被轉名**：CVE-2026-105445，帳戶轉組織時 PAT 秘密不變即改掛新擁有者，可在權限範圍內推送或刪除映像。漏洞自 2024-08-26 起至 2026-09-30 修復；Docker 審查約 304,000 次推送，稱未發現利用；受影響權杖於 10月8日停用。為何重要：映像倉庫可被冒名投毒。來源：[來源：docker.com](https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/)（官方；查證：已抽原文）
-- **Ahold Delhaize 網絡事故**：10月13日更新指調查中未見顧客或員工資料被取走，部分系統開始受控重啟，歐美門市維持營業，影響因品牌而異。為何重要：大型零售主動斷網仍會打亂供應。來源：[來源：newsroom.aholddelhaize.com](https://newsroom.aholddelhaize.com/update-on-ahold-delhaizes-cybersecurity-incident/)（官方；查證：已抽原文）
+- **CISA 10月14日新增四項 KEV**：CVE-2026-0322（Palo Alto PAN-OS 程式碼注入）、CVE-2026-76519（Cisco Secure Email Gateway 相對路徑遍歷）、CVE-2026-105133 及 CVE-2026-105134（AhsayCBS 不當認證與指令注入）。美國聯邦限期 2026-10-17。為何重要：防火牆、電郵閘道與備份套件同日入目錄。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
+- **Palo Alto PAN-OS 管理介面已遭有限利用**：CVE-2026-0322｜CVSS 8.6｜PAN-OS 12.2 < 12.2.4 等（Cloud NGFW、Prisma Access 不受影響）｜已被利用(KEV)？是｜修補：12.2.4 起｜HKCERT 級別：未列。需已認證攻擊者，官方稱風險在管理介面暴露於互聯網時最高。為何重要：防火牆管理面仍是現行目標。來源：[來源：security.paloaltonetworks.com](https://security.paloaltonetworks.com/CVE-2026-0322)（官方；查證：已抽原文）
+- **Cisco 電郵閘道任意檔案寫入**：CVE-2026-76519｜CVSS 9.8｜啟用 File Reputation 且 Content Scanner Tools 低於 25.3.0.5525｜已被利用(KEV)？是｜修補：廠商已發更新，無可行權宜｜HKCERT 級別：未列。未認證攻擊者可經特製附件寫檔並以 root 執行。為何重要：郵件閘道可被一封信打穿。來源：[來源：cisco.com](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-esa-afw-zqYJkjxp.html)（官方；查證：已抽原文）
+- **curl 8.23.0 一次修 24 項漏洞**：CVE-2026-92392｜嚴重程度 High｜HTTP/2 上傳 use-after-free，特定條件可遠端執行｜已被利用(KEV)？否｜修補：8.23.0｜HKCERT 級別：未列。同期移除 SMB／SMBS。為何重要：基礎傳輸庫單次修補量偏高。來源：[來源：curl.se](https://curl.se/docs/CVE-2026-92392.html)（官方；查證：已抽原文）
+- **OpenAI 產品團隊僱員涉在會議室放置錄音裝置**：傳媒引述檢方，該人於 10月9日被解僱並拘捕；公司稱暫未見模型權重、源碼或客戶資料被取走。為何重要：前線實驗室內部竊聽成執法案件。來源：[來源：techcrunch.com](https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/)（媒體；查證：已抽原文）
 :::
 
 ::: section hk 香港本地
 ## 香港本地
 
-- **HKCERT：三星產品多個漏洞（中度風險）**：10月13日。CVE：公告未列｜CVSS：未列｜運行 Android 14／15／16／17 的三星產品｜已被利用(KEV)？未列｜修補：見三星保安更新｜HKCERT 級別：中度風險。遠端攻擊者可觸發權限提升、資料外洩、遠端執行及阻斷服務。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/samsung-products-multiple-vulnerabilities_20261013)（官方；查證：已抽原文）
-- **HKCERT：GitLab 多個漏洞（中度風險）**：10月13日。受影響為 CE／EE 19.4.2、19.3.5、19.2.8 以前版本，公告點名包括 CVE-2026-97229 等；修補見 GitLab 19.4.2 系列。HKCERT 級別：中度風險。為何重要：滿分 RCE 在本地被標為中度，自管實例仍應先升級。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/gitlab-multiple-vulnerabilities_20261013)（官方；查證：已抽原文）
-- **資訊安全網事故統計**：過去 12 個月（2025年10月至 2026年9月）HKCERT 接獲釣魚 10,362、殭屍網路 2,593、惡意軟件 1,310、網站塗改 141、分散式阻斷服務 1。為何重要：本地事故仍以釣魚為大宗。來源：[來源：infosec.gov.hk](https://www.infosec.gov.hk/tc)（官方；查證：已抽原文）
+- **HKCERT：微軟每月保安更新（高度風險）**：10月14日。CVE-2026-96951｜CVSS：本頁未列｜Windows Shell｜已被利用(KEV)？是｜修補：2026年10月月度更新｜HKCERT 級別：高度風險。公告亦指 .NET 相關概念驗證碼已公開。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/microsoft-monthly-security-update-october-2026)（官方；查證：已抽原文）
+- **HKCERT：Ivanti Connect Secure（極高度風險）**：10月14日。CVE-2026-104935｜CVSS：本頁未列｜Connect Secure｜已被利用(KEV)？是｜修補：見廠商｜HKCERT 級別：極高度風險。遠端攻擊者可觸發遠端執行、繞過限制及仿冒。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/ivanti-connect-secure-remote-code-execution-vulnerability_20261014)（官方；查證：已抽原文）
+- **HKCERT：Google Chrome 多個漏洞（中度風險）**：10月14日。受影響為 Chrome 155.0.8059.79（Linux）及 155.0.8059.79/.80（Mac／Windows）以前版本；修補見上述版本起。HKCERT 級別：中度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261014)（官方；查證：已抽原文）
+- **政府公布本港算力現況**：整體約 5,000 PFLOPS，數碼港超算中心佔 3,000 PFLOPS、使用率逾九成；沙嶺數據園區預計 2027 年首階段運作，全面運作時稱可提供每秒 18 萬 PFLOPS。為何重要：本地 AI 算力供應仍緊。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/14/P2026101400411.htm)（官方；查證：已抽原文）
+- **創科加速器先導計劃原則上支持九宗申請**：政府與機構按 1:2 配對，資助上限 3,000 萬元、項目期最多三年；計劃共收逾 50 宗申請。為何重要：加速器網絡開始落地。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/14/P2026100700327.htm)（官方；查證：已抽原文）
 :::
 
 ::: section events 活動與展會
 ## 活動與展會
 
-- **VXCON 2026**：日期 2026-11-28｜地點 香港、馬哥孛羅香港酒店商場｜形式 實體網安研討會（09:00–17:30）｜報名狀態 Eventbrite 售票，早鳥由港幣 1,500 起，不設退款。來源：[來源：eventbrite.hk](https://www.eventbrite.hk/e/vxcon-2026-tickets-2003240539379)（官方；查證：已抽原文）
-- **Cyberport Venture & Capital Forum 2026**：日期 2026-11-04 至 2026-11-05｜地點 香港數碼港三期 Core E 3 樓 Function Room 1-3｜形式 實體為主、輔以線上｜報名狀態 登記已開放。來源：[來源：calendar.hkust.edu.hk](https://calendar.hkust.edu.hk/node/48678)（官方；查證：已抽原文）
-- **CEATEC 2026**：日期 2026-10-13 至 2026-10-16｜地點 日本千葉、幕張メッセ｜形式 展覽及會議，10:00–17:00｜報名狀態 免費、須事前登記；官方稱 821 社／團體出展。來源：[來源：ceatec.com](https://www.ceatec.com/ja/)（官方；查證：已抽原文）
+- **CSA HKM Knowledge Sharing Event – October 2026**：日期 2026-10-22｜地點 網上（12:30–13:30）｜形式 廣東話網上研討會｜報名狀態 活動頁已公布。來源：[來源：csahkm.org](https://csahkm.org/2026/10/08/csa-hkm-knowledge-sharing-event-october-2026/)（官方；查證：已抽原文）
+- **家長講座（二）分析假新聞與假資訊**：日期 2026-10-24｜地點 線上 Zoom（10:30–12:00）｜形式 粵語講座｜報名狀態 截至 2026-10-24 12:00。來源：[來源：info.edcity.hk](https://info.edcity.hk/zh/event/12255)（官方；查證：已抽原文）
+- **HKCERT 中小企免費網絡安全網上研討會（供應鏈場）**：日期 2026-10-28｜地點 網上（15:30–16:30）｜形式 廣東話網上研討會｜報名狀態 免費、截止 2026-10-26。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-free-cybersecurity-webinar-series-for-smes-2026)（官方；查證：已抽原文）
 :::
 
 ::: section misc 其他要點
 ## 其他要點
 
-- **npm Trusted Publishing 驗證缺陷**：Bloom Security 稱逾 1,500 個套件、合計逾 1,000 萬次下載曾可被搶用已棄 GitHub 倉庫名稱發布；GitHub 稱 10月2日已讓未驗證設定 48 小時後失效，研究方稱未觀察到野外利用。為何重要：OIDC 發布仍可能綁錯身分。來源：[來源：helpnetsecurity.com](https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/)（媒體；查證：已抽原文）
-- **日本第一興商客戶資料或經承辦商外洩**：日本哥倫比亞 10月8日披露承辦商電腦中惡意程式，估計約 872.4 萬筆紀錄（約 863.1 萬客戶、9.3 萬員工）可能受影響，盜用仍未確認。為何重要：亞洲娛樂供應鏈再爆大型個資風險。來源：[來源：cybersecuritynews.com](https://cybersecuritynews.com/nippon-columbia-malware-infection-exposed/)（媒體；查證：已抽原文）
+- **HKCERT：MongoDB 多個漏洞（中度風險）**：影響 Server 7.0 至 7.0.45 前、8.0 至 8.0.34 前、8.3.0 至 8.3.13 前及 9.0 部分版本；點名 CVE-2026-96297 等。HKCERT 級別：中度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/mongodb-multiple-vulnerabilities_20261014)（官方；查證：已抽原文）
+- **HKCERT：Adobe 十月更新（中度風險）**：涵蓋 Bridge、ColdFusion、Commerce、Photoshop 等 11 類產品，整體評中度風險。來源：[來源：hkcert.org](https://www.hkcert.org/security-bulletin/adobe-monthly-security-update-october-2026)（官方；查證：已抽原文）
 :::
 
 ::: section followup 昨日跟進
 ## 昨日跟進
 
-- **GovWare／SICW**：展覽及會議 2026-10-13 至 2026-10-15 在新加坡濱海灣金沙博覽中心舉行，今日為會期第二日。來源：[來源：sicw.gov.sg](https://www.sicw.gov.sg/agenda/govware-conference-exhibition-2026/)（官方；查證：已抽原文）
-- **香港網安奪旗賽 2026**：免費報名仍至 2026-10-20；初賽 2026-11-06 至 2026-11-07。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-capture-the-flag-challenge-2026)（官方；狀態無變，限期尚餘約一週）
-- **CISA CVE-2026-86950**：美國聯邦限期已於 2026-10-13 屆滿。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
+- **GovWare／SICW**：新加坡會期 2026-10-13 至 2026-10-15，今日為最後一日。
+- **香港網安奪旗賽 2026**：免費報名仍至 2026-10-20。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-capture-the-flag-challenge-2026)（官方；狀態無變）
+- **CISA CVE-2026-96951／CVE-2026-104935**：美國聯邦限期 2026-10-16。
 :::
 
 <div class="ns-footer">
-<p>資料截至 2026-10-14 05:30（HKT）；本期覆蓋 2026-10-13 至 2026-10-14，並補上 72 小時內未報事項。 ⚠️ 今日部分來源未能讀取：Ivanti 官方公告全文、MSRC 漏洞頁細節、GitHub Trending 官方列表頁。</p>
+<p>資料截至 2026-10-15 05:30（HKT）；本期覆蓋 2026-10-14 至 2026-10-15，並補上 72 小時內未報事項。 ⚠️ 今日部分來源未能讀取：CEATEC 2026 官網首頁、GitHub Trending 官方列表頁、Ahsay 廠商公告全文。</p>
 </div>

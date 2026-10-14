@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Tue, 13 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-15（星期四）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-15</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-15</guid>
+      <pubDate>Wed, 14 Oct 2026 21:30:00 GMT</pubDate>
+      <description>CISA 新增四項 KEV，含 Palo Alto 與 Cisco。 / NVIDIA 五年向英國捐 2.5 億美元代理安全算力。 / HKCERT 評微軟十月更新為高度風險。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-14（星期三）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-14</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-16</guid>
       <pubDate>Tue, 15 Sep 2026 21:30:00 GMT</pubDate>
       <description>OpenAI 確認與 Anthropic、Google 磋商 AI 安全標準，稱不需反壟斷豁免 / Cisco 郵件閘道零日 CVE-2026-76461 被利用，美國聯邦 9月17日前須修補 / Google 發布 Gemini 3.8 Live，語音對答質素排行榜第一</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026年9月15日（星期二）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-15</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-15</guid>
-      <pubDate>Mon, 14 Sep 2026 21:30:00 GMT</pubDate>
-      <description>Cloudflare 新 AI 流量預設今日（9月15日）正式生效：預設會封鎖「混合用途」爬蟲進入有廣告嘅頁面，並把 AI 爬蟲重新分成 Search／Agent／Training 三類，Search 類預設仍獲放行；但若站主選擇封鎖 Training，連 Googlebot、Applebot、BingBot 呢類混合用途爬蟲都會一併被封。全球約兩成網站行 Cloudflare，對 AI 訓練資料來源影響直接。[來源：blog.cloudflare.com](https://blog.cloudflare.com/content-independence-day-ai-options/)[來源：techcrunch.com](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/) / Waymo 拉斯維加斯正式做生意：9月14日起向公眾開放付費 robotaxi，首批「幾十部」第六代 Ojai 電動 minivan，服務範圍約 24 平方英里（涵蓋 Strip 南段一帶），候補名單已逾 10 萬人。呢個係 Waymo 第 15 個城市、首度入內華達州，Tesla、Zoox、Motional 亦已獲批同期落場。[來源：techcrunch.com](https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/)[來源：fox5vegas.com](https://fox5vegas.com/2026/09/14/waymo-launches-robotaxi-service-las-vegas) / （過去 24 小時無其他大型發布會；Apple iOS 27 等六大系統正式版已於上一輪報道，唔重覆。）</description>
     </item>
   </channel>
 </rss>
