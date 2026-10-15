@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-16",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-16",
+      "title": "每日科技與資安摘要 — 2026-10-16（星期五）",
+      "date_published": "2026-10-16T05:30:00+08:00",
+      "summary": "CISA 新增 Atlassian CVE-2026-21589 至 KEV。 / NVIDIA Nemotron 3.5 與 Meta Muse Spark Open 開源。 / 金管局推出銀行「ART」人工智能框架。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-15",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-15",
       "title": "每日科技與資安摘要 — 2026-10-15（星期四）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-17（星期四）",
       "date_published": "2026-09-17T05:30:00+08:00",
       "summary": "西班牙 AEPD 收到首宗由 AI agent 執行嘅資料外洩通報 / Cisco ESA 零日 CVE-2026-76461（CVSS 9.8）修補期今日滿 / Google 內部開放工程師使用 Anthropic Claude Opus 5"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-16",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-16",
-      "title": "每日科技與資安摘要 — 2026-09-16（星期三）",
-      "date_published": "2026-09-16T05:30:00+08:00",
-      "summary": "OpenAI 確認與 Anthropic、Google 磋商 AI 安全標準，稱不需反壟斷豁免 / Cisco 郵件閘道零日 CVE-2026-76461 被利用，美國聯邦 9月17日前須修補 / Google 發布 Gemini 3.8 Live，語音對答質素排行榜第一"
     }
   ]
 }
