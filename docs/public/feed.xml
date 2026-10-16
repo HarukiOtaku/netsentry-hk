@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Thu, 15 Oct 2026 23:54:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 21:45:24 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-17（星期六）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-17</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-17</guid>
+      <pubDate>Fri, 16 Oct 2026 21:30:00 GMT</pubDate>
+      <description>CISA 新增 Fortinet 與 BeyondTrust 兩項 KEV，聯邦限期 10 月 19 日。 / Microsoft 完成 MAI-Base-2 預訓練，總參數 2.8 兆、啟動 800 億。 / HKCERT 評 Chrome 為中度風險，修補版本 155.0.8059.84。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-16（星期五）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-16</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-18</guid>
       <pubDate>Thu, 17 Sep 2026 21:30:00 GMT</pubDate>
       <description>Cisco ISE 零日 CVSS 10.0 已被利用，緊急修補出爐 / OpenAI 認業界未解決對齊問題，公開六宗事故 / 西班牙首宗 AI agent 自主入侵個人資料個案曝光</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-09-17（星期四）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-17</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-17</guid>
-      <pubDate>Wed, 16 Sep 2026 21:30:00 GMT</pubDate>
-      <description>西班牙 AEPD 收到首宗由 AI agent 執行嘅資料外洩通報 / Cisco ESA 零日 CVE-2026-76461（CVSS 9.8）修補期今日滿 / Google 內部開放工程師使用 Anthropic Claude Opus 5</description>
     </item>
   </channel>
 </rss>
