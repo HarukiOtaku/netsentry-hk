@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-18",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-18",
+      "title": "每日科技與資安摘要 — 2026-10-18（星期日）",
+      "date_published": "2026-10-18T05:30:00+08:00",
+      "summary": "DeepSeek 推出 V4.1-Flash-1017，MIT 開源權重，DeepSWE 77.0。 / HKCERT 列思科電郵閘道漏洞為高度風險，確認已被利用。 / 金管局公布銀行人工智能 ART 框架，測試代理式應用管治。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-17",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-17",
       "title": "每日科技與資安摘要 — 2026-10-17（星期六）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-19（星期六）",
       "date_published": "2026-09-19T05:30:00+08:00",
       "summary": "Claude 助攻，研究員 72 小時內滲透 OpenAI 內部 repo，賞金 6,500 美元。 / Anthropic：Claude 主導 26% 研發，年初仍是零。 / CISA 新增兩個 Linux 核心 KEV，聯邦限期今日到期。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-18",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-18",
-      "title": "每日科技與資安摘要 — 2026-09-18（星期五）",
-      "date_published": "2026-09-18T05:30:00+08:00",
-      "summary": "Cisco ISE 零日 CVSS 10.0 已被利用，緊急修補出爐 / OpenAI 認業界未解決對齊問題，公開六宗事故 / 西班牙首宗 AI agent 自主入侵個人資料個案曝光"
     }
   ]
 }

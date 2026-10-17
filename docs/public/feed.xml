@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Fri, 16 Oct 2026 21:45:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 21:45:24 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-18（星期日）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-18</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-18</guid>
+      <pubDate>Sat, 17 Oct 2026 21:30:00 GMT</pubDate>
+      <description>DeepSeek 推出 V4.1-Flash-1017，MIT 開源權重，DeepSWE 77.0。 / HKCERT 列思科電郵閘道漏洞為高度風險，確認已被利用。 / 金管局公布銀行人工智能 ART 框架，測試代理式應用管治。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-17（星期六）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-17</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-19</guid>
       <pubDate>Fri, 18 Sep 2026 21:30:00 GMT</pubDate>
       <description>Claude 助攻，研究員 72 小時內滲透 OpenAI 內部 repo，賞金 6,500 美元。 / Anthropic：Claude 主導 26% 研發，年初仍是零。 / CISA 新增兩個 Linux 核心 KEV，聯邦限期今日到期。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-09-18（星期五）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-18</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-18</guid>
-      <pubDate>Thu, 17 Sep 2026 21:30:00 GMT</pubDate>
-      <description>Cisco ISE 零日 CVSS 10.0 已被利用，緊急修補出爐 / OpenAI 認業界未解決對齊問題，公開六宗事故 / 西班牙首宗 AI agent 自主入侵個人資料個案曝光</description>
     </item>
   </channel>
 </rss>

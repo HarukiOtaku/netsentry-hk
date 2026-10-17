@@ -1,88 +1,91 @@
 ---
 title: "今日摘要"
-date: 2026-10-17
+date: 2026-10-18
 ---
 
-# 每日科技與資安摘要 — 2026-10-17（星期六）
+# 每日科技與資安摘要 — 2026-10-18（星期日）
 
-<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-10-17">/digests/2026-10-17</a> · <a href="/digests/">全部存檔</a></p>
+<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-10-18">/digests/2026-10-18</a> · <a href="/digests/">全部存檔</a></p>
 
 <div class="ns-summary">
-<p><strong>📌 今日總結</strong>：CISA 將 Fortinet 路徑遍歷與 BeyondTrust 遠端支援驗證繞過列入已知利用目錄；Microsoft 完成二點八兆參數基礎模型預訓練；HKCERT 公布 Chrome 及 Juniper 漏洞；香港金融科技周門票現正發售。</p>
+<p><strong>📌 今日總結</strong>：DeepSeek 推出 V4.1-Flash-1017 開源權重並開放搜尋接口；NVIDIA 本機人工智能筆電上市；HKCERT 將思科與 Palo Alto 已利用漏洞列為高度風險；金管局公布銀行人工智能管治框架；網安奪旗賽報名將截止。</p>
 </div>
 
 ::: section tldr 今日速覽
 ## 今日速覽
 
-- CISA 新增 Fortinet 與 BeyondTrust 兩項 KEV，聯邦限期 10 月 19 日。
-- Microsoft 完成 MAI-Base-2 預訓練，總參數 2.8 兆、啟動 800 億。
-- HKCERT 評 Chrome 為中度風險，修補版本 155.0.8059.84。
+- DeepSeek 推出 V4.1-Flash-1017，MIT 開源權重，DeepSWE 77.0。
+- HKCERT 列思科電郵閘道漏洞為高度風險，確認已被利用。
+- 金管局公布銀行人工智能 ART 框架，測試代理式應用管治。
 :::
 
 ::: section products 產品與發布會
 ## 產品與發布會
 
-- **Microsoft 完成 MAI-Base-2 預訓練**：10 月 15 日。MoE 基礎模型總參數 2.8 兆、啟動 800 億；以 16k 顆 GB200、38 日於 8 至 9 月訓練，平均 MFU 21%、goodput 89%。官方稱預訓練 FLOPs 效率較 DeepSeek-V4-Pro-Base 高 4 至 12 倍，現正進行後訓練，並計劃經 Foundry 向可信夥伴授權權重。為何重要：美資自研基礎模型進入後訓練。來源：[來源：microsoft.ai](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/)（官方；查證：已抽原文）
-- **Google Chrome 桌面穩定版保安更新**：修補至 Linux 155.0.8059.84、Mac／Windows 155.0.8059.84／.85；GovCERT 點名 CVE-2026-110913 至 CVE-2026-110922，遠端攻擊者可觸發阻斷服務或遠端執行程式碼。為何重要：瀏覽器仍是常見初始入侵面。來源：[來源：govcert.gov.hk](https://www.govcert.gov.hk/en/alerts_detail.php?id=2116)（官方；查證：已抽原文）
-- **JetBrains 推出 Mellum2.1 Thinking**：12B 總參數、啟動 2.5B 的 MoE，上下文 131,072；官方自測 LiveCodeBench v6 為 82.0、SWE-bench Verified 為 47.0，授權 Apache-2.0。為何重要：小型編程代理模型強化倉庫內工具使用。來源：[來源：huggingface.co](https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking)（官方；查證：已抽原文）
+- **DeepSeek 推出 V4.1-Flash-1017**：10 月 17 日上線網站、應用及 API，並以 MIT 授權於 Hugging Face 及 ModelScope 公開權重。官方稱屬 V4.1-Flash 小更新，Terminal-Bench 4.0 由 31.2 升至 42.3，DeepSWE v1.1 由 74.2 升至 77.0；建議 temperature 1.0、上下文 100 萬 token。為何重要：開源代理編程模型同日更新權重與接口。來源：[來源：api-docs.deepseek.com](https://api-docs.deepseek.com/news/news261017)（官方；查證：已抽原文）
+- **（遊戲相關）NVIDIA RTX Spark 筆電開賣**：新聞室 10 月 16 至 17 日宣布上市，配備 Blackwell RTX、最高 128GB 統一記憶體，售價由 2,399 美元起，ASUS、Dell、HP、Lenovo、Microsoft 等推出，定位創作、遊戲及本機人工智能。為何重要：本機推論硬件進入消費筆電。來源：[來源：nvidianews.nvidia.com](https://nvidianews.nvidia.com/news/latest)（官方；查證：已抽原文）
+- **DeepSeek 開放 Search 與 Fetch API**：每端點每 1,000 次呼叫 0.75 美元；經 DeepSeek Harness、Claude Code 及 Codex 伺服器端工具的呼叫，對 DeepSeek API 用戶免費至 2026 年 10 月 31 日 16:00 UTC。為何重要：搜尋能力改為可計費公共接口。來源：[來源：api-docs.deepseek.com](https://api-docs.deepseek.com/news/news261017)（官方；查證：已抽原文）
 :::
 
 ::: section ai AI 模型與開源趨勢
 ## AI 模型與開源趨勢
 
-- **meta-models/Muse-Spark-Open-816B-A42B**：約 822B，近月下載 815，讚 434，Muse Model License；816B 總／42B 啟動，上下文 100 萬 token，10 月 15 日開源權重。為何重要：美資開源權重代理模型開始在 Hub 流通。來源：[來源：huggingface.co](https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)（官方；查證：已抽原文）
-- **JetBrains/Mellum2.1-12B-A2.5B-Thinking**：12B，近月下載 2,939，讚 156，Apache-2.0。為何重要：開源編程思考模型持續出現在熱門集合。來源：[來源：huggingface.co](https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking)（官方；查證：已抽原文）
-- **openbmb/MiniCPM-V-4.7-35B-A3B**：35.21B，近月下載 17,553，讚 843，Apache-2.0；官方稱 iPhone 17 Pro Max 約 3GB 記憶體可逾 13 token/s。為何重要：端側多模態 MoE 下載量較上期再升。來源：[來源：huggingface.co](https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B)（官方；查證：已抽原文）
+- **deepseek-ai/DeepSeek-V4.1-Flash-1017**：約 763B 參數，讚 468，MIT；官方標為圖像—文本生成，權重 10 月 17 日上線。為何重要：熱門開源編程模型同日換代。來源：[來源：huggingface.co](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)（官方；查證：已抽原文）
+- **google/embeddinggemma-2**：740M 參數，近月下載 158,490，Apache 2.0；文本、圖像、視訊及音訊共用 768 維向量，上下文 8,192 token。為何重要：端側多模態嵌入下載量居前列。來源：[來源：huggingface.co](https://huggingface.co/google/embeddinggemma-2)（官方；查證：已抽原文）
+- **NVIDIA Nemotron 3.5 Super VL**：10 月 15 日發布，開源 1,200 億參數視覺語言模型，並同時推出 Nemotron 3.5 Bolt 74B-A9B 等端側型號。為何重要：開源代理視覺模型由資料中心延伸至桌面。來源：[來源：nvidianews.nvidia.com](https://nvidianews.nvidia.com/news/latest)（官方；查證：已抽原文）
 :::
 
 ::: section github GitHub 值得關注
 ## GitHub 值得關注
 
-- **morluto/rea**（MIT，278,468 星）：以 MCP 連接代理，分析原生二進位、JavaScript／Electron 與執行期行為。用途：在本機還原應用行為至二進位層。為何值得留意：代理化逆向工程星數繼續急升。來源：[來源：github.com](https://github.com/morluto/rea)（官方；查證：已抽原文）
-- **anthropics/claude-plugins-official**（Apache-2.0，37,701 星）：Anthropic 維護的 Claude Code 插件目錄。用途：以標準結構安裝官方及外部插件。為何值得留意：代理插件生態開始有官方目錄。來源：[來源：github.com](https://github.com/anthropics/claude-plugins-official)（官方；查證：已抽原文）
-- **ruvnet/ruflo**（MIT）：多代理 harness，含記憶、聯邦、安全審核及 Claude Code／Codex／Hermes 整合。用途：部署可設權限的代理群組與工作流。為何值得留意：代理編排工具仍佔趨勢前列。來源：[來源：github.com](https://github.com/ruvnet/ruflo)（官方；查證：已抽原文）
+- **NVIDIA/SkillSpector**（Apache-2.0，約 2.04 萬星）：掃描 Claude Code、Codex 及 MCP 技能的漏洞、提示注入與供應鏈風險。用途：安裝代理技能前做靜態安全檢查。為何值得留意：代理技能供應鏈開始有廠商級掃描器。來源：[來源：github.com](https://github.com/NVIDIA/SkillSpector)（官方；查證：已抽原文）
+- **K-Dense-AI/scientific-agent-skills**（MIT，約 4.84 萬星）：177 項科學技能及 100 多個資料庫，兼容 Cursor、Claude Code、Codex 等。用途：把通用代理接上科研工作流。為何值得留意：科學技能庫持續出現在熱門日榜。來源：[來源：github.com](https://github.com/K-Dense-AI/scientific-agent-skills)（官方；查證：已抽原文）
+- **xerj-org/xerj**（Apache-2.0，約 7,600 星）：為代碼、文件、日誌及 PDF 建索引，官方稱較 grep 少用約 40 倍 token。用途：給代理做低耗搜索、RAG 與稽核記憶。為何值得留意：代理檢索基建佔當日趨勢前列。來源：[來源：github.com](https://github.com/xerj-org/xerj)（官方；查證：已抽原文）
+- **HKUDS/CLI-Anything**（Apache-2.0）：以 CLI-Hub 把現有軟件包成代理可調接口。用途：讓桌面軟件與內部工具可被代理呼叫。為何值得留意：港校團隊項目連續多日出現於熱門集合。來源：[來源：github.com](https://github.com/HKUDS/CLI-Anything)（官方；查證：已抽原文）
 :::
 
 ::: section global 全球重點新聞
 ## 全球重點新聞
 
-- **CISA 10 月 16 日新增兩項 KEV**：CVE-2025-61624｜CVSS 未於廠商公告列出｜FortiOS、FortiPAM、FortiProxy、FortiSwitchManager｜已被利用(KEV)？是｜修補：FortiOS 7.6.5／7.4.10 或遷至已修分支；FortiProxy 7.6.5／7.4.12；FortiSwitchManager 7.2.8／7.0.7；另有虛擬修補 FG-VD-59270（FMWP 25.120）｜HKCERT 級別：未列此 CVE。需管理員讀寫權限，可經特定 CLI 寫入或刪除檔案。聯邦限期 2026-10-19。為何重要：防火牆管理面持續被用於現行攻擊。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
-- **BeyondTrust Remote Support 驗證繞過列入 KEV**：CVE-2026-102764｜CVSS 9.3（v4.0）｜Remote Support 所有 ≤26.2.3｜已被利用(KEV)？是｜修補：BT26-05-RS（v24.3.1–v26.2.3）；SaaS 已於 2026-10-09 套用；低於 24.3.1 須先升級｜HKCERT 級別：未列。遠端攻擊者可對設備執行檔案操作。聯邦限期 2026-10-19。為何重要：遠端支援設備可被未授權操作。來源：[來源：beyondtrust.com](https://www.beyondtrust.com/trust-center/security-advisories/bt26-05)（官方；查證：已抽原文）
-- **Google Chrome 多個漏洞**：CVE-2026-110913 至 CVE-2026-110922｜受影響：155.0.8059.84（Linux）及 155.0.8059.84／.85（Mac／Windows）之前｜已被利用(KEV)？否｜修補：上述版本或更新｜HKCERT 級別：中度風險。為何重要：特製網頁可打到桌面瀏覽器。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261016)（官方；查證：已抽原文）
-- **Juniper Junos OS 多個漏洞**：CVE-2026-102079、CVE-2026-102080、CVE-2026-102083、CVE-2026-102085｜Junos OS Evolved、MX、SRX｜已被利用(KEV)？否｜修補：見廠商 2026-10 安全公告｜HKCERT 級別：中度風險。可致阻斷服務、資料篡改、洩露、權限提升及繞過限制。為何重要：骨幹路由與防火牆系列同批出補丁。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/juniper-junos-os-multiple-vulnerabilities_20261015)（官方；查證：已抽原文）
+- **思科 Secure Email Gateway 任意檔案寫入已被利用**：CVE-2026-76519｜CVSS 9.8｜實體及虛擬閘道，且檔案信譽服務已啟用、Content Scanner Tools 早於 25.3.0.5525｜已被利用(KEV)？是｜修補：廠商已發軟件更新；Content Scanner Tools 25.3.0.5525 或之後｜HKCERT 級別：高度風險。無可行權宜措施。聯邦限期 2026-10-17。為何重要：未認證電郵附件可寫檔並以 root 執行。來源：[來源：sec.cloudapps.cisco.com](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp)（官方；查證：已抽原文）
+- **Palo Alto PAN-OS 管理面代碼注入已被利用**：CVE-2026-0322｜CVSS 未於已抽原文列出｜PAN-OS 10.2／11.1／11.2／12.1／12.2 及 Prisma Access、GlobalProtect 多個修補前版本｜已被利用(KEV)？是｜修補：見廠商 CVE-2026-0322 公告｜HKCERT 級別：高度風險。已通過驗證且具網絡存取的攻擊者可以 root 在防火牆執行程式碼。聯邦限期 2026-10-17。為何重要：防火牆管理面持續被用於現行攻擊。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/palo-alto-products-multiple-vulnerabilities_20261015)（官方；查證：已抽原文）
+- **IBM WebSphere 多個漏洞**：CVE-2026-103499｜CVSS 7.5｜WebSphere Application Server 8.5、9.0 及 Liberty 17.0.0.3 至 26.0.0.10｜已被利用(KEV)？否｜修補：含 APAR DT502944／DT502943 的臨時修復，或 Liberty 26.0.0.11 或之後｜HKCERT 級別：中度風險。可致阻斷服務、繞過限制、資料洩露及篡改。為何重要：企業應用伺服器同批出補丁。來源：[來源：ibm.com](https://www.ibm.com/support/pages/security-bulletin-ibm-websphere-application-server-and-websphere-application-server-liberty-are-affected-denial-service-cve-2026-103499)（官方；查證：已抽原文）
+- **CISA 10 月 16 日兩項 KEV 仍待聯邦限期**：CVE-2025-61624、CVE-2026-102764 限期 2026-10-19。本期未見 10 月 17 日新增 KEV 官方警報。為何重要：邊緣設備修補窗只餘一日。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
 :::
 
 ::: section hk 香港本地
 ## 香港本地
 
-- **HKCERT：Google Chrome 多個漏洞（中度風險）**：2026-10-16。CVE-2026-110913 至 CVE-2026-110922｜修補 155.0.8059.84 或之後。HKCERT 級別：中度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261016)（官方；查證：已抽原文）
-- **HKCERT：Juniper Junos OS 多個漏洞（中度風險）**：2026-10-15。點名 CVE-2026-102079 等四項，影響 Evolved／MX／SRX。HKCERT 級別：中度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/juniper-junos-os-multiple-vulnerabilities_20261015)（官方；查證：已抽原文）
-- **HKCERT：SUSE Linux 內核多個漏洞（高度風險）**：原公告 2026-10-02，最後更新 2026-10-16。遠端攻擊者可觸發阻斷服務、權限提升、資料篡改等。HKCERT 級別：高度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/)（官方；查證：已抽原文）
+- **金管局公布銀行業「ART」框架**：2026-10-15。代表可問責、具韌性、可信賴；措施包括新版《負責任應用人工智能的監管指引》、與數碼港及香港大學共建訓練數據共享平台，以及就代理式人工智能發表討論文件。第二期 GenAI 沙盒逾 60% 用例探索代理式應用。HKCERT 級別：不適用。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/15/P2026101500191.htm)（官方；查證：已抽原文）
+- **HKCERT：思科 Secure Email Gateway 遠端執行程式碼漏洞（高度風險）**：2026-10-15。CVE-2026-76519 正被廣泛利用。HKCERT 級別：高度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/cisco-secure-email-gateway-remote-code-execution-vulnerability_20261015)（官方；查證：已抽原文）
+- **HKCERT：Palo Alto 產品多個漏洞（高度風險）**：2026-10-15。點名 CVE-2026-0322 正被廣泛利用。HKCERT 級別：高度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/palo-alto-products-multiple-vulnerabilities_20261015)（官方；查證：已抽原文）
+- **HKCERT：IBM WebSphere 產品多個漏洞（中度風險）**：2026-10-15。影響 Application Server 8.5／9.0 及 Liberty 至 26.0.0.10。HKCERT 級別：中度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/ibm-websphere-products-multiple-vulnerabilities_20261015)（官方；查證：已抽原文）
 :::
 
 ::: section events 活動與展會
 ## 活動與展會
 
-- **香港金融科技周 x StartmeupHK 2026**：日期 2026-11-02 至 2026-11-06｜地點 香港灣仔香港會議展覽中心（主論壇 11 月 2 至 3 日）｜形式 實體論壇及展覽｜報名狀態 門票發售中（早鳥已於 5 月 31 日結束，行政通行證 2,299 美元）。來源：[來源：fintechweek.hk](https://www.fintechweek.hk/hk/tickets)（官方；查證：已抽原文）
-- **數碼港創業投資論壇 2026**：日期 2026-11-04 至 2026-11-05｜地點 香港數碼港 3 期 Core E 3 樓 Function Room 1-3｜形式 實體為主、兼有線上｜報名狀態 登記開放。來源：[來源：calendar.hkust.edu.hk](https://calendar.hkust.edu.hk/node/48678)（官方；查證：已抽原文）
-- **Japan IT Week【秋】**：日期 2026-10-21 至 2026-10-23（10:00–17:00）｜地點 日本千葉市幕張メッセ 1–8 廳｜形式 實體展覽（含資訊安全及 AI 基礎設施展）｜報名狀態 10 月 20 日 23:59 前免費預先登記。來源：[來源：japan-it.jp](https://www.japan-it.jp/it/ja-jp.html)（官方；查證：已抽原文）
+- **香港網安奪旗賽 2026**：日期 2026-11-06 至 2026-11-07（初賽，線上 24 小時）；決賽 2027-01-07｜地點 香港（初賽線上，決賽實體）｜形式 線上初賽及後續決賽｜報名狀態 2026-10-20 截止，免費。來源：[來源：ctf.hkcert.org](https://ctf.hkcert.org/)（官方；查證：已抽原文）
+- **創新科技嘉年華 2026**：日期 2026-10-24 至 2026-11-01｜地點 香港科學園｜形式 實體展覽、約 150 場工作坊及網上講座｜報名狀態 公眾免費入場；部分活動須網上預先登記，先到先得。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/05/P2026100500293.htm)（官方；查證：已抽原文）
+- **2026「創客中國」香港分站賽決賽**：日期 2026-10-22｜地點 香港數碼港｜形式 實體路演及問答｜報名狀態 十強已出線，決賽開放旁聽見證。來源：[來源：cyberport.hk](https://www.cyberport.hk/zh-hk/news/events/)（官方；查證：已抽原文）
+- **OpenAI DevDay Exchange 東京**：日期 2026-10-20（當地下午 2 時起）｜地點 日本東京（場地審批後通知）｜形式 實體技術交流｜報名狀態 申請仍可提交，審核進行中。來源：[來源：events.openai.com](https://events.openai.com/devdayexchange2026)（官方；查證：已抽原文）
 :::
 
 ::: section misc 其他要點
 ## 其他要點
 
-- **Fortinet 提供虛擬修補**：CVE-2025-61624 除版本升級外，虛擬修補名稱 FG-VD-59270.0day，載於 FMWP 資料庫更新 25.120。來源：[來源：fortiguard.fortinet.com](https://fortiguard.fortinet.com/psirt/FG-IR-26-122)（官方；查證：已抽原文）
-- **BeyondTrust SaaS 已先修**：Remote Support 雲端客戶於 2026-10-09 已套用修補；自建實例須於設備介面手動套用，或先升至 24.3.1 以上。來源：[來源：beyondtrust.com](https://www.beyondtrust.com/trust-center/security-advisories/bt26-05)（官方；查證：已抽原文）
+- **思科電郵閘道無權宜措施**：CVE-2026-76519 須以軟件更新或 Content Scanner Tools 25.3.0.5525 或之後處理；Secure Email and Web Manager 及 Secure Web Appliance 不受影響。來源：[來源：sec.cloudapps.cisco.com](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp)（官方；查證：已抽原文）
+- **DeepSeek Harness 建議升至 v0.2.1-rc.1 或之後**，以配合 V4.1-Flash-1017。來源：[來源：api-docs.deepseek.com](https://api-docs.deepseek.com/news/news261017)（官方；查證：已抽原文）
 :::
 
 ::: section followup 昨日跟進
 ## 昨日跟進
 
-- **CISA CVE-2026-96951／CVE-2026-104935**：美國聯邦限期已於 2026-10-16 屆滿。
-- **CISA CVE-2026-0322／CVE-2026-76519 等**：美國聯邦限期為今日 2026-10-17。
-- **CEATEC 2026**：已於 2026-10-16 結束。
+- **CISA CVE-2026-0322／CVE-2026-76519 等**：美國聯邦限期已於 2026-10-17 屆滿。
+- **CISA CVE-2025-61624／CVE-2026-102764**：美國聯邦限期為明日 2026-10-19。
+- **Japan IT Week【秋】**：免費預先登記仍至 2026-10-20 23:59。
 :::
 
 <div class="ns-footer">
-<p>資料截至 2026-10-17 05:30（HKT）；本期覆蓋 2026-10-16 至 2026-10-17，並補上 72 小時內未報之 Juniper 公告。 ⚠️ 今日部分來源未能讀取：Chrome 官方部落格正文、GitHub Trending 官方列表頁、OpenAI GPT-Live 專頁、NVD 上 Fortinet CVSS。</p>
+<p>資料截至 2026-10-18 05:30（HKT）；本期覆蓋 2026-10-17 至 2026-10-18，並補上 72 小時內未報之金管局 ART、HKCERT 思科／Palo Alto／IBM 公告及創新科技嘉年華。 ⚠️ 今日部分來源未能讀取：GitHub Trending 官方列表頁、NVIDIA RTX Spark 新聞稿全文、OpenAI 十月十六日產品說明正文、HKCERT 公告列表（頁面需 JavaScript）。</p>
 </div>
