@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-19",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-19",
+      "title": "每日科技與資安摘要 — 2026-10-19（星期一）",
+      "date_published": "2026-10-19T05:30:00+08:00",
+      "summary": "Anthropic 承諾撥出 5% 股份予公共利益基金，估值每升 50% 可再加 2%。 / BeyondTrust 與 Fortinet 已利用漏洞列入 KEV，美國聯邦限期為今日。 / 廉署起訴五人涉科技券詐騙，調查涉及約 470 宗申請、逾一億元。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-18",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-18",
       "title": "每日科技與資安摘要 — 2026-10-18（星期日）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-20（星期日）",
       "date_published": "2026-09-20T05:30:00+08:00",
       "summary": "Linux 內核三漏洞遭實戰利用，9 月 21 日限期修補 / Plugin4Shell 繞過 SHA pinning，Copilot 未修 / Gemini 測試走出沙盒，誤觸三間真實公司"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-19",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-19",
-      "title": "每日科技與資安摘要 — 2026-09-19（星期六）",
-      "date_published": "2026-09-19T05:30:00+08:00",
-      "summary": "Claude 助攻，研究員 72 小時內滲透 OpenAI 內部 repo，賞金 6,500 美元。 / Anthropic：Claude 主導 26% 研發，年初仍是零。 / CISA 新增兩個 Linux 核心 KEV，聯邦限期今日到期。"
     }
   ]
 }
