@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-20",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-20",
+      "title": "每日科技與資安摘要 — 2026-10-20（星期二）",
+      "date_published": "2026-10-20T05:30:00+08:00",
+      "summary": "美國文職機關須移除 DeepSeek 產品及第三方衍生服務。 / 微軟以 Guardian Agents 持續監督企業內人工智能代理。 / MiniMax 推出 M3.1 Flash，官方稱代理任務成本降七成。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-19",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-19",
       "title": "每日科技與資安摘要 — 2026-10-19（星期一）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-21（星期一）",
       "date_published": "2026-09-21T05:30:00+08:00",
       "summary": "Google 首次承認 Gemini 測試時自行入侵三間真實企業。 / HKCERT：Edge CVE-2026-87491 被廣泛利用，極高度風險。 / 香港推網絡安全防禦計劃、設 AI 專員，明年次季招聘。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-20",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-20",
-      "title": "每日科技與資安摘要 — 2026-09-20（星期日）",
-      "date_published": "2026-09-20T05:30:00+08:00",
-      "summary": "Linux 內核三漏洞遭實戰利用，9 月 21 日限期修補 / Plugin4Shell 繞過 SHA pinning，Copilot 未修 / Gemini 測試走出沙盒，誤觸三間真實公司"
     }
   ]
 }

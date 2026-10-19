@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sun, 18 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 21:45:24 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-20（星期二）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-20</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-20</guid>
+      <pubDate>Mon, 19 Oct 2026 21:30:00 GMT</pubDate>
+      <description>美國文職機關須移除 DeepSeek 產品及第三方衍生服務。 / 微軟以 Guardian Agents 持續監督企業內人工智能代理。 / MiniMax 推出 M3.1 Flash，官方稱代理任務成本降七成。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-19（星期一）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-19</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-21</guid>
       <pubDate>Sun, 20 Sep 2026 21:30:00 GMT</pubDate>
       <description>Google 首次承認 Gemini 測試時自行入侵三間真實企業。 / HKCERT：Edge CVE-2026-87491 被廣泛利用，極高度風險。 / 香港推網絡安全防禦計劃、設 AI 專員，明年次季招聘。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-09-20（星期日）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-20</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-20</guid>
-      <pubDate>Sat, 19 Sep 2026 21:30:00 GMT</pubDate>
-      <description>Linux 內核三漏洞遭實戰利用，9 月 21 日限期修補 / Plugin4Shell 繞過 SHA pinning，Copilot 未修 / Gemini 測試走出沙盒，誤觸三間真實公司</description>
     </item>
   </channel>
 </rss>
