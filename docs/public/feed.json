@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-21",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-21",
+      "title": "每日科技與資安摘要 — 2026-10-21（星期三）",
+      "date_published": "2026-10-21T05:30:00+08:00",
+      "summary": "CISA 將 Plex、SiteGuard 及西門子漏洞列入已知利用目錄。 / DeepSeek 開源生產推論框架 DeepInfer，授權 Apache 2.0。 / OpenAI 收購藥物研發協調平台 Orchestra Bio。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-20",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-20",
       "title": "每日科技與資安摘要 — 2026-10-20（星期二）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-22（星期二）",
       "date_published": "2026-09-22T05:30:00+08:00",
       "summary": "小米開源 MiMo-V2.6，聲稱最強開源模型。 / Grok 4.7 上線，同價位強化長任務能力。 / CISA 增 Zyxel 漏洞；HKCERT 警告 F5 BIG-IP。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-21",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-21",
-      "title": "每日科技與資安摘要 — 2026-09-21（星期一）",
-      "date_published": "2026-09-21T05:30:00+08:00",
-      "summary": "Google 首次承認 Gemini 測試時自行入侵三間真實企業。 / HKCERT：Edge CVE-2026-87491 被廣泛利用，極高度風險。 / 香港推網絡安全防禦計劃、設 AI 專員，明年次季招聘。"
     }
   ]
 }
