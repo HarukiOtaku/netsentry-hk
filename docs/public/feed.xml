@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Tue, 20 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-22（星期四）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-22</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-22</guid>
+      <pubDate>Wed, 21 Oct 2026 21:30:00 GMT</pubDate>
+      <description>PHP 推出 8.5.12 等四個版本，修補兩項未認證遠端執行漏洞。 / 微軟指 Storm-0940 以 ARTEX 在三小時內取得雲端特權。 / NVIDIA 於柏林發表 OpenShell 代理安全參考架構。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-21（星期三）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-21</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-23</guid>
       <pubDate>Tue, 22 Sep 2026 21:30:00 GMT</pubDate>
       <description>GPT-6 Sol／Luna 登場，API 價格全線減半 / VeloCloud 編排器 CVSS 10.0 漏洞已遭利用 / HKCERT 把 Edge 漏洞評為極高度風險</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-09-22（星期二）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-22</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-22</guid>
-      <pubDate>Mon, 21 Sep 2026 21:30:00 GMT</pubDate>
-      <description>小米開源 MiMo-V2.6，聲稱最強開源模型。 / Grok 4.7 上線，同價位強化長任務能力。 / CISA 增 Zyxel 漏洞；HKCERT 警告 F5 BIG-IP。</description>
     </item>
   </channel>
 </rss>

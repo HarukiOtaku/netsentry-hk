@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-22",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-22",
+      "title": "每日科技與資安摘要 — 2026-10-22（星期四）",
+      "date_published": "2026-10-22T05:30:00+08:00",
+      "summary": "PHP 推出 8.5.12 等四個版本，修補兩項未認證遠端執行漏洞。 / 微軟指 Storm-0940 以 ARTEX 在三小時內取得雲端特權。 / NVIDIA 於柏林發表 OpenShell 代理安全參考架構。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-21",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-21",
       "title": "每日科技與資安摘要 — 2026-10-21（星期三）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-23（星期三）",
       "date_published": "2026-09-23T05:30:00+08:00",
       "summary": "GPT-6 Sol／Luna 登場，API 價格全線減半 / VeloCloud 編排器 CVSS 10.0 漏洞已遭利用 / HKCERT 把 Edge 漏洞評為極高度風險"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-22",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-22",
-      "title": "每日科技與資安摘要 — 2026-09-22（星期二）",
-      "date_published": "2026-09-22T05:30:00+08:00",
-      "summary": "小米開源 MiMo-V2.6，聲稱最強開源模型。 / Grok 4.7 上線，同價位強化長任務能力。 / CISA 增 Zyxel 漏洞；HKCERT 警告 F5 BIG-IP。"
     }
   ]
 }
