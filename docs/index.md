@@ -1,89 +1,90 @@
 ---
 title: "今日摘要"
-date: 2026-10-22
+date: 2026-10-23
 ---
 
-# 每日科技與資安摘要 — 2026-10-22（星期四）
+# 每日科技與資安摘要 — 2026-10-23（星期五）
 
-<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-10-22">/digests/2026-10-22</a> · <a href="/digests/">全部存檔</a></p>
+<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-10-23">/digests/2026-10-23</a> · <a href="/digests/">全部存檔</a></p>
 
 <div class="ns-summary">
-<p><strong>📌 今日總結</strong>：PHP 緊急修補兩項 CVSS 9.2 遠端執行漏洞；微軟披露代理框架用於供應鏈攻擊；NVIDIA 發表 OpenShell；Anthropic 開放 Claude Duet；HKCERT 公告 Chrome、Nginx 及甲骨文。</p>
+<p><strong>📌 今日總結</strong>：HKCERT 確認 PHP2Shell 正被廣泛利用並評極高度風險，數字辦已發政府警報。GitLab 修補 CVSS 10.0 未認證遠端執行；LiteLLM 發行鏈遭掉包。</p>
 </div>
 
 ::: section tldr 今日速覽
 ## 今日速覽
 
-- PHP 推出 8.5.12 等四個版本，修補兩項未認證遠端執行漏洞。
-- 微軟指 Storm-0940 以 ARTEX 在三小時內取得雲端特權。
-- NVIDIA 於柏林發表 OpenShell 代理安全參考架構。
+- HKCERT 確認 PHP2Shell 正被廣泛利用，評極高度風險。
+- GitLab 修補 CVSS 10.0 未認證遠端執行，影響自 7.0 起。
+- LiteLLM 1.107.0 於 PyPI 及 Docker 遭植入竊密程式。
 :::
 
 ::: section products 產品與發布會
 ## 產品與發布會
 
-- **NVIDIA 推出 OpenShell 參考架構**：10 月 21 日於 GTC 柏林公布，把開源 OpenShell 運行時與 Vera Rubin 推論、Vera CPU 代理負載及 BlueField-4 上的 NVIDIA Sentry 組成全棧。官方稱 Vera Rubin NVL72 代理負載每兆瓦吞吐可達 30 倍、Vera CPU 性能為 x86 兩倍；Sentry 可在毫秒級隔離越界代理，並稱可把代理容量提高最多兩成。技術博客稱 CoreWeave 量度沙箱啟動快逾 3 倍、代理迴圈快 1.8 倍，單機架逾 11,000 個並行環境。支援 Canonical、Red Hat、Windows 執行容器。為何重要：代理安全被寫進硬體棧。來源：[來源：nvidianews.nvidia.com](https://nvidianews.nvidia.com/news/openshell-reference-architecture)（官方；查證：已抽原文）；[來源：developer.nvidia.com](https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/)（官方；查證：已抽原文）
-- **Anthropic 開放 Claude Duet 研究預覽**：10 月 21 日推出主動代理應用，以 Claude Opus 5.5 為核心，有 iOS、Android 及 claude.ai 獨立應用。現限美國 Pro／Max 計劃輪候；官方稱沿用同一用量上限，可接 Claude Marketplace 逾 6,000 個連接器，發送訊息、付款、簽署或刪除前須批准，並禁止證券交易及帳戶轉帳。為何重要：前線實驗室加入主動代理產品戰。來源：[來源：claude.com](https://claude.com/resources/articles/claude-duet)（官方；查證：已抽原文）
-- **Google 與 Meta 開源 TorchTPU**：10 月 20 日於 PyTorch 官方博客公布原生 TPU 後端，目標以 `.to("tpu")` 跑現有工作。官方稱已支援約 450 個 Aten 運算，並在約 5,000 個 Hugging Face 熱門模型上驗證開箱執行；與 vLLM、SGLang、TorchTitan、Ray 整合。媒體轉述在最多 8,192 顆 Ironwood 上訓練 Qwen 3 8B 時模型浮點利用率達 52%。為何重要：PyTorch 工作負載少改代碼即可上 TPU。來源：[來源：pytorch.org](https://pytorch.org/blog/introducing-torchtpu/)（官方；查證：已抽原文）；[來源：helpnetsecurity.com](https://www.helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus/)（媒體；查證：已抽原文）
+- **NVIDIA 推出 Minerva AIOps 平台**：10 月 22 日發布，串連 GPU、網絡、儲存、排程器與工作負載遙測，以專用模型偵測異常並把事件風暴收斂成可處理事故。IREN 已採用；Aolani、Bitdeer AI、IBM、Jio、Lambda、Quake AI 及 Tesla 計劃部署；Dell、Lenovo、Supermicro 將納入其 AI 工廠營運組合。為何重要：把工廠良率與停機預警寫進營運層。來源：[來源：blogs.nvidia.com](https://blogs.nvidia.com/blog/minerva-platform-infrastructure/)（官方；查證：已抽原文）
+- **OpenAI 模型進入 Google Cloud Model Garden**：10 月 21 日公布，將前沿模型與 Codex 代理工作流接入 Model Garden，經 Marketplace 交易，可用現有 Google Cloud 承諾額度扣帳。OpenAI 稱 Microsoft 仍為主要雲端夥伴；一般供應預定未來數周。模型稍後亦會出現於 Google Antigravity 與 Gemini Agent。為何重要：第三家超大規模雲可原生呼叫 OpenAI 模型。來源：[來源：openai.com](https://openai.com/index/openai-models-google-cloud/)（官方；查證：已抽原文）
+- **Anthropic 把 Agent Skills 捐予 AAIF**：10 月 22 日把該開放標準捐予 Linux Foundation 旗下 Agentic AI Foundation，連同名稱、標誌、GitHub 組織及 agentskills.io。官方稱自 2025 年 12 月起逾 70 個代理平台已整合，包括 ChatGPT、Cursor、GitHub Copilot 及 VS Code；至今約 100 萬個技能發布、近 2.8 億次安裝。AAIF 同日亦接收 OpenAI 的 Open Responses、Hugging Face 的 OpenEnv 及阿里巴巴的 OpenSandbox，托管項目增至 10 個。為何重要：代理技能格式改由中立基金會治理。來源：[來源：anthropic.com](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)（官方；查證：已抽原文）；[來源：prnewswire.com](https://www.prnewswire.com/news-releases/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox-302916689.html)（官方；查證：已抽原文）
 :::
 
 ::: section ai AI 模型與開源趨勢
 ## AI 模型與開源趨勢
 
-- **deepseek-ai/DeepSeek-V4.1-Flash-1017**：763.21B 參數、多模態；熱門榜約 42,122 次下載、2,146 讚；MIT。官方表列 DeepSWE v1.1 得 77.0、Terminal-Bench 4.0 得 42.3；上文長度 100 萬 token。為何重要：開源權重在代理與編程基準上再推進。來源：[來源：huggingface.co](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)（官方；查證：已抽原文）
-- **black-forest-labs/flux-3-image-klein**：圖像變換器標 5.6B；約 78,897 次下載、543 讚；FLUX Kommunity License。蒸餾檢查點預設 16 步、無引導，另有 FP8 與 NVFP4。為何重要：開源圖像生成權重仍佔熱門榜。來源：[來源：huggingface.co](https://huggingface.co/black-forest-labs/flux-3-image-klein)（官方；查證：已抽原文）
-- **google/embeddinggemma-2**：總參數 740M（文字骨幹 270M，另加視覺 170M、音訊 300M）；約 179,734 次下載；Apache 2.0。輸出 768 維，支援 128／256／512 維截斷。為何重要：端側多模態嵌入權重持續被下載。來源：[來源：huggingface.co](https://huggingface.co/google/embeddinggemma-2)（官方；查證：已抽原文）
+- **RecursiveSI/flint**：總參數 39.8B、每 token 約 2.5B 活躍；上月下載 420、369 讚；Apache 2.0。官方表列 Terminal-Bench 2.1 得 54.9%、SWE-bench Pro v2 得 89.7%、SWE-bench Verified 得 74.2%；上文 262,144 token。為何重要：可在單卡級硬體跑的開源編程代理權重。來源：[來源：huggingface.co](https://huggingface.co/RecursiveSI/flint)（官方；查證：已抽原文）
+- **fishaudio/drama-3**：MoE 文字骨幹標 35B、每 token 3B 活躍；多角色語音、聲音克隆及最長 16 個說話人標籤。下載量與授權未於已抽原文列明。為何重要：長篇多角色語音合成權重進入熱門討論。來源：[來源：huggingface.co](https://huggingface.co/fishaudio/drama-3)（官方；查證：已抽原文）
+- **OpenMOSS-Team/MOSS-Image-SFT**：由 MOSS-Image-Base 監督微調的文生圖模型，支援自然語言、標籤序列及 JSON 版面。下載量、讚數、參數量與授權未於已抽原文列明。為何重要：開源文生圖微調權重持續上榜。來源：[來源：huggingface.co](https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT)（官方；查證：已抽原文）
 :::
 
 ::: section github GitHub 值得關注
 ## GitHub 值得關注
 
-- **anomalyco/opencode**（MIT）：開源編程代理，有終端、桌面測試版及套件管理員安裝。用途：以自建代理處理代碼與工作流。為何值得留意：當日熱門編程代理庫。來源：[來源：github.com](https://github.com/anomalyco/opencode)（官方；查證：已抽原文）
-- **Graphify-Labs/graphify**（Apache-2.0）：把代碼庫、文件、SQL、設定及 PDF 編成可查知識圖，支援 Claude Code、Codex、OpenCode 等。用途：以決定性語法樹取代向量庫做代碼問答。為何值得留意：代理技能類項目當日上榜。來源：[來源：github.com](https://github.com/Graphify-Labs/graphify)（官方；查證：已抽原文）
-- **Comfy-Org/ComfyUI**（GPL-3.0，136,971 星）：節點式本地擴散推論引擎，官方稱可在 4GB 顯示記憶體加 8GB 記憶體跑大型開源模型。用途：本地圖像、影片、音訊與三維工作流。為何值得留意：開源生成介面星數高、當日熱門。來源：[來源：github.com](https://github.com/Comfy-Org/ComfyUI)（官方；查證：已抽原文）
+- **stablyai/orca**：並列運行多個終端編程代理的編排環境，支援桌面、流動應用及遠端執行。用途：用自有訂閱同時調度多個編程代理。為何值得留意：代理編排類項目當日熱門。來源：[來源：github.com](https://github.com/stablyai/orca)（官方；查證：已抽原文）
+- **ruvnet/ruflo**（MIT，約 78,400 星）：多玩家代理群組框架，強調記憶、聯邦與 RAG，並整合 Claude Code、Codex、Hermes 等。用途：協調自主工作流與對話式代理系統。為何值得留意：星數高、當日持續提交。來源：[來源：github.com](https://github.com/ruvnet/ruflo)（官方；查證：已抽原文）
+- **usestrix/strix**：開源人工智能滲透測試工具，用以找出並修復應用漏洞。用途：以代理輔助應用保安測試。為何值得留意：資安代理工具當日上榜。來源：[來源：github.com](https://github.com/usestrix/strix)（官方；查證：已抽原文）
 :::
 
 ::: section global 全球重點新聞
 ## 全球重點新聞
 
-- **PHP 緊急修補兩項核心遠端執行漏洞（PHP2Shell）**：CVE-2026-109618、CVE-2026-109619｜CVSS v4.0 9.2｜8.5.12、8.4.27、8.3.36、8.2.35 之前；8.1 及更早已終止支援｜已被利用(KEV)？未列；PHP 團隊於公開當日未發現可用利用程式｜修補：上述四個版本｜HKCERT 級別：未列。10 月 21 日 14:00 UTC 前後推出；mod_php 風險最高，未認證請求可在應用代碼執行前觸發。CERT-EU 建議立即修補，否則隔離面向公眾的應用。為何重要：全球大量網站底層語言出現核心遠端執行面。來源：[來源：php.net](https://www.php.net/archive/2026.php)（官方；查證：已抽原文）；[來源：cert.europa.eu](https://cert.europa.eu/publications/security-advisories/2026-018/)（官方；查證：已抽原文）
-- **微軟：Storm-0940 以 ARTEX 代理框架做大規模供應鏈後續攻擊**：中國國家對齊威脅者自 2021 年活躍；2026 年 9 月起用開源多代理滲透框架 ARTEX。微軟評估其為 ConnectWise 多租戶應用入侵的責任方。部分行動由鎖定目標至雲端特權少於 3 小時；入侵後以每分鐘約 2,900 次登入嘗試觸及逾 2,250 個租戶。10 月 10 至 14 日密碼噴灑對 8 個組織 327 個帳戶產生逾 151,000 次失敗登入，該段未見成功認證。微軟稱並非其公司系統被入侵。為何重要：代理式攻擊把供應鏈後續擴張推到機器速度。來源：[來源：microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/)（官方；查證：已抽原文）
-- **OVHcloud 命令列工具 GitHub 發行檔被掉包**：攻擊者利用開發者 GitHub 帳戶，把 v0.11.0 至 v0.15.0 的發行檔換成竊密程式；v0.10.0 不受影響，新版 v0.16.0 為清潔版本。執行長稱 10 月 19 日 14:47 上線、16:21 封阻；CI/CD 未受影響，主因未開啟 GitHub 發行不可變選項，其後已開啟。為何重要：發行資產替換繞過源碼與建置管線。來源：[來源：helpnetsecurity.com](https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/)（媒體；查證：已抽原文）
-- **歐洲多國政府網站因 PHP 漏洞緊急下線**：香港 01 引述，10 月 21 日漏洞披露後，歐洲及其他地區政府網站營運者採取緊急措施；報道指 PHP 支撐全球約七成網站。為何重要：核心語言漏洞即時影響公共網站可用性。來源：[來源：hk01.com](https://www.hk01.com/%E5%8D%B3%E6%99%82%E5%9C%8B%E9%9A%9B/60402259/%E6%94%AF%E6%8C%81%E5%85%A8%E7%90%83%E4%B8%83%E6%88%90%E7%B6%B2%E7%AB%99php%E7%88%86%E9%87%8D%E5%A4%A7%E6%BC%8F%E6%B4%9E-%E6%AD%90%E6%B4%B2%E5%A4%9A%E5%9C%8B%E6%94%BF%E5%BA%9C%E7%B6%B2%E7%AB%99%E5%A4%A7%E8%A6%8F%E6%A8%A1%E4%B8%8B%E7%B7%9A)（媒體；查證：已抽原文）
+- **GitLab 未認證遠端執行漏洞（CVSS 10.0）**：CVE-2026-110264｜CVSS 10｜CE／EE 自 7.0 起，低於 18.11.13、19.0.10、19.1.9、19.2.9、19.3.6、19.4.3、19.5.1｜已被利用(KEV)？未列｜修補：上述版本｜HKCERT 級別：未抽該公告。CERT-EU 於 10 月 22 日發佈 2026-019，指 10 月 21 日修補；成因是正則編譯整數溢位，未認證使用者在特定條件下可於伺服器執行程式碼。GitLab.com 及 Dedicated 已修；廠商強烈建議自管實例盡快升級。為何重要：覆蓋逾十二年發行線的最高分遠端執行面。來源：[來源：cert.europa.eu](https://cert.europa.eu/publications/security-advisories/2026-019/)（官方；查證：已抽原文）；[來源：theregister.com](https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854)（媒體；查證：已抽原文）
+- **LiteLLM 1.107.0 發行鏈被掉包**：10 月 21 日惡意套件在 PyPI 上線約 2 小時（11:39–13:23 UTC）；Docker 標籤 `v1.107.0`、`latest`、`main-latest`、`main-stable` 受影響至 14:20 UTC。官方稱惡意版本會竊取憑證並載入遠端執行工具；先前版本安全，企業私有倉庫不受影響。媒體轉述 Socket 估每周約 2,300 萬次下載；Wiz 稱竊得憑證約 4.5 小時後已見 AWS 驗證及 Bedrock 探測。修補：釘選 1.106.2 或 10 月 21 日前版本，並輪替雲端與模型金鑰。為何重要：高下載量的模型閘道第二次供應鏈失守。來源：[來源：docs.litellm.ai](https://docs.litellm.ai/blog/security-incident-oct-21-2026)（官方；查證：已抽原文）；[來源：helpnetsecurity.com](https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/)（媒體；查證：已抽原文）
+- **CISA 把六項已利用漏洞列入 KEV**：10 月 20 日新增 CVE-2026-96652、CVE-2026-96654、CVE-2026-96655、CVE-2026-96656（Plex Media Server）、CVE-2026-106931（SiteGuard 作業系統命令注入）、CVE-2026-110936（Siemens Software Center 未受控搜尋路徑）。為何重要：聯邦限期修補清單擴大至家用媒體伺服器與企業工具。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
+- **PHP2Shell 由「公開當日未見利用」轉為「正被廣泛利用」**：見昨日跟進及香港段。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/php-multiple-vulnerabilities_20261022)（官方；查證：已抽原文）
 :::
 
 ::: section hk 香港本地
 ## 香港本地
 
-- **HKCERT：Google Chrome 多個漏洞（中度風險）**：2026-10-21。CVE-2026-112992 等｜CVSS 未列｜Linux 低於 156.0.8078.47，Mac／Windows 低於 156.0.8078.47／.48｜已被利用(KEV)？未列｜修補：更新至上述或之後版本｜HKCERT 級別：中度風險。可致阻斷服務、繞過限制、資料洩露及遠端執行。為何重要：瀏覽器同日有本地公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261021)（官方；查證：已抽原文）
-- **HKCERT：Nginx 多個漏洞（中度風險）**：2026-10-21。CVE-2026-15176、CVE-2026-93479、CVE-2026-95101、CVE-2026-97205、CVE-2026-97629｜CVSS 未列｜stable 低於 nginx-1.30.6、mainline 低於 nginx-1.31.7｜已被利用(KEV)？未列｜修補：見 nginx.org／2026.html｜HKCERT 級別：中度風險。可致遠端執行、阻斷服務、繞過限制及資料洩露。為何重要：廣泛部署的網站伺服器有本地公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/nginx-multiple-vulnerabilities_20261021)（官方；查證：已抽原文）
-- **HKCERT：甲骨文產品多個漏洞（中度風險）**：2026-10-21。CVE 見廠商公告｜CVSS 未列｜MySQL、Java SE、JAVAFX、E-Business Suite、Database Server、WebLogic Server、VirtualBox 等｜已被利用(KEV)？未列｜修補：[來源：oracle.com](https://www.oracle.com/security-alerts/cpuoct2026.html)｜HKCERT 級別：中度風險。可致遠端執行、阻斷服務、權限提升、繞過限制及資料洩露。為何重要：企業中介軟件同日納入本地公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/oracle-products-multiple-vulnerabilities_20261021)（官方；查證：已抽原文）
-- **粵港信息化專家小組第 21 次會議在廣州舉行**：10 月 21 日。雙方同意在智慧城市群、跨境電子商務、通關信息化、創科及電信基建五方面加強合作；署理數字政策專員於論壇稱香港人工智能研發院預計今年下半年投入運作。為何重要：粵港把產業人工智能協作寫進年度工作。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/21/P2026102100266.htm)（官方；查證：已抽原文）
+- **數字辦就 PHP 漏洞向全部決策局／部門及公營機構發保安警報**：2026-10-22。要求即時檢視並盡快修補，否則相關系統須暫時離線或隔離。數字辦稱已完成託管各決策局／部門主頁的網站寄存修補；截至發稿未接獲相關網絡保安事故報告。為何重要：本地政府把核心語言漏洞升至全部門強制應變。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/22/P2026102200631.htm)（官方；查證：已抽原文）
+- **HKCERT：PHP 多個漏洞（極高度風險）**：2026-10-22。CVE-2026-109618、CVE-2026-109619｜CVSS 未於已抽原文重列｜8.5.12、8.4.27、8.3.36、8.2.35 之前｜已被利用(KEV)？HKCERT 指正被廣泛利用；CISA KEV 未列此兩項｜修補：上述四個版本；8.1 或更舊須向發行版查詢｜HKCERT 級別：極高度風險。博錄引 VirusTotal 估算全球逾 510 萬部 PHP 主機連網，約 380 萬部開放至少一個連接埠，並提醒設備管理介面可能內嵌 PHP。為何重要：本地公告確認野外利用並給出最高風險級。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/php-multiple-vulnerabilities_20261022)（官方；查證：已抽原文）；[來源：hkcert.org](https://www.hkcert.org/tc/blog/hkcert-warns-of-critical-php2shell-vulnerabilities-businesses-must-immediately-review-and-patch-php-systems-ai-accelerates-cyber-attacks-and-defence-further-shortening-the-response-window-between-vulnerability-disclosure-and-exploitation)（官方；查證：已抽原文）
+- **HKCERT：Node.js 多個漏洞（中度風險）**：2026-10-22。CVE-2026-105481 至 CVE-2026-106074、CVE-2026-111497｜CVSS 未列｜22.23.4、24.22.1、26.12.1 之前｜已被利用(KEV)？未列｜修補：更新至上述版本｜HKCERT 級別：中度風險。可致阻斷服務、繞過限制、資料洩露及遠端執行。為何重要：伺服器執行環境同日有本地公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20261022)（官方；查證：已抽原文）
+- **HKCERT：Splunk 產品多個漏洞（中度風險）**：2026-10-22。CVE-2026-76287 至 CVE-2026-76300｜CVSS 未列｜Enterprise 9.4.0–9.4.15、10.0.0–10.0.10、10.2.0–10.2.7、10.4.0–10.4.3｜已被利用(KEV)？未列｜修補：見 Splunk SVD-2026-1007／1008｜HKCERT 級別：中度風險。可致遠端執行、阻斷服務、資料洩露、繞過限制及篡改。為何重要：日誌與保安平台同日納入本地公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/splunk-products-multiple-vulnerabilities_20261022)（官方；查證：已抽原文）
+- **HKCERT：甲骨文 Java 繞過保安限制漏洞（中度風險）**：2026-10-22。CVE-2026-91403｜CVSS 未列｜Java SE 8u511、11.0.33、17.0.21、21.0.13、25.0.5、27.0.1 等；GraalVM 相關版本見公告｜已被利用(KEV)？未列｜修補：[來源：oracle.com](https://www.oracle.com/security-alerts/alert-cve-2026-91403.html)｜HKCERT 級別：中度風險。可致繞過限制及資料篡改。為何重要：Java 執行環境另有獨立警報。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/oracle-java-security-restriction-bypass-vulnerability_20261022)（官方；查證：已抽原文）
 :::
 
 ::: section events 活動與展會
 ## 活動與展會
 
-- **CSA HKM Knowledge Sharing Event – October 2026**：日期 2026-10-22｜地點 網上｜形式 粵語網上研討會（12:30–13:30）｜報名狀態 Eventbrite 仍列活動頁。主題為人工智能發現時代的漏洞營運。來源：[來源：eventbrite.hk](https://www.eventbrite.hk/e/csa-hkm-knowledge-sharing-event-october-2026-tickets-2003112552567)（官方；查證：已抽原文）
-- **AiTLE x Cyberbay x CSTCB「狩網運動 2026」線上研討會（教育界專場）**：日期 2026-10-26｜地點 網上｜形式 線上研討會｜報名狀態 網絡安全資訊網站活動日曆已列，報名連結未於已抽原文列明。來源：[來源：cybersecurity.hk](https://www.cybersecurity.hk/en/events.php)（官方；查證：已抽原文）
-- **Parent Seminar (2): Unpacking Fake News and Disinformation**：日期 2026-10-24｜地點 官方日曆未列場地｜形式 家長講座｜報名狀態 網絡安全資訊網站活動日曆已列。主辦香港教育城。來源：[來源：cybersecurity.hk](https://www.cybersecurity.hk/en/events.php)（官方；查證：已抽原文）
+- **HKCERT 中小企免費網絡安全網上研討會（供應鏈及第三方網絡安全風險）**：日期 2026-10-28｜地點 香港（網上）｜形式 粵語網上研討會（15:30–16:30）｜報名狀態 免費，須預先登記。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-free-cybersecurity-webinar-series-for-smes-2026)（官方；查證：已抽原文）
+- **釣魚電郵及短訊演習 2026**：日期 2026-10-20 至 2026-12-07｜地點 香港｜形式 公眾演習｜報名狀態 網絡安全資訊網站活動日曆已列，進行中。來源：[來源：cybersecurity.hk](https://www.cybersecurity.hk/en/events.php)（官方；查證：已抽原文）
+- **e世代網「樂」健行家長講座（一）：智用 AI 學習世代 共建健康網絡文化**：日期 2026-10-30｜地點 官方日曆未列場地｜形式 家長講座｜報名狀態 網絡安全資訊網站活動日曆已列。來源：[來源：cybersecurity.hk](https://www.cybersecurity.hk/en/events.php)（官方；查證：已抽原文）
 :::
 
 ::: section misc 其他要點
 ## 其他要點
 
-- **PHP 無完整臨時緩解**：官方列明只有更新才安全；`memory_limit=-1` 及關閉 `session.upload_progress` 只降低特定路徑，並須重啟所有工作行程。來源：[來源：php.net](https://www.php.net/archive/2026.php)（官方；查證：已抽原文）
-- **OVHcloud 已開啟發行不可變**：公司稱事故已結束，源碼與建置管線未被改動。來源：[來源：helpnetsecurity.com](https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/)（媒體；查證：已抽原文）
-- **Storm-0940 活動不代表客戶資料已被取走**：微軟稱存在受影響應用或成功認證，並不一定等於資料外洩，並建議審查服務主體登入及應用程式憑證變更。來源：[來源：microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/)（官方；查證：已抽原文）
+- **LiteLLM 更新不足夠**：官方及研究員均指曾安裝 1.107.0 的環境應視為失陷，須釘選 1.106.2 並輪替主機能觸及的雲端身分、代理資料庫及模型供應商金鑰。來源：[來源：docs.litellm.ai](https://docs.litellm.ai/blog/security-incident-oct-21-2026)（官方；查證：已抽原文）
+- **GitLab 自管實例沒有完整臨時緩解**：CERT-EU 建議優先修補面向互聯網的資產，並用廠商發布的偵測規則評估是否已遭嘗試利用。來源：[來源：cert.europa.eu](https://cert.europa.eu/publications/security-advisories/2026-019/)（官方；查證：已抽原文）
+- **PHP 未能即時修補應隔離**：HKCERT 建議在套用並驗證修補前，考慮將面向互聯網的應用與公共網絡隔離。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/php-multiple-vulnerabilities_20261022)（官方；查證：已抽原文）
 :::
 
 ::: section followup 昨日跟進
 ## 昨日跟進
 
-- **香港網安奪旗賽 2026 報名狀態**：HKCERT 活動頁現列報名至 2026-11-04 12:00 HKT；初賽及其他日程仍見活動頁。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-capture-the-flag-challenge-2026)（官方；查證：已抽原文）
-- **Japan IT Week【秋】**：展會舉行至 2026-10-23（幕張メッセ 1–8 廳，10:00–17:00）；免費預先登記已結束，其後入場 5,500 日圓（含稅）。來源：[來源：japan-it.jp](https://www.japan-it.jp/hub/ja-jp.html)（官方；查證：已抽原文）
+- **PHP2Shell 利用狀態改變**：前日报 PHP 團隊公開當日未發現可用利用程式、HKCERT 尚未評級；10 月 22 日 HKCERT 改列極高度風險，並寫明 CVE-2026-109618 及 CVE-2026-109619 正被廣泛利用。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/php-multiple-vulnerabilities_20261022)（官方；查證：已抽原文）
+- **Japan IT Week【秋】**：展會舉行至 2026-10-23（幕張メッセ），即本期最後一日。來源：[來源：japan-it.jp](https://www.japan-it.jp/hub/ja-jp.html)（官方；前日报已抽原文）
 :::
 
 <div class="ns-footer">
-<p>資料截至 2026-10-22 05:30（HKT）；本期覆蓋 2026-10-21 至 2026-10-22。</p>
+<p>資料截至 2026-10-23 05:30（HKT）；本期覆蓋 2026-10-22 至 2026-10-23。</p>
 </div>

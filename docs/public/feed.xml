@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Wed, 21 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-23（星期五）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-23</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-23</guid>
+      <pubDate>Thu, 22 Oct 2026 21:30:00 GMT</pubDate>
+      <description>HKCERT 確認 PHP2Shell 正被廣泛利用，評極高度風險。 / GitLab 修補 CVSS 10.0 未認證遠端執行，影響自 7.0 起。 / LiteLLM 1.107.0 於 PyPI 及 Docker 遭植入竊密程式。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-22（星期四）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-22</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-24</guid>
       <pubDate>Wed, 23 Sep 2026 21:30:00 GMT</pubDate>
       <description>F5 BIG-IP 漏洞正被廣泛利用，HKCERT 列高度風險 / 聯合國專家小組：AI 代理安全措施不能再等 / NVIDIA Isaac ROS 5.0 讓 AI 代理參與機械人開發</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-09-23（星期三）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-23</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-23</guid>
-      <pubDate>Tue, 22 Sep 2026 21:30:00 GMT</pubDate>
-      <description>GPT-6 Sol／Luna 登場，API 價格全線減半 / VeloCloud 編排器 CVSS 10.0 漏洞已遭利用 / HKCERT 把 Edge 漏洞評為極高度風險</description>
     </item>
   </channel>
 </rss>

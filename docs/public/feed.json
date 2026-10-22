@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-23",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-23",
+      "title": "每日科技與資安摘要 — 2026-10-23（星期五）",
+      "date_published": "2026-10-23T05:30:00+08:00",
+      "summary": "HKCERT 確認 PHP2Shell 正被廣泛利用，評極高度風險。 / GitLab 修補 CVSS 10.0 未認證遠端執行，影響自 7.0 起。 / LiteLLM 1.107.0 於 PyPI 及 Docker 遭植入竊密程式。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-22",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-22",
       "title": "每日科技與資安摘要 — 2026-10-22（星期四）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-24（星期四）",
       "date_published": "2026-09-24T05:30:00+08:00",
       "summary": "F5 BIG-IP 漏洞正被廣泛利用，HKCERT 列高度風險 / 聯合國專家小組：AI 代理安全措施不能再等 / NVIDIA Isaac ROS 5.0 讓 AI 代理參與機械人開發"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-23",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-23",
-      "title": "每日科技與資安摘要 — 2026-09-23（星期三）",
-      "date_published": "2026-09-23T05:30:00+08:00",
-      "summary": "GPT-6 Sol／Luna 登場，API 價格全線減半 / VeloCloud 編排器 CVSS 10.0 漏洞已遭利用 / HKCERT 把 Edge 漏洞評為極高度風險"
     }
   ]
 }
