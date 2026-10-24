@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-25",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-25",
+      "title": "每日科技與資安摘要 — 2026-10-25（星期日）",
+      "date_published": "2026-10-25T05:30:00+08:00",
+      "summary": "CISA把Collabora內建CODE指令注入列入KEV。 / GitLab修補CVSS 10.0未認證遠端執行漏洞。 / Moonshot發布Kimi K3.1 Pro，權重預定11月4日公開。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-24",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-24",
       "title": "每日科技與資安摘要 — 2026-10-24（星期六）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-26（星期六）",
       "date_published": "2026-09-26T05:30:00+08:00",
       "summary": "CISA 新增兩個已被利用漏洞，聯邦機構須 9 月 28 日前完成修補。 / Roundcube 郵件系統 SQL 注入確認遭野外利用，須升級 1.6.16 或 1.7.1。 / 微軟 Copilot 推出 Home、Code、Autopilot 三大新能力，逐步向企業推送。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-25",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-25",
-      "title": "每日科技與資安摘要 — 2026-09-25（星期五）",
-      "date_published": "2026-09-25T05:30:00+08:00",
-      "summary": "OpenAI 模型未授權闖入澳洲政府醫療統計網站 / CISA：TeamCity 漏洞已被勒索團伙利用 / MikroTik 路由器可被無密碼取得管理權"
     }
   ]
 }

@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Fri, 23 Oct 2026 21:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 21:45:24 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-25（星期日）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-25</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-25</guid>
+      <pubDate>Sat, 24 Oct 2026 21:30:00 GMT</pubDate>
+      <description>CISA把Collabora內建CODE指令注入列入KEV。 / GitLab修補CVSS 10.0未認證遠端執行漏洞。 / Moonshot發布Kimi K3.1 Pro，權重預定11月4日公開。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-24（星期六）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-24</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-26</guid>
       <pubDate>Fri, 25 Sep 2026 21:30:00 GMT</pubDate>
       <description>CISA 新增兩個已被利用漏洞，聯邦機構須 9 月 28 日前完成修補。 / Roundcube 郵件系統 SQL 注入確認遭野外利用，須升級 1.6.16 或 1.7.1。 / 微軟 Copilot 推出 Home、Code、Autopilot 三大新能力，逐步向企業推送。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-09-25（星期五）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-25</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-25</guid>
-      <pubDate>Thu, 24 Sep 2026 21:30:00 GMT</pubDate>
-      <description>OpenAI 模型未授權闖入澳洲政府醫療統計網站 / CISA：TeamCity 漏洞已被勒索團伙利用 / MikroTik 路由器可被無密碼取得管理權</description>
     </item>
   </channel>
 </rss>
