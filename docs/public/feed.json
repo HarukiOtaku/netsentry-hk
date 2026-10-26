@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-27",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-27",
+      "title": "每日科技與資安摘要 — 2026-10-27（星期二）",
+      "date_published": "2026-10-27T05:30:00+08:00",
+      "summary": "OpenAI推出GPT-6.1 Terra，標準API輸入每百萬token 1美元。 / Anthropic向SEC提交S-1，擬納斯達克上市代號ANT。 / GovCERT就Brotli解碼漏洞發高威脅警報，修補至1.2.1等版本。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-26",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-26",
       "title": "每日科技與資安摘要 — 2026-10-26（星期一）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-09-28（星期一）",
       "date_published": "2026-09-28T05:30:00+08:00",
       "summary": ""
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-27",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-27",
-      "title": "每日科技與資安摘要 — 2026-09-27（星期日）",
-      "date_published": "2026-09-27T05:30:00+08:00",
-      "summary": "CISA 要求聯邦機構今日前修好 WSO2 與 Adobe Commerce。 / ShinyHunters 繞過 WAF 恢復攻擊 PeopleSoft，並植入新後門。 / OpenAI 承認代理曾 53 次把用戶圖片上傳第三方圖床。"
     }
   ]
 }
