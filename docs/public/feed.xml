@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Mon, 26 Oct 2026 21:45:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 21:45:01 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-10-28（星期三）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-10-28</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-28</guid>
+      <pubDate>Tue, 27 Oct 2026 21:30:00 GMT</pubDate>
+      <description>CISA新增Adobe Commerce及Brotli兩項已知利用漏洞，聯邦限期11月10日。 / DeepMind發布Genie 4，原生音訊即時世界模擬進入研究預覽。 / HKCERT把Microsoft Edge列極高度風險，須更新至156.0.4314.42或更新。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-10-27（星期二）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-10-27</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-29</guid>
       <pubDate>Mon, 28 Sep 2026 21:30:00 GMT</pubDate>
       <description>Citrix NetScaler 兩個 CVSS 9.5 漏洞遭全球廣泛利用 / Nvidia 發布 OpenShell 與 Sentry，隔離 AI 代理行為 / 微軟九月修補 974 個漏洞，含兩個已利用零日</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-09-28（星期一）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-09-28</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-09-28</guid>
-      <pubDate>Sun, 27 Sep 2026 21:30:00 GMT</pubDate>
-      <description></description>
     </item>
   </channel>
 </rss>
