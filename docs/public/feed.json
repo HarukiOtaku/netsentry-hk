@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-10-30",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-10-30",
+      "title": "每日科技與資安摘要 — 2026-10-30（星期五）",
+      "date_published": "2026-10-30T05:30:00+08:00",
+      "summary": "CISA把GitLab遠端執行程式碼漏洞列入KEV，聯邦限期11月1日。 / 思科ASA／FTD SSL VPN洞正被利用，HKCERT評高度風險。 / OpenAI更新公開Model Spec：以五項價值重組指引：忠於人類意圖、減害、誠實透明、人類能動性、關懷；並調整部分行為預設、刪減大量文風細則。為何重要：代理行為規範改以價值層表述。來源：[來源：openai.com](https://openai.com/index/updated-model-spec/)（官方；查證：已抽原文）"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-10-29",
       "url": "https://netsentry-hk.vercel.app/digests/2026-10-29",
       "title": "每日科技與資安摘要 — 2026-10-29（星期四）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-01（星期四）",
       "date_published": "2026-10-01T05:30:00+08:00",
       "summary": "白宮與六家前沿 AI 公司簽署無約束力安全協議，業界自我規管成主軸。 / CISA 於 9 月 30 日把 Cisco Catalyst SD-WAN Manager 漏洞列入 KEV，限期 10 月 3 日修補。 / HKCERT 將 Citrix 產品漏洞評為「極高度風險」，兩個 CVE 正被廣泛利用。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-09-30",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-09-30",
-      "title": "每日科技與資安摘要 — 2026-09-30（星期三）",
-      "date_published": "2026-09-30T05:30:00+08:00",
-      "summary": "OpenAI 因安全測試取消 GPT-6.1 Astra 發布 / CISA 新增 Apple 漏洞 CVE-2026-86950 入 KEV / AMD 以 82 億美元全股票收購 World Labs"
     }
   ]
 }
