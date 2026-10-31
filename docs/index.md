@@ -1,89 +1,92 @@
 ---
 title: "今日摘要"
-date: 2026-10-31
+date: 2026-11-01
 ---
 
-# 每日科技與資安摘要 — 2026-10-31（星期六）
+# 每日科技與資安摘要 — 2026-11-01（星期日）
 
-<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-10-31">/digests/2026-10-31</a> · <a href="/digests/">全部存檔</a></p>
+<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-11-01">/digests/2026-11-01</a> · <a href="/digests/">全部存檔</a></p>
 
 <div class="ns-summary">
-<p><strong>📌 今日總結</strong>：CISA把Ivanti兩項VPN洞列入已知利用目錄。Drupal網店模組正被利用。國泰約5.3萬宗預訂外洩。OpenAI與Google支持統一AI訓練訊號。</p>
+<p><strong>📌 今日總結</strong>：考評局國際試系統外洩約1.69萬人資料。私隱署裁定聯合醫院外洩逾5.6萬人違例。GitLab與思科洞仍在已知利用目錄。Mistral公開1兆參數權重。</p>
 </div>
 
 ::: section tldr 今日速覽
 ## 今日速覽
 
-- CISA把Ivanti Connect Secure兩項漏洞列入已知利用目錄。
-- 國泰稱Amadeus系統遭未授權存取，約5.3萬宗預訂受影響。
-- OpenAI與Google將尊重robots.txt內統一AI訓練偏好。
+- 考評局：約1.69萬名國際試申請人資料外洩，文憑試系統未受影響。
+- 私隱署裁定醫管局對承辦商監管不足，聯合醫院外洩56,243人資料違例。
+- GitLab遠端執行與思科SSL VPN阻斷服務漏洞仍列已知利用目錄。
 :::
 
 ::: section products 產品與發布會
 ## 產品與發布會
 
-- **OpenAI將尊重robots.txt統一AI訓練訊號**：2026-10-30宣布會在未來數月實施IETF草案中的共用訊號，讓網站一次向多家供應商表達基礎生成式AI訓練偏好；現有爬蟲控制繼續有效。為何重要：出版方毋須再逐家寫拒絕規則。來源：[來源：openai.com](https://openai.com/index/helping-websites-express-ai-training-preferences/)（官方；查證：已抽原文）
-- **Google計劃2027年支援同一訊號**：網站若以該政策標記退出訓練、且未另行指定Google-Extended，Google擬視作禁止Google-Extended；公司專屬控制可並存。為何重要：搜尋與訓練偏好開始分開表達。來源：[來源：developers.google.com](https://developers.google.com/search/blog/2026/10/ai-training-control)（官方；查證：已抽原文）
-- **Chrome穩定版156.0.8078.79／.80**：2026-10-29桌面穩定及延長穩定通道更新，Windows／Mac為156.0.8078.79／.80，Linux為156.0.8078.79，含21項保安修正；列Critical的CVE-2026-76024為MediaStream記憶體損壞。為何重要：瀏覽器一次修補多項記憶體類高危項。來源：[來源：chromereleases.googleblog.com](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html)（官方；查證：已抽原文）
-- **OpenAI公布社區安全報告與青少年限制**：2026年第三季向執法機構轉介逾200宗個案；首份Community Safety Report擬2027年初刊出，涵蓋2026下半年；並收緊未成年使用者可取得的武器及保安系統實務資訊。為何重要：把暴力預防從產品政策改為定期公開交代。來源：[來源：openai.com](https://openai.com/index/community-safety-report-and-new-protections-for-teens/)（官方；查證：已抽原文）
-:::
-
-::: section ai AI 模型與開源趨勢
-## AI 模型與開源趨勢
-
-- **deepseek-ai/DeepSeek-V4.1-Flash-1017**：約763B參數、上文100萬token，授權MIT；Hugging Face近一個月下載約146k、讚數約3.95k。為何重要：開源權重把代理與視覺基準一併上調。來源：[來源：huggingface.co](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)（官方；查證：已抽原文）；[來源：huggingface.co](https://huggingface.co/models)（官方；查證：已抽原文）
-- **LiquidAI/LFM3-1.7B**：約1.73B參數、上文256K token，授權LFM Open License v1.0；近一個月下載約23.7k、讚數528。為何重要：小型開源權重標明端側代理用途。來源：[來源：huggingface.co](https://huggingface.co/LiquidAI/LFM3-1.7B)（官方；查證：已抽原文）；[來源：huggingface.co](https://huggingface.co/models)（官方；查證：已抽原文）
-- **RecursiveSI/flint**：約39.8B總參數、每token約2.5B活躍；近一個月下載約19k、讚數約1.25k。授權未於已抽模型卡列明。為何重要：編碼代理開源權重進入熱門。來源：[來源：huggingface.co](https://huggingface.co/RecursiveSI/flint)（官方；查證：已抽原文）；[來源：huggingface.co](https://huggingface.co/models)（官方；查證：已抽原文）
-- **Nanbeige/Nanbeige4.3-33B**：約33.12B參數、上文512K token，授權Apache 2.0；近一個月下載約12.2k、讚數791。為何重要：約30B級開源教師模型強調代理編碼。來源：[來源：huggingface.co](https://huggingface.co/Nanbeige/Nanbeige4.3-33B)（官方；查證：已抽原文）；[來源：huggingface.co](https://huggingface.co/models)（官方；查證：已抽原文）
+- **Mistral Large 4（Le Chonk）開源權重上線**：2026-10-29把約1兆總參數、每token約490億活躍參數的多模態MoE放到Hugging Face，上文100萬token；授權為Mistral Ecosystem Open-Weight（修改MIT，Model-as-a-Service須另取商業授權）。API定價每百萬token輸入0.70美元、輸出2.10美元。官方稱Artificial Analysis Coding Agent Index 48%、Terminal-Bench 4.0為41%、Cyber Index 51%。為何重要：開源權重把編碼與防禦網安一併標成主場。來源：[來源：mistral.ai](https://mistral.ai/news/mistral-large-4-oss/)（官方；查證：已抽原文）；[來源：huggingface.co](https://huggingface.co/blog/mistral-large4)（官方；查證：已抽原文）
 :::
 
 ::: section github GitHub 值得關注
 ## GitHub 值得關注
 
-- **HKUDS/DeepTutor**（Apache-2.0，已抽頁顯示約43,388星）：智能體原生的終身個性化輔導工作區，把答問、測驗與研究放進同一執行環境。用途：本地或自建教學代理。為何值得留意：教育代理專案登上日榜前列。來源：[來源：github.com](https://github.com/HKUDS/DeepTutor)（官方；查證：已抽原文）
-- **pbakaus/impeccable**（Apache-2.0，已抽頁顯示約88,274星）：給編碼代理的設計技能，含24條指令與62條確定性檢測規則。用途：在發佈前攔截制式化前端輸出。為何值得留意：設計審查工具持續出現於熱門。來源：[來源：github.com](https://github.com/pbakaus/impeccable)（官方；查證：已抽原文）
-- **milind-soni/OpenMausBot**（Apache-2.0，已抽頁顯示約5,202星）：開源多人代理桌面應用，每個機器人可配獨立模型與虛擬機，敏感操作需批准。用途：把多個本地代理放進同一聊天工作區。為何值得留意：開源個人代理工作區新進日榜。來源：[來源：github.com](https://github.com/milind-soni/OpenMausBot)（官方；查證：已抽原文）
+- **GitLab Orbit正式推出**：官方稱把合併請求、流水線、部署與漏洞做成可查詢圖譜；測試指代理重試可減最多45倍，設計夥伴可在七分鐘內查詢3,400萬個實體。為何重要：把漏洞影響範圍接到擁有團隊。來源：[來源：about.gitlab.com](https://about.gitlab.com/blog/gitlab-orbit-ga/)（官方；查證：已抽原文）
+:::
+
+::: section ai AI 模型與開源趨勢
+## AI 模型與開源趨勢
+
+- **mistralai/Mistral-Large-4-1T-A52B**：約1T總參數、49B活躍、上文1M token；授權Mistral Ecosystem Open-Weight。已抽模型卡未列近月下載量。為何重要：開源權重強調網安與編碼代理。來源：[來源：huggingface.co](https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B)（官方；查證：已抽原文）
+- **nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B**：總參數約34B、活躍約4.3B，上文65,536 token，支援40種語言、最長一小時錄音；授權OpenMDW 1.1；Hugging Face網誌附列下載約24.4k、讚數539。發布日期2026-10-28。為何重要：開源語音模型把轉寫、翻譯與說話人標記放進同一權重。來源：[來源：huggingface.co](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B)（官方；查證：已抽原文）；[來源：huggingface.co](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary)（官方；查證：已抽原文）
+- **baidu/Unlimited-OCR-2**：2026-10-27發布，以SR-SWA處理超長文件解析。已抽頁未列參數量、授權及下載數。為何重要：開源OCR把超長文件注意計算壓成固定工作集。來源：[來源：huggingface.co](https://huggingface.co/baidu/Unlimited-OCR-2)（官方；查證：已抽原文）
+:::
+
+::: section github GitHub 值得關注
+## GitHub 值得關注
+
+- **thedotmack/claude-mem**（Apache-2.0，已抽頁顯示約107.3k星）：為編碼代理做跨會話記憶，壓縮後再注入後續對話。用途：減少代理失憶。為何值得留意：日榜前列的代理記憶外掛。來源：[來源：github.com](https://github.com/thedotmack/claude-mem)（官方；查證：已抽原文）
+- **CopilotKit/OpenBot**（MIT，已抽頁顯示約9.1k星）：開源AI同事，每個機器人有獨立瀏覽器、檔案與工具，行動事先決定並事後留痕。用途：把多個代理放進可審計工作區。為何值得留意：開源個人代理工作區新進日榜。來源：[來源：github.com](https://github.com/CopilotKit/OpenBot)（官方；查證：已抽原文）
+- **cloudflare/security-audit-skill**（MIT，已抽頁顯示約55.0k星）：六階段保安審計技能，獨立代理驗證發現並輸出機器可讀報告。用途：讓編碼代理做有驗證的程式碼審計。為何值得留意：代理保安審計技能持續高星。來源：[來源：github.com](https://github.com/cloudflare/security-audit-skill)（官方；查證：已抽原文）
 :::
 
 ::: section global 全球重點新聞
 ## 全球重點新聞
 
-- **Ivanti Connect Secure兩洞入KEV**：CVE-2026-111357、CVE-2026-118527｜CVSS未於已抽CISA頁列明｜受影響：25.1.1.2及更早、25.1.2.2及更早、22.8R2.5及更早｜已被利用(KEV)？是，CISA於2026-10-30加入｜修補：按Ivanti最新版本｜HKCERT級別：未抽對應該兩編號的新公告。CISA指威脅者可遠端未認證執行指令並竊憑證；完整性檢查工具未必偵測到記憶體內行為。懷疑失陷須備份設定、原廠重設或重建虛擬機後再還原，並重設帳戶密碼與憑證。為何重要：VPN設備利用鏈再獲官方確認。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）；[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerabilities-ivanti-connect-secure)（官方；查證：已抽原文）
-- **Drupal Commerce Core權限繞過正被利用**：CVE-2026-118539｜CVSS未公布｜受影響：&lt;2.41，以及≥3.0.0且&lt;3.3.13｜已被利用(KEV)？未列入已抽CISA目錄｜修補：3.3.13或8.x-2.41｜HKCERT級別：未抽該公告。Drupal評為高度危急21／25，指部分路由與實體欄位保護不足，可能令商家蒙受金錢損失，並要求稽核訂單。為何重要：開源網店模組已有實戰利用。來源：[來源：drupal.org](https://www.drupal.org/sa-contrib-2026-254)（官方；查證：已抽原文）
-- **OpenAI收緊暴力相關回覆**：除青少年武器限制外，對所有使用者減少過去大規模襲擊的武器、裝備與傷害規模細節；出現持續傷害他人跡象時可自動結束對話。為何重要：把代理回覆邊界寫進產品安全流程。來源：[來源：openai.com](https://openai.com/index/community-safety-report-and-new-protections-for-teens/)（官方；查證：已抽原文）
-- **Chrome一次修21項漏洞**：CVE-2026-76024列Critical（MediaStream記憶體損壞），另有多項High級檔案系統、網路與V8問題。HKCERT評中度風險。為何重要：桌面瀏覽器穩定通道連續出包。來源：[來源：chromereleases.googleblog.com](https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html)（官方；查證：已抽原文）；[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261030)（官方；查證：已抽原文）
+- **GitLab未認證遠端執行程式碼入KEV**：CVE-2026-97229｜CVSS 10.0｜受影響：CE／EE，已抽媒體指須升至19.2.8、19.3.5、19.4.2或更新｜已被利用(KEV)？是，CISA於2026-10-29加入｜修補：上述版本或更新｜HKCERT級別：未抽對應該編號的新公告。CISA指特製正規表達式可經CI/CD設定在伺服器執行程式碼。媒體稱Alpine Linux實例曾在未完成修補時遇攻擊並重建。為何重要：開發平台利用鏈獲官方確認。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）；[來源：heise.de](https://www.heise.de/en/news/Attackers-target-Cisco-firewalls-and-GitLab-flaw-11505764.html)（媒體；查證：已抽原文）
+- **思科ASA／FTD SSL VPN阻斷服務入KEV**：CVE-2026-76418｜CVSS 8.6｜受影響：啟用SSL VPN且隧道群組設二次驗證的ASA／FTD｜已被利用(KEV)？是，CISA於2026-10-29加入｜修補：ASA 9.16.4.104、9.18.4.96、9.20.4.50、9.22.3.200、9.23.1.48、9.24.1.27／9.24.10.1；FTD 7.0.11、7.2.13、7.4.9、7.6.7、7.7.14、10.0.3、10.1.1｜HKCERT級別：高度風險。思科指無正式權宜措施，特製請求可令裝置重啟。為何重要：邊緣防火牆VPN路徑正被利用。來源：[來源：cisco.com](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-asaftd-tunnel-dos-s6mgkb75.html)（官方；查證：已抽原文）；[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/cisco-products-denial-of-service-vulnerability_20261029)（官方；查證：已抽原文）
+- **Mistral為防禦網安開源權重設護欄**：官方稱對惡意網安請求平均拒絕率96.6%；企業設計夥伴可預覽專用變體，限於自有或獲授權系統。為何重要：開源模型把防禦用途與攻擊拒絕分開寫進產品政策。來源：[來源：mistral.ai](https://mistral.ai/news/mistral-large-4-oss/)（官方；查證：已抽原文）
 :::
 
 ::: section hk 香港本地
 ## 香港本地
 
-- **國泰：第三方Amadeus系統約5.3萬宗預訂遭存取**：國泰於10月28日接獲Amadeus通報，指2023年8月至2026年9月有人用系統帳戶憑證未授權存取約53,000宗預訂，主要為預訂參考編號、乘客姓名及航班資料；小部分涉電郵、電話、旅遊證件或飛行常客號碼。暫無證據顯示財務或付款資料遭存取；國泰指自身系統及營運未受影響，將個別聯絡受影響顧客。為何重要：航空訂位資料經供應商外洩。來源：[來源：hk01.com](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60405352/%E5%9C%8B%E6%B3%B0%E6%8E%A5%E9%80%9A%E5%A0%B1%E6%8C%87%E7%AC%AC%E4%B8%89%E6%96%B9%E7%B3%BB%E7%B5%B1%E9%81%AD%E5%AD%98%E5%8F%96%E4%B9%98%E5%AE%A2%E7%B4%80%E9%8C%843%E5%B9%B4-5-3%E8%90%AC%E5%AE%97%E9%A0%90%E8%A8%82%E8%B3%87%E6%96%99%E5%A4%96%E6%B3%84)（媒體；查證：已抽原文）
-- **HKCERT：Google Chrome多個漏洞（中度風險）**：2026-10-30。CVE-2026-76024等｜CVSS未列｜Chrome 156.0.8078.79（Linux）及156.0.8078.79／.80（Mac／Windows）以前｜已被利用(KEV)？未列｜修補：上述版本或更新｜HKCERT級別：中度風險。可致阻斷服務、繞過限制、資料外洩及遠端執行程式碼。為何重要：本港把該桌面更新列為當日新公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261030)（官方；查證：已抽原文）
-- **「以攻築防2026」60小時攻防演練進行中**：2026-10-29展開，三日兩夜共60小時，定於2026-10-31晚上結束。藍隊51隊（28個政府部門、23間公共機構及私營企業指定系統），紅隊23隊；今年首次邀請私營企業加入防守方。為何重要：本港年度實網演練首次納入私企防守。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/29/P2026102900334.htm)（官方；查證：已抽原文）
+- **考評局：約16,900名國際試申請人資料外洩**：2026-10-29發現、10-30公布，涉兩項國際考試、居於內地的申請人，資料包括姓名、出生日期及電郵；已報警及通報私隱專員公署。局方稱涉事系統僅用於小規模國際考試，文憑試及絕大部分國際考試報考系統獨立，暫無證據顯示受影響。為何重要：考試機構國際試系統遭攻擊。來源：[來源：hkeaa.edu.hk](https://www.hkeaa.edu.hk/DocLibrary/Media/PR/PR_20261030_eng.pdf)（官方；查證：已抽原文）；[來源：news.rthk.hk](https://news.rthk.hk/rthk/ch/component/k2/1876013-20261030.htm)（官方；查證：已抽原文）
+- **私隱署裁定醫管局聯合醫院外洩違例**：事故影響56,243人（55,761名病人、482名員工），資料含姓名、香港身份證號碼、手術程序及預約日期等，曾外洩至暗網。承辦商員工未獲授權匯出資料後被捕；醫管局仍未能確定匯出方法。公署指對承辦商監察、風險評估及權限管控不足，違反《私隱條例》，已送達執行通知。為何重要：醫療供應鏈監管缺失被定性違例。來源：[來源：hk01.com](https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60405409/%E8%81%AF%E5%90%88%E9%86%AB%E9%99%A2%E9%80%BE5%E8%90%AC%E7%97%85%E4%BA%BA%E8%B3%87%E6%96%99%E5%A4%96%E6%B3%84-%E7%A7%81%E9%9A%B1%E7%BD%B2%E5%AE%8C%E6%88%90%E8%AA%BF%E6%9F%A5%E8%AD%81%E9%81%95%E4%BE%8B-%E5%B7%B2%E6%8C%87%E7%A4%BA%E7%B3%BE%E6%AD%A3)（媒體；查證：已抽原文）
+- **HKCERT：思科產品阻斷服務漏洞（高度風險）**：2026-10-29。CVE-2026-76418｜CVSS未於HKCERT頁列明｜Cisco Secure Firewall ASA／FTD｜已被利用(KEV)？HKCERT註明正被廣泛利用｜修補：按思科公告｜HKCERT級別：高度風險。可致裝置重啟。為何重要：本港把該VPN洞列為當日高度風險新公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/cisco-products-denial-of-service-vulnerability_20261029)（官方；查證：已抽原文）
 :::
 
 ::: section events 活動與展會
 ## 活動與展會
 
-- **香港金融科技周 x StartmeupHK 2026**：日期 2026-11-02 至 2026-11-06（主論壇11月2至3日）｜地點 香港灣仔香港會議展覽中心｜形式 線下論壇及展覽，另設深圳加購行程｜報名狀態 門票發售中，早鳥優惠已於5月31日結束，現為常規價（行政通行證2,899美元等）。來源：[來源：fintechweek.hk](https://www.fintechweek.hk/cn/tickets)（官方；查證：已抽原文）
-- **香港網安奪旗賽2026預賽**：日期 2026-11-06 至 2026-11-07｜地點 線上｜形式 24小時網上比賽｜報名狀態 上次已報，截止仍為2026-11-04 12:00 HKT，狀態未變故不重複細節。
+- **香港金融科技周 x StartmeupHK 2026**：日期 2026-11-02 至 2026-11-06（主論壇11月2至3日）｜地點 香港灣仔香港會議展覽中心｜形式 線下論壇及展覽，另設深圳行程｜報名狀態 門票發售中（行政通行證2,899美元、基本719美元、初創329美元）；大灣區企業創新行已截止報名。來源：[來源：fintechweek.hk](https://www.fintechweek.hk/cn/tickets)（官方；查證：已抽原文）；[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/23/P2026102100283.htm)（官方；查證：已抽原文）
+- **HKtag 網絡安全開發大賽**：日期 報名至 2026-11-13 23:59；開發期至2027年4月｜地點 網上報名，工作坊場地待公布｜形式 高中／大專組隊開發開源CTF平台，每隊最多六人，費用全免｜報名狀態 接受報名。來源：[來源：events.hk-tag.org](https://events.hk-tag.org/wp-content/uploads/2026/10/2026-10-09-events-page-ctf-platform.html)（官方；查證：已抽原文）
+- **香港網安奪旗賽2026預賽**：日期 2026-11-06 至 2026-11-07｜地點 線上｜形式 網上比賽｜報名狀態 截止仍為2026-11-04 12:00 HKT。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-capture-the-flag-challenge-2026)（官方；查證：已抽原文）
+- **中國國際高新技術成果交易會（高交會）**：日期 2026-11-26 至 2026-11-28｜地點 深圳國際會展中心（寶安新館）｜形式 線下展覽｜報名狀態 觀眾電子門票預登記。來源：[來源：jufair.com](https://www.jufair.com/exhibition/chtf/)（媒體；查證：已抽原文）
 :::
 
 ::: section misc 其他要點
 ## 其他要點
 
-- **Ivanti完整性檢查未必足夠**：CISA註明威脅者指令可在記憶體執行，Ivanti Integrity Checker Tool未必找到利用痕跡，須輔以網絡及記憶體取證。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerabilities-ivanti-connect-secure)（官方；查證：已抽原文）
-- **Drupal站點須稽核訂單**：官方明確要求升級後檢查訂單是否異常，因漏洞「正在野外被利用」。來源：[來源：drupal.org](https://www.drupal.org/sa-contrib-2026-254)（官方；查證：已抽原文）
+- **GitLab官方套件才含Ruby修補**：媒體指自行編譯Ruby時升級GitLab本體不一定關上CVE-2026-97229。來源：[來源：heise.de](https://www.heise.de/en/news/Attackers-target-Cisco-firewalls-and-GitLab-flaw-11505764.html)（媒體；查證：已抽原文）
+- **思科無正式權宜措施**：官方建議升級至已修復版本；移除二次驗證會降低VPN安全，只宜作權宜。來源：[來源：cisco.com](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-asaftd-tunnel-dos-s6mgkb75.html)（官方；查證：已抽原文）
 :::
 
 ::: section followup 昨日跟進
 ## 昨日跟進
 
-- **Linux核心KEV今日到期**：CVE-2026-46300聯邦限期為2026-10-31。來源：[來源：cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)（官方；查證：上期已抽，限期未變）
-- **GitLab遠端執行程式碼明日到期**：CVE-2026-97229聯邦限期為2026-11-01。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：上期已抽）
-- **思科ASA／FTD SSL VPN洞明日到期**：CVE-2026-76418聯邦限期為2026-11-01。來源：[來源：cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)（官方；查證：上期已抽）
+- **GitLab與思科KEV聯邦限期為今日**：CVE-2026-97229、CVE-2026-76418於2026-10-29加入，上期所報限期為2026-11-01；今日目錄仍列該兩項。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
+- **Ivanti Connect Secure權限提升明日到期**：CVE-2026-111357聯邦限期為2026-11-02。來源：[來源：cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
+- **「以攻築防2026」已於2026-10-31晚上結束**：三日兩夜60小時演練按原定完結。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202610/29/P2026102900334.htm)（官方；查證：上期已抽，完結日未變）
 :::
 
 <div class="ns-footer">
-<p>資料截至 2026-10-31 05:30（HKT）；本期覆蓋 2026-10-30 至 2026-10-31。</p>
+<p>資料截至 2026-11-01 05:30（HKT）；本期覆蓋 2026-10-31 至 2026-11-01。</p>
 </div>
