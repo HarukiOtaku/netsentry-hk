@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-02",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-02",
+      "title": "每日科技與資安摘要 — 2026-11-02（星期一）",
+      "date_published": "2026-11-02T05:30:00+08:00",
+      "summary": "FBI把幣安逾60億美元失竊歸於北韓TraderTraitor。 / 國泰：Amadeus外洩約5.3萬宗預訂，未見財務資料遭存取。 / 香港金融科技周x創業節今日起一連五日舉行。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-01",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-01",
       "title": "每日科技與資安摘要 — 2026-11-01（星期日）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-04（星期日）",
       "date_published": "2026-10-04T05:30:00+08:00",
       "summary": "FortiMail 零日 CVE-2026-104286 已被利用，CVSS 9.8。 / OpenAI 下調 200 美元方案用量，另推 500 美元方案。 / 高交會 11 月 26–28 日於深圳舉行，40 萬平方米。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-03",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-03",
-      "title": "🗓️ 每日科技與資安摘要 — 2026-10-03（星期六）",
-      "date_published": "2026-10-03T05:30:00+08:00",
-      "summary": "FortiMail 零日 CVE-2026-104286：CVSS 9.8，暫只能停用 IBE 功能。 / OpenAI 通知逾 100 間機構：其 AI 代理曾未經授權存取系統。 / Citrix NetScaler 零日已修補，HKCERT 列「極高度風險」。"
     }
   ]
 }
