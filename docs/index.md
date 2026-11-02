@@ -1,88 +1,89 @@
 ---
 title: "今日摘要"
-date: 2026-11-02
+date: 2026-11-03
 ---
 
-# 每日科技與資安摘要 — 2026-11-02（星期一）
+# 每日科技與資安摘要 — 2026-11-03（星期二）
 
-<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-11-02">/digests/2026-11-02</a> · <a href="/digests/">全部存檔</a></p>
+<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-11-03">/digests/2026-11-03</a> · <a href="/digests/">全部存檔</a></p>
 
 <div class="ns-summary">
-<p><strong>📌 今日總結</strong>：FBI指北韓集團盜走幣安逾60億美元資產。國泰稱供應商外洩約5.3萬宗預訂。GitHub多模型編排正式上線。金融科技周今日在會展開幕。</p>
+<p><strong>📌 今日總結</strong>：金管局公布代理式金融管治及後量子密碼工具包。HKCERT警示Ivanti被利用漏洞與群暉勒索。DeepSeek開源編碼代理。Northflank金鑰外洩。</p>
 </div>
 
 ::: section tldr 今日速覽
 ## 今日速覽
 
-- FBI把幣安逾60億美元失竊歸於北韓TraderTraitor。
-- 國泰：Amadeus外洩約5.3萬宗預訂，未見財務資料遭存取。
-- 香港金融科技周x創業節今日起一連五日舉行。
+- 金管局推出SAGE項目與PQC工具包。
+- HKCERT：Ivanti漏洞正被利用；群暉NAS遭勒索。
+- DeepSeek開源dsh-superagent研究原型。
 :::
 
 ::: section products 產品與發布會
 ## 產品與發布會
 
-- **GitHub Copilot Fusion正式推出**：2026-10-28起可在模型選擇器選Fusion，系統按工作分流Single／Cascade／Critique；Fusion Max在Artificial Analysis Coding Agent Index得60分，官方稱平均應用程式介面成本約一半、token約一半、每項工作約少40%時間。付費方案使用Fusion的模型費用暫有30%折扣；按各模型標準價計費。適用Visual Studio Code、Copilot應用、命令列及JetBrains。為何重要：把選模型從開發者改為系統編排。來源：[來源：github.blog](https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/)（官方；查證：已抽原文）
-- **Liquid AI開源LFM3-1.7B**：三混合架構文字模型，參數1.73B、上文256K token；4-bit約佔1GB記憶體。授權LFM Open License v1.0。官方稱針對Hermes Agent、Pi、OpenClaw等代理框架微調。為何重要：把本地代理權重壓到可放手提設備。來源：[來源：huggingface.co](https://huggingface.co/LiquidAI/LFM3-1.7B)（官方；查證：已抽原文）
-- **Nanbeige4.3-33B開源教師模型上線**：型號標示33B稠密模型，定位約30B級開源代理編碼與協作。已抽模型卡未列授權及下載量。為何重要：開源圈把代理編碼教師模型單獨開源。來源：[來源：huggingface.co](https://huggingface.co/Nanbeige/Nanbeige4.3-33B)（官方；查證：已抽原文）
+- **DeepSeek開源dsh-superagent研究原型**：10月31日提交，針對單一GitHub倉庫的主動式編碼代理，可監聽GitHub，亦可選接飛書；授權請求會開獨立工作項與目錄，並在原對話回覆（例如提交拉取請求）。官方標明僅供參考、非正式產品、非生產就緒，使用前須審查及改寫。為何重要：把「路由器加工人」編碼代理架構公開。來源：[來源：github.com](https://github.com/deepseek-ai/dsh-superagent-prototype)（官方；查證：已抽原文）
+- **金管局推出SAGE項目**：在金融科技周公布，全稱為Securing Agentic Finance with Governance and Enablement，賦能業界探索代理式金融並建立管治框架；同時成立跨界別專家小組，並就銀行應用代理式人工智能發表討論文件。為何重要：把代理式人工智能納入金融監管議程。來源：[來源：hkma.gov.hk](https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/11/20261102-3/)（官方；查證：已抽原文）
+- **金管局與香港科技大學推出PQC工具包**：為銀行提供系統化框架及實用工具，指引後量子密碼學過渡；將隨業界應用持續優化。為何重要：量子運算可能破解現有加密。來源：同上（官方；查證：已抽原文）
+- **Ensemble TX推進24/7代幣化結算**：實現代幣化存款全天候真實價值交易；已完成代幣化外匯基金票據二級市場試驗，下一步擴大至受監管穩定幣；另與數碼港推出tConnect Launchpad。轉數快可望於今年年底接通銀聯國際，逐步支援逾一億商戶掃碼付款。為何重要：代幣化與跨境支付同步落地。來源：同上（官方；查證：已抽原文）
 :::
 
 ::: section ai AI 模型與開源趨勢
 ## AI 模型與開源趨勢
 
-- **LiquidAI/LFM3-1.7B**：1.73B參數、上文256K、授權lfm1.0；已抽頁未列下載量及讚數。為何重要：邊緣代理模型把工具呼叫寫進訓練。來源：[來源：huggingface.co](https://huggingface.co/LiquidAI/LFM3-1.7B)（官方；查證：已抽原文）
-- **Nanbeige/Nanbeige4.3-33B**：33B教師模型，強調代理編碼；已抽頁未列授權及下載量。為何重要：開源教師模型用來蒸餾更小代理。來源：[來源：huggingface.co](https://huggingface.co/Nanbeige/Nanbeige4.3-33B)（官方；查證：已抽原文）
-- **deepseek-ai/DeepSeek-V4.1-Flash-1017**：V4.1-Flash小更新，授權MIT；已抽模型卡未列參數量及下載量。為何重要：開源權重繼續改推理與代理路徑。來源：[來源：huggingface.co](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)（官方；查證：已抽原文）
+- **baidu/Unlimited-OCR-2**：3.34B參數、授權MIT、讚202、近月下載513；SR-SWA把超長圖文注意力壓到固定參考集（例如512 token）。為何重要：開源OCR把百頁級文件一次解析。來源：[來源：huggingface.co](https://huggingface.co/baidu/Unlimited-OCR-2)（官方；查證：已抽原文）
+- **nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B**：總參數約34B、約4.3B啟動（含音訊編碼器），上文65,536 token，支援最長一小時錄音、40種語言；授權OpenMDW-1.1、讚418、近月下載4,276。為何重要：開源語音模型把長錄音與多語轉錄放上單卡。來源：[來源：huggingface.co](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B)（官方；查證：已抽原文）
+- **mistralai/Mistral-Large-4-1T-A52B**：約1T總參數、每token約52B啟動（含嵌入與輸出層），上文1M，原生多模態；授權Mistral Ecosystem Open-Weight License、讚1,165、近月下載278。為何重要：開源權重把編碼、資安與視覺接地放進同一套權重。來源：[來源：huggingface.co](https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B)（官方；查證：已抽原文）
 :::
 
 ::: section github GitHub 值得關注
 ## GitHub 值得關注
 
-- **mattpocock/skills**（MIT，已抽倉庫頁未列星數）：把工程技能拆成可組合指令，先對齊需求再改碼。用途：減少代理誤解任務。為何值得留意：日榜前列的工程技能包。來源：[來源：github.com](https://github.com/mattpocock/skills)（官方；查證：已抽原文）
-- **pbakaus/impeccable**（Apache-2.0，已抽倉庫頁未列星數）：給編碼代理一套設計詞彙，用polish／critique攔截千篇一律介面。用途：在合併前檢查生成介面。為何值得留意：代理前端品質外掛持續進日榜。來源：[來源：github.com](https://github.com/pbakaus/impeccable)（官方；查證：已抽原文）
-- **（遊戲相關）Donchitos/Claude-Code-Game-Studios**（MIT，已抽倉庫頁未列星數）：把一次編碼會話編成遊戲工作室，抽出正文列49個代理、74項技能。用途：用層級代理管遊戲專案。為何值得留意：遊戲開發代理編排進入日榜。來源：[來源：github.com](https://github.com/Donchitos/Claude-Code-Game-Studios)（官方；查證：已抽原文）
+- **thedotmack/claude-mem**（Apache-2.0，103,031星）：自動擷取工具觀察、生成摘要並注入後續會話。用途：讓代理在重開會話後仍記得專案脈絡。為何值得留意：跨會話記憶外掛持續佔日榜前列。來源：[來源：github.com](https://github.com/thedotmack/claude-mem)（官方；查證：已抽原文）
+- **lightpanda-io/browser**（AGPL-3.0，37,010星）：以Zig重寫的無頭瀏覽器，非Chromium分支；基準指100頁峰值記憶體123MB對比無頭Chrome 2GB，執行約5秒對比46秒。用途：給代理做低成本網頁自動化。為何值得留意：代理瀏覽開始離開完整瀏覽器堆疊。來源：[來源：github.com](https://github.com/lightpanda-io/browser)（官方；查證：已抽原文）
+- **deepseek-ai/dsh-superagent-prototype**（抽出正文未列授權名稱）：把授權請求路由到獨立工人會話。用途：研究「少佔人手、多交成果」的倉庫代理。為何值得留意：官方開源內部日常開發用的編排原型。來源：[來源：github.com](https://github.com/deepseek-ai/dsh-superagent-prototype)（官方；查證：已抽原文）
 :::
 
 ::: section global 全球重點新聞
 ## 全球重點新聞
 
-- **FBI指北韓TraderTraitor盜走幣安逾60億美元虛擬資產**：2026-10-31公布，指約2026-10-29從幣安竊取逾60億美元虛擬資產，活動名稱TraderTraitor；觀察到贓款主要兌換以太幣，並籲虛擬資產服務商攔截相關地址。區塊鏈分析公司Elliptic估計失竊64.3億美元，已凍結或扣押28.5億美元（約44%）。為何重要：單次加密資產失竊規模刷新公開紀錄。來源：[來源：fbi.gov](https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack)（官方；查證：已抽原文）；[來源：elliptic.co](https://www.elliptic.co/insights/binance-largest-hack-in-history/)（媒體；查證：已抽原文）
-- **Alpine Linux因GitLab遠端執行嘗試而重建伺服器**：CVE-2026-97229｜CVSS 10.0｜受影響：CE／EE 19.2未及19.2.8、19.3未及19.3.5、19.4未及19.4.2；自建Ruby須3.3.13、3.4.12或4.0.9｜已被利用(KEV)？是｜修補：上述版本並確認Ruby已打補丁｜HKCERT級別：中度風險。官方指10月20至21日有新帳戶提交特製持續整合設定，工作行程崩潰8次、4次部分成功；升至19.3.6仍暴露，因修補在官方套件內的Ruby。10月28日完成重建並重設密碼，10月29日重開並升至19.3.7；未發現套件或簽署金鑰被改，但不能排除程式碼已執行。為何重要：開發供應鏈實例證明「只升GitLab不夠」。來源：[來源：alpinelinux.org](https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html)（官方；查證：已抽原文）；[來源：bleepingcomputer.com](https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/)（媒體；查證：已抽原文）
-- **旅遊科技商Amadeus系統帳戶遭未授權使用**：未獲授權人士於2023年8月至2026年9月用系統帳戶憑證存取訂位資料；國泰稱約5.3萬宗相關預訂受影響。Amadeus已重設密碼並加強監察，暫未發現資料被不當使用。為何重要：航空訂位供應鏈憑證失守可跨多家航空公司。來源：[來源：news.rthk.hk](https://news.rthk.hk/rthk/ch/component/k2/1875960-20261030.htm)（官方；查證：已抽原文）
-- **CISA於2026-10-30把兩項Ivanti Connect Secure漏洞列入已知利用目錄**：CVE-2026-111357（缺關鍵功能認證）、CVE-2026-118527（可預測識別碼）。聯邦機構須按已知利用目錄及BOD 26-04優先修補。為何重要：遠端存取閘道連續兩日被確認在利用中。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
+- **Northflank控制平面機密遭竊，客戶人工智能金鑰被盜用**：10月30日11:43 UTC接Wiz警報，約一小時內認為攻擊路徑已受控；運行中工作負載未見被存取，證據顯示針對控制平面機密。部分客戶報稱平台上的人工智能應用程式介面金鑰遭未授權使用。公司已在車隊修補CVE-2026-98432｜CVSS：公告未列｜受影響：平台控制平面及仍接駁的BYOC叢集｜已被利用(KEV)？公告未寫｜修補：廠商已於車隊打補丁｜HKCERT級別：未有對應公告。現正監察中，獨立取證仍在進行。為何重要：開發平台一被攻破，金鑰可被拿去燒雲端額度。來源：[來源：status.northflank.com](https://status.northflank.com/cmvv0rn5a092f14rutwccodpp)（官方；查證：已抽原文）
+- **群暉NAS遭勒索軟件攻擊**：廠商指攻擊者利用一項已於2024年12月修補的漏洞，針對已終止支援的DSM。另已為PHP相依套件發布PHP2Shell相關更新，涵蓋DSM 7.4、7.3、7.2、7.1、7.0及6.2；廠商未確認勒索是否涉及PHP2Shell。為何重要：過期網存裝置仍暴露在公網就會被自動化加密。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/security-alert-ransomware-attacks-targeting-synology-nas-devices_20261102)（官方；查證：已抽原文）
+- **群暉DSM多個漏洞**：遠端攻擊者可觸發阻斷服務、敏感資料洩露及資料篡改。受影響：DSM 7.2.1於7.2.1-69057-12前、7.2.2於7.2.2-72806-9前、7.3於7.3.2-86009-4前、7.4於7.4-90075前。修補見Synology-SA-26:13。為何重要：現行支援分支仍須升級才能堵住讀寫與拒絕服務路徑。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/synology-products-multiple-vulnerabilities_20261102)（官方；查證：已抽原文）
+- **Ivanti Connect Secure兩項漏洞正被廣泛利用**：可與較早的遠端執行漏洞串聯。CVE-2026-111357｜CVSS：HKCERT未列｜缺關鍵功能認證，本地已驗證攻擊者可提權；CVE-2026-118527｜可預測識別碼，遠端已驗證攻擊者可把受控檔案上傳至已知磁碟位置｜受影響：22.8R2.5及之前、25.1.1.2及之前｜已被利用(KEV)？是｜修補：廠商安全公告｜HKCERT級別：高度風險。為何重要：遠端存取閘道被利用中，修補窗口已過聯邦限期。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/ivanti-connect-secure-multiple-vulnerabilities_20261102)（官方；查證：已抽原文）；[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
 :::
 
 ::: section hk 香港本地
 ## 香港本地
 
-- **國泰：約5.3萬宗預訂資料遭第三方存取**：2026-10-28接報、10-30公布，主要涉預訂參考編號、乘客姓名及航班資料；小部分另涉電郵、電話、旅遊證件或常客計劃號碼，未有證據顯示財務或付款資料被存取。國泰稱自身系統及營運不受影響，已通知當局並將個別聯絡受影響顧客。為何重要：航空旅客資料可被用來冒充客服行騙。來源：[來源：news.rthk.hk](https://news.rthk.hk/rthk/ch/component/k2/1875960-20261030.htm)（官方；查證：已抽原文）
-- **「以攻築防2026」60小時演練結束**：港台2026-11-01報道，三日兩夜演練至10月31日晚上結束；藍隊51隊（28個政府部門、23間公共機構及私企指定系統），紅隊23隊；參與系統運作正常，報告交參與機構跟進。為何重要：首次有私企加入防守方的實網演練收官。來源：[來源：news.rthk.hk](https://news.rthk.hk/rthk/ch/component/k2/1876117-20261101.htm)（官方；查證：已抽原文）
-- **HKCERT：Google Chrome多個漏洞（中度風險）**：2026-10-30。CVE未於抽出正文逐項列出｜受影響：Chrome 156.0.8078.79（Linux）及156.0.8078.79／.80（Mac／Windows）之前｜已被利用(KEV)？公告未寫｜修補：上述版本或之後｜HKCERT級別：中度風險。可致阻斷服務、繞過限制、資料外洩及遠端執行程式碼。為何重要：瀏覽器例行更新仍是當日新公告。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261030)（官方；查證：已抽原文）
+- **HKCERT：Ivanti Connect Secure多個漏洞（高度風險）**：2026-11-02。細節見上段CVE。為何重要：本地正式把兩項已知利用漏洞定為高度風險。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/ivanti-connect-secure-multiple-vulnerabilities_20261102)（官方；查證：已抽原文）
+- **HKCERT：針對Synology NAS的勒索軟件警報**：2026-11-02。建議立即升級仍支援的DSM、經套件中心更新PHP；DSM 6.2以前應停用受影響套件。懷疑中招須隔離裝置、保存證據，不要依賴付款取回資料。為何重要：家用與中小企網存是本港常見備份點。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/security-alert-ransomware-attacks-targeting-synology-nas-devices_20261102)（官方；查證：已抽原文）
+- **HKCERT：Synology產品多個漏洞（中度風險）**：2026-11-02。受影響版本及修補見上段。為何重要：與勒索警報同日發出，現行DSM亦須打補丁。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/synology-products-multiple-vulnerabilities_20261102)（官方；查證：已抽原文）
 :::
 
 ::: section events 活動與展會
 ## 活動與展會
 
-- **香港金融科技周 x StartmeupHK 2026**：日期 2026-11-02 至 2026-11-06（主論壇11月2至3日）｜地點 香港灣仔香港會議展覽中心｜形式 線下論壇及展覽，另設深圳行程｜報名狀態 今日開幕，門票發售中（行政通行證2,899美元、基本719美元、初創329美元）。來源：[來源：news.gov.hk](https://www.news.gov.hk/chi/2026/11/20261101/20261101_120954_599.html)（官方；查證：已抽原文）；[來源：fintechweek.hk](https://www.fintechweek.hk/cn/tickets)（官方；查證：已抽原文）
+- **香港法律周2026**：日期 2026-11-02 至 2026-11-06｜地點 香港（專屬網站及政府直播）｜形式 線下會議，並提供網上直播｜報名狀態 已開幕；法律科技節2026於11月4日起一連三日，法律科技論壇11月5日舉行。來源：[來源：info.gov.hk](https://www.info.gov.hk/gia/general/202611/02/P2026110200643.htm)（官方；查證：已抽原文）
+- **香港網安奪旗賽2026預賽**：日期 2026-11-06 至 2026-11-07｜地點 線上｜形式 網上比賽｜報名狀態 截止為2026-11-04 12:00 HKT（明日正午）。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-capture-the-flag-challenge-2026)（官方；查證：已抽原文）
 - **「防範網絡攻擊 — 中小企及非牟利機構的防禦策略」研討會**：日期 2026-11-12 15:30–16:30｜地點 香港灣仔皇后大道東248號大新金融中心12樓，可網上或實體｜形式 粵語講座｜報名狀態 免費，須於2026-11-11 13:00前報名。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hong-kong-s-first-five-year-plan-seminar-series-data-privacy-academy-x-hkcert-seminar-on-stay-ahead-of-cyber-threats-prevention-strategies-for-smes-and-ngos)（官方；查證：已抽原文）
-- **香港網安奪旗賽2026預賽**：日期 2026-11-06 至 2026-11-07｜地點 線上｜形式 網上比賽｜報名狀態 截止仍為2026-11-04 12:00 HKT。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-capture-the-flag-challenge-2026)（官方；查證：已抽原文）
 :::
 
 ::: section misc 其他要點
 ## 其他要點
 
-- **GitLab官方套件才含Ruby修補**：Alpine證實自建映像升到19.3.6仍暴露CVE-2026-97229，須Ruby 3.3.13、3.4.12或4.0.9。來源：[來源：alpinelinux.org](https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html)（官方；查證：已抽原文）
-- **Impeccable安裝器會寫入命令鈎子**：抽出正文指部分鈎子在模型拒絕指令後仍可執行，須先審查再作無人值守。來源：[來源：github.com](https://github.com/pbakaus/impeccable)（官方；查證：已抽原文）
+- **dsh-superagent非生產就緒**：官方寫明程式來自日常開發、不少工程由編碼代理完成，可能仍有缺陷，風格亦不統一。來源：[來源：github.com](https://github.com/deepseek-ai/dsh-superagent-prototype)（官方；查證：已抽原文）
+- **Northflank客戶須立刻輪替機密**：即使未見異常，亦應先轉人工智能供應商金鑰、雲端憑證、付款金鑰、私鑰及資料庫憑證，並查供應商用量與賬單。來源：[來源：status.northflank.com](https://status.northflank.com/cmvv0rn5a092f14rutwccodpp)（官方；查證：已抽原文）
 :::
 
 ::: section followup 昨日跟進
 ## 昨日跟進
 
-- **GitLab與思科KEV聯邦限期已過**：CVE-2026-97229、CVE-2026-76418於2026-10-29加入，限期為2026-11-01。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：上期已抽）
-- **Ivanti Connect Secure權限提升聯邦限期為今日**：CVE-2026-111357限期2026-11-02。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
-- **Alpine GitLab已重開**：官方10月30日更新指實例已重開，密碼已重設。來源：[來源：alpinelinux.org](https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html)（官方；查證：已抽原文）
+- **Ivanti CVE-2026-111357聯邦限期已到**：CISA加入日為2026-10-30，限期2026-11-02；HKCERT同日改以高度風險通報受影響版本。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog)（官方；查證：已抽原文）
+- **香港金融科技周進行中**：2026-11-02至2026-11-06，金管局已於開幕日公布SAGE、PQC工具包及Ensemble新階段。來源：[來源：hkma.gov.hk](https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/11/20261102-3/)（官方；查證：已抽原文）
+- **香港網安奪旗賽報名明日截止**：2026-11-04 12:00 HKT後不再接受申請。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hkcert-capture-the-flag-challenge-2026)（官方；查證：已抽原文）
 :::
 
 <div class="ns-footer">
-<p>資料截至 2026-11-02 05:30（HKT）；本期覆蓋 2026-11-01 至 2026-11-02，並補上昨日未報的10月28至30日事項。</p>
+<p>資料截至 2026-11-03 05:30（HKT）；本期覆蓋 2026-11-02 至 2026-11-03。</p>
 </div>
