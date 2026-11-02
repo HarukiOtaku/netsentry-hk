@@ -19,9 +19,10 @@ date: 2026-11-02
 - 香港金融科技周x創業節今日起一連五日舉行。
 :::
 
-::: section github GitHub 值得關注
-## GitHub 值得關注
+::: section products 產品與發布會
+## 產品與發布會
 
+- **GitHub Copilot Fusion正式推出**：2026-10-28起可在模型選擇器選Fusion，系統按工作分流Single／Cascade／Critique；Fusion Max在Artificial Analysis Coding Agent Index得60分，官方稱平均應用程式介面成本約一半、token約一半、每項工作約少40%時間。付費方案使用Fusion的模型費用暫有30%折扣；按各模型標準價計費。適用Visual Studio Code、Copilot應用、命令列及JetBrains。為何重要：把選模型從開發者改為系統編排。來源：[來源：github.blog](https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/)（官方；查證：已抽原文）
 - **Liquid AI開源LFM3-1.7B**：三混合架構文字模型，參數1.73B、上文256K token；4-bit約佔1GB記憶體。授權LFM Open License v1.0。官方稱針對Hermes Agent、Pi、OpenClaw等代理框架微調。為何重要：把本地代理權重壓到可放手提設備。來源：[來源：huggingface.co](https://huggingface.co/LiquidAI/LFM3-1.7B)（官方；查證：已抽原文）
 - **Nanbeige4.3-33B開源教師模型上線**：型號標示33B稠密模型，定位約30B級開源代理編碼與協作。已抽模型卡未列授權及下載量。為何重要：開源圈把代理編碼教師模型單獨開源。來源：[來源：huggingface.co](https://huggingface.co/Nanbeige/Nanbeige4.3-33B)（官方；查證：已抽原文）
 :::
