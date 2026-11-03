@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-04",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-04",
+      "title": "每日科技與資安摘要 — 2026-11-04（星期三）",
+      "date_published": "2026-11-04T05:30:00+08:00",
+      "summary": "CISA將WordPress CVE-2026-119977列入KEV，聯邦限期11月6日。 / OpenAI把核心產品關鍵漏洞懸賞提高至3萬美元。 / 美團發布1.6萬億參數原生多模態模型LongCat-2.5。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-03",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-03",
       "title": "每日科技與資安摘要 — 2026-11-03（星期二）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-06（星期二）",
       "date_published": "2026-10-06T05:30:00+08:00",
       "summary": "Cisco SD-WAN Manager 漏洞 CVE-2026-76504 遭利用，港府發高危警報。 / Chrome 修臨界 WebGL 沙盒逃逸漏洞 CVE-2026-103628。 / HKCERT 中小企研討會 10月28日講供應鏈風險，26日截止報名。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-05",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-05",
-      "title": "每日科技與資安摘要 — 2026-10-05（星期一）",
-      "date_published": "2026-10-05T05:30:00+08:00",
-      "summary": "NetScaler CVE-2026-88779 入 KEV，10 月 7 日到期，SAML 配置須先確認版本。 / KillSec 勒索集團被瓦解，四國三被捕、洩密站被接管。 / Claude Code Mods 登場，以完整使用者權限執行。"
     }
   ]
 }
