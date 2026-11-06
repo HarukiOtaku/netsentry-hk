@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Thu, 05 Nov 2026 21:45:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 21:45:01 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-07（星期六）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-07</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-07</guid>
+      <pubDate>Fri, 06 Nov 2026 21:30:00 GMT</pubDate>
+      <description>CISA將SonicWall SSLVPN漏洞列入KEV，聯邦限期11月20日。 / OpenAI發表BioBasicsBench，Astra濕實驗平均得分66.7%。 / 微軟：代理式框架可由GitHub盜密，五分鐘內進入Key Vault。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-06（星期五）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-06</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-09</guid>
       <pubDate>Thu, 08 Oct 2026 21:30:00 GMT</pubDate>
       <description>Cisco NX-OS 六個漏洞，最高 CVSS 9.8，部分由 AI 模型發現。 / ASOS 遭冒充信任聯絡人騙取憑證，客戶基本資料外洩。 / OpenAI 在歐盟為 ChatGPT／Codex 文字加隱形水印 textGrain。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-08（星期四）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-08</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-08</guid>
-      <pubDate>Wed, 07 Oct 2026 21:30:00 GMT</pubDate>
-      <description>丹麥 CPR 人口登記被濫用合法權限，外洩約 880 萬人資料。 / Atlassian 多款 Data Center 產品漏洞 CVE-2026-21589 已遭利用。 / Mistral 發布 1.05 兆參數 Le Chonk，月底開放權重。</description>
     </item>
   </channel>
 </rss>
