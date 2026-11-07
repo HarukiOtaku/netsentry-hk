@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-08",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-08",
+      "title": "每日科技與資安摘要 — 2026-11-08（星期日）",
+      "date_published": "2026-11-08T05:30:00+08:00",
+      "summary": "OpenAI推出GPT-6 Cyber，驗證948個Linux提權漏洞，Firefox另揭81個高危。 / 前沿模型論壇發布越獄評級框架，公開諮詢至12月21日。 / 微軟：Storm-3358用ARTEX代理框架攻擊東南亞金融業。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-07",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-07",
       "title": "每日科技與資安摘要 — 2026-11-07（星期六）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-10（星期六）",
       "date_published": "2026-10-10T05:30:00+08:00",
       "summary": "Cisco NX-OS NGOAM 三漏洞 CVSS 9.8，未認證可遠端執行 root 程式碼。 / Citrix NetScaler 新漏洞 CVSS 9.5，官方促即時修補。 / AhsayCBS 未修補漏洞遭野外利用，植入網頁後門及挖礦程式。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-09",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-09",
-      "title": "每日科技與資安摘要 — 2026-10-09（星期五）",
-      "date_published": "2026-10-09T05:30:00+08:00",
-      "summary": "Cisco NX-OS 六個漏洞，最高 CVSS 9.8，部分由 AI 模型發現。 / ASOS 遭冒充信任聯絡人騙取憑證，客戶基本資料外洩。 / OpenAI 在歐盟為 ChatGPT／Codex 文字加隱形水印 textGrain。"
     }
   ]
 }
