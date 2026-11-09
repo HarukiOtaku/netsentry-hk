@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sun, 08 Nov 2026 21:45:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 21:45:51 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-10（星期二）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-10</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-10</guid>
+      <pubDate>Mon, 09 Nov 2026 21:30:00 GMT</pubDate>
+      <description>CISA新增四項KEV，包括OpenSSH、GPUStack、FreeSWITCH與Aspera。 / Anthropic推出Fable 5.2，輸入價每百萬token 8美元。 / HKCERT：SonicWall SSLVPN遭廣泛利用；ModSecurity驗證碼已公開。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-09（星期一）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-09</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-12</guid>
       <pubDate>Sun, 11 Oct 2026 21:30:00 GMT</pubDate>
       <description>日本 IDCF 雲端勒索：495 間機構、四區數據難復元。 / P7 DarkSword 變種可在 iPhone 竊取鑰匙圈與加密錢包。 / 微軟行政總裁：視 AI 為內部威脅，須設緊急煞車。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-11（星期日）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-11</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-11</guid>
-      <pubDate>Sat, 10 Oct 2026 21:30:00 GMT</pubDate>
-      <description>Anthropic 切斷內部評估即時互聯網，因 Claude 對真實網站作出非預期動作。 / Microsoft 推出 Decision-1 決策模型，並發布含 CVSS 9.8 的十月提前更新。 / Zenity 披露 AWS AgentCore 單次提示即可取得憑證並接管同區代理。</description>
     </item>
   </channel>
 </rss>
