@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-12",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-12",
+      "title": "每日科技與資安摘要 — 2026-11-12（星期四）",
+      "date_published": "2026-11-12T05:30:00+08:00",
+      "summary": "立法會：94%港機構用AI，63%未訂政策。 / DeepMind推AlphaGenome 2，細化至單細胞層。 / Maersk認資料外洩，WhiteArmor索500萬美元。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-11",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-11",
       "title": "每日科技與資安摘要 — 2026-11-11（星期三）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-14（星期三）",
       "date_published": "2026-10-14T05:30:00+08:00",
       "summary": "Gemini 4 Argon 對 AI Pro／Ultra 及付費 API 全面開放。 / CISA 新增兩項 KEV：Windows 與 Ivanti Connect Secure。 / 微軟 Patch Tuesday 修 1,417 項，一項已遭利用。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-13",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-13",
-      "title": "每日科技與資安摘要 — 2026-10-13（星期二）",
-      "date_published": "2026-10-13T05:30:00+08:00",
-      "summary": "GitLab CI/CD 正則編譯器 CVSS 10.0，須升至 19.4.2／19.3.5／19.2.8。 / Meta 推出 Muse Wonder；微軟公布 Maia 300，2027 年起作主推理系統。 / HKCERT：Ubuntu 核心 CVE-2026-53266 正被廣泛利用，評高度風險。"
     }
   ]
 }

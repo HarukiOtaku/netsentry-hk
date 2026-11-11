@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Tue, 10 Nov 2026 21:45:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 21:45:51 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-12（星期四）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-12</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-12</guid>
+      <pubDate>Wed, 11 Nov 2026 21:30:00 GMT</pubDate>
+      <description>立法會：94%港機構用AI，63%未訂政策。 / DeepMind推AlphaGenome 2，細化至單細胞層。 / Maersk認資料外洩，WhiteArmor索500萬美元。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-11（星期三）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-11</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-14</guid>
       <pubDate>Tue, 13 Oct 2026 21:30:00 GMT</pubDate>
       <description>Gemini 4 Argon 對 AI Pro／Ultra 及付費 API 全面開放。 / CISA 新增兩項 KEV：Windows 與 Ivanti Connect Secure。 / 微軟 Patch Tuesday 修 1,417 項，一項已遭利用。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-13（星期二）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-13</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-13</guid>
-      <pubDate>Mon, 12 Oct 2026 21:30:00 GMT</pubDate>
-      <description>GitLab CI/CD 正則編譯器 CVSS 10.0，須升至 19.4.2／19.3.5／19.2.8。 / Meta 推出 Muse Wonder；微軟公布 Maia 300，2027 年起作主推理系統。 / HKCERT：Ubuntu 核心 CVE-2026-53266 正被廣泛利用，評高度風險。</description>
     </item>
   </channel>
 </rss>
