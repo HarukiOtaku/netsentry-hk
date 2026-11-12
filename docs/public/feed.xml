@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Wed, 11 Nov 2026 21:45:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 21:45:51 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-13（星期五）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-13</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-13</guid>
+      <pubDate>Thu, 12 Nov 2026 21:30:00 GMT</pubDate>
+      <description>Barracuda 兩漏洞今日到期，涉勒索利用。 / 台積電認 4.6 萬筆員工資料外洩。 / DeepMind 四週完成 Signal 機器碼驗證。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-12（星期四）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-12</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-15</guid>
       <pubDate>Wed, 14 Oct 2026 21:30:00 GMT</pubDate>
       <description>CISA 新增四項 KEV，含 Palo Alto 與 Cisco。 / NVIDIA 五年向英國捐 2.5 億美元代理安全算力。 / HKCERT 評微軟十月更新為高度風險。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-14（星期三）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-14</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-14</guid>
-      <pubDate>Tue, 13 Oct 2026 21:30:00 GMT</pubDate>
-      <description>Gemini 4 Argon 對 AI Pro／Ultra 及付費 API 全面開放。 / CISA 新增兩項 KEV：Windows 與 Ivanti Connect Secure。 / 微軟 Patch Tuesday 修 1,417 項，一項已遭利用。</description>
     </item>
   </channel>
 </rss>
