@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-14",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-14",
+      "title": "每日科技與資安摘要 — 2026-11-14（星期六）",
+      "date_published": "2026-11-14T05:30:00+08:00",
+      "summary": "N-able 新零日公開即被利用，至少 21 部主機中招。 / Citrix 修 28 個 NetScaler 漏洞，9 個屬嚴重級。 / Google 推 Gemini 4 Hydrogen，輸入費每百萬 token 1.5 美元。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-13",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-13",
       "title": "每日科技與資安摘要 — 2026-11-13（星期五）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-16（星期五）",
       "date_published": "2026-10-16T05:30:00+08:00",
       "summary": "CISA 新增 Atlassian CVE-2026-21589 至 KEV。 / NVIDIA Nemotron 3.5 與 Meta Muse Spark Open 開源。 / 金管局推出銀行「ART」人工智能框架。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-15",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-15",
-      "title": "每日科技與資安摘要 — 2026-10-15（星期四）",
-      "date_published": "2026-10-15T05:30:00+08:00",
-      "summary": "CISA 新增四項 KEV，含 Palo Alto 與 Cisco。 / NVIDIA 五年向英國捐 2.5 億美元代理安全算力。 / HKCERT 評微軟十月更新為高度風險。"
     }
   ]
 }
