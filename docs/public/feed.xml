@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Fri, 13 Nov 2026 21:45:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 21:45:47 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-15（星期日）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-15</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-15</guid>
+      <pubDate>Sat, 14 Nov 2026 21:30:00 GMT</pubDate>
+      <description>迪士尼 1.7 萬個門票二維碼被盜，官網停售票。 / UnrealIRCd 漏洞遭利用，11 月 16 日修補期限。 / Mythos 5.2 漏洞重現率 89.6%，勝 5.1。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-14（星期六）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-14</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-17</guid>
       <pubDate>Fri, 16 Oct 2026 21:30:00 GMT</pubDate>
       <description>CISA 新增 Fortinet 與 BeyondTrust 兩項 KEV，聯邦限期 10 月 19 日。 / Microsoft 完成 MAI-Base-2 預訓練，總參數 2.8 兆、啟動 800 億。 / HKCERT 評 Chrome 為中度風險，修補版本 155.0.8059.84。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-16（星期五）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-16</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-16</guid>
-      <pubDate>Thu, 15 Oct 2026 21:30:00 GMT</pubDate>
-      <description>CISA 新增 Atlassian CVE-2026-21589 至 KEV。 / NVIDIA Nemotron 3.5 與 Meta Muse Spark Open 開源。 / 金管局推出銀行「ART」人工智能框架。</description>
     </item>
   </channel>
 </rss>
