@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-16",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-16",
+      "title": "每日科技與資安摘要 — 2026-11-16（星期一）",
+      "date_published": "2026-11-16T05:30:00+08:00",
+      "summary": "都大 5,000 人資料外洩，暗網疑售 GPA。 / 銳眼今日啟用人面識別，涉逾萬支鏡頭。 / Check Point 漏洞列入 KEV，今日屆滿。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-15",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-15",
       "title": "每日科技與資安摘要 — 2026-11-15（星期日）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-18（星期日）",
       "date_published": "2026-10-18T05:30:00+08:00",
       "summary": "DeepSeek 推出 V4.1-Flash-1017，MIT 開源權重，DeepSWE 77.0。 / HKCERT 列思科電郵閘道漏洞為高度風險，確認已被利用。 / 金管局公布銀行人工智能 ART 框架，測試代理式應用管治。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-17",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-17",
-      "title": "每日科技與資安摘要 — 2026-10-17（星期六）",
-      "date_published": "2026-10-17T05:30:00+08:00",
-      "summary": "CISA 新增 Fortinet 與 BeyondTrust 兩項 KEV，聯邦限期 10 月 19 日。 / Microsoft 完成 MAI-Base-2 預訓練，總參數 2.8 兆、啟動 800 億。 / HKCERT 評 Chrome 為中度風險，修補版本 155.0.8059.84。"
     }
   ]
 }

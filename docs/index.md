@@ -1,91 +1,87 @@
 ---
 title: "今日摘要"
-date: 2026-11-15
+date: 2026-11-16
 ---
 
-# 每日科技與資安摘要 — 2026-11-15（星期日）
+# 每日科技與資安摘要 — 2026-11-16（星期一）
 
-<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-11-15">/digests/2026-11-15</a> · <a href="/digests/">全部存檔</a></p>
+<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-11-16">/digests/2026-11-16</a> · <a href="/digests/">全部存檔</a></p>
 
 <div class="ns-summary">
-<p><strong>📌 今日總結</strong>：香港連環外洩事故持續，迪士尼 1.7 萬個門票二維碼被盜、崇光 82 萬會員資料外洩；UnrealIRCd 高危漏洞確認遭利用並列入 KEV，Anthropic Mythos 5.2 漏洞重現率升至 89.6%。</p>
+<p><strong>📌 今日總結</strong>：香港都會大學約 5,000 人資料外洩，暗網疑售身份證號碼及成績；警方「銳眼」今日起啟用人面識別。Check Point 提權漏洞今日到期，法國 Maileva 外洩 2,200 萬人地址。</p>
 </div>
 
 ::: section tldr 今日速覽
 ## 今日速覽
 
-- 迪士尼 1.7 萬個門票二維碼被盜，官網停售票。
-- UnrealIRCd 漏洞遭利用，11 月 16 日修補期限。
-- Mythos 5.2 漏洞重現率 89.6%，勝 5.1。
+- 都大 5,000 人資料外洩，暗網疑售 GPA。
+- 銳眼今日啟用人面識別，涉逾萬支鏡頭。
+- Check Point 漏洞列入 KEV，今日屆滿。
 :::
 
 ::: section products 產品與發布會
 ## 產品與發布會
 
-- **DeepSeek 開放「全家桶」應用 API**：11月13日晚公布，開發者在原有 API 開啟參數即可使用深度思考搜索、文件輸入、閱讀連結及安全校驗；Search、Fetch、OCR、ASR、TTS 亦可獨立調用，V4.1-Flash（deepseek-flash）已於 Messages、Responses 及 Chat Completions 支援，除 token 費外另收工具調用費，並開源輕量前端示範。為何重要：競爭焦點轉向開發者開工成本。來源：[來源：api-docs.deepseek.com](https://api-docs.deepseek.com/zh-cn/news/news261113) （類型：官方；查證：已抽原文）
-- **Anthropic 推出 Claude Mythos 5.2 與 Fable 5.2**：11月9日發布，兩者共用同一底層模型、護欄不同；CVE Rediscovery 10月測試 1,829 個 CVE 成功率 89.6%（5.1 為 78.3%，Opus 5.5 為 81.3%）；1,800 多個沙盒場景中僅 3.1% 依賴沙盒外憑證（5.1 為 21%）；Mozilla 稱在 Firefox 的漏洞發現量約翻倍。為何重要：AI 找漏洞能力開始可量化比較。來源：[來源：securityweek.com](https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/) （類型：媒體；查證：已抽原文）
-- **Google 開放 Gemini 4 Carbon 給付費開發者**：11月10日公布，開發者及企業可經 Gemini API 與 Gemini for business 使用，AI Ultra 訂戶同步開放；11月30日前每百萬輸入／輸出 token 收 2／10 美元，之後加倍；Wiz 稱兩小時內在兩間大型 SaaS 供應商找到零日。為何重要：攻防模型由限定測試轉為商用。來源：[來源：securityweek.com](https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/) （類型：媒體；查證：已抽原文）
+- **Google 推出 Gemini 4 Hydrogen**：11月12日發布（官方頁11月13日更新），主打日常編碼與代理工作流，設四級思考；100 萬 token 上下文劃一收費，每百萬輸入／輸出 1.50／7.50 美元；由 3.8 Flash 升級後同級任務快 2.5 倍、Terminal-Bench 4.1 由 18.2% 升至 57%，Artificial Analysis 智能指數 51（Carbon／Argon 為 50）。為何重要：前沿 Gemini 4 下放至免費用戶。來源：[來源：blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) （類型：官方；查證：已抽原文）
+- **OpenAI 推出 ChatGPT Wallet**：11月13日公布，代理代付時每次須用戶核批，支付網絡發出替代卡號、保安碼及有效期的 payment token，商戶與代理均取不到真實卡資料，並保留原有卡獎賞與爭議保障。為何重要：代理購物的授權邊界首次產品化。來源：[來源：openai.com](https://openai.com/index/introducing-chatgpt-wallet/) （類型：官方；查證：已抽原文）
+- **Anthropic 發布 Claude 辦公套件**：11月10日三藩市發布會，Claude Meetings（先支援 Google Meet）、Claude Whiteboards、Claude Sheets 均為 beta，Meetings 限 Team 及 Enterprise；Claude Data 全面開放付費方案，Claude Connectors 支援逾 9,000 個應用。為何重要：代理由寫程式伸延至白領流程。來源：[來源：fortune.com](https://fortune.com/2026/11/10/anthropic-launches-office-knowledge-worker-product-launch-ahead-of-ipo) （類型：媒體；查證：已抽原文）
 :::
 
 ::: section ai AI 模型與開源趨勢
 ## AI 模型與開源趨勢
 
-- **xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic**：9B 蒸餾推理模型，約 25 萬條數學及 STEM 樣本訓練，經 Heretic 2.0 處理後拒答由 100/100 降至 3/100；近月下載 24,470、讚 6.66k；授權未在頁面列明。為何重要：社群微調佔據熱門榜首。來源：[來源：huggingface.co](https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic) （類型：官方；查證：已抽原文）
-- **Zyphra/ZONOS3-Mini**：0.9B 總參數、每 token 約 1 億活躍的開源 TTS，支援 43 種語言、參考音檔最多 60 秒的聲音克隆，可於瀏覽器 WebGPU 及手機實時運行；近月下載 19,743、讚 306，Apache 2.0。為何重要：語音克隆門檻降至消費裝置。來源：[來源：huggingface.co](https://huggingface.co/Zyphra/ZONOS3-Mini) （類型：官方；查證：已抽原文）
-- **ricursiveAI/Ripple-65B-Preview**：65B 稠密模型、12T token 預訓練、上下文達 1,048,576 token，TerminalBench 2.1 得 80.52，稱勝過 501B 至 975B 的開放權重模型；近月下載 10,328、讚 575，Apache 2.0，可於 DGX Spark 運行。為何重要：稠密模型以體積換代理表現。來源：[來源：huggingface.co](https://huggingface.co/ricursiveAI/Ripple-65B-Preview) （類型：官方；查證：已抽原文）
-- **tencent/Qwen3.8-27B-DSpine-b16**：為 Qwen3.8-27B 而設的 5 層草稿模型（2B 參數、block size 16），以並行草稿加速推測解碼，WorkBuddy Office 吞吐由 210 升至 805 token/s（3.84 倍）；近月下載 4,873、讚 257，Apache 2.0。為何重要：代理工作流的延遲可直接砍半。來源：[來源：huggingface.co](https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16) （類型：官方；查證：已抽原文）
+- **meituan-longcat/LongCat-2.5**：1.6T 總參數、每 token 約 48B 活躍的原生多模態 MoE，Terminal Bench v2.1 得 88.4，採 W4A4 量化並稱全程於國產加速卡訓練；近月下載 1,254、讚 263，MIT 授權。為何重要：非 Nvidia 堆疊可撐兆級訓練。來源：[來源：huggingface.co](https://huggingface.co/meituan-longcat/LongCat-2.5) （類型：官方；查證：已抽原文）
+- **Edge0/Edge0-145B-NVFP4**：145B 總參數、每 token 10.12B 活躍，512 專家取 10＋1 共享，256K 上下文、原生 4-bit 訓練；RTX 5090 D 24GB 上代理解碼 98.3 tok/s、16K prefill 3,165.7 tok/s，terminal-bench 2.1 得 86.5；近月下載 41,606，Edge0 社群授權＋Qwen 條款，轉售模型須另約。為何重要：單張消費卡可跑百億級代理。來源：[來源：huggingface.co](https://huggingface.co/Edge0/Edge0-145B-NVFP4) （類型：官方；查證：已抽原文）
+- **NousResearch/Arete-27B**：以 Qwen3.8-27B 做純監督微調（約 5,280 萬 token），自建 803 題評測事實分由 2.32 升至 2.98、含宣傳框架答案由 22% 降至 0.9%；近月下載 7,497，頁面未列授權。為何重要：微調即可改寫模型價值取向。來源：[來源：huggingface.co](https://huggingface.co/NousResearch/Arete-27B) （類型：官方；查證：已抽原文）
 :::
 
 ::: section github GitHub 值得關注
 ## GitHub 值得關注
 
-- **ChromeDevTools/chrome-devtools-mcp**（TypeScript，56,231 星，單日 +673）：把 Chrome DevTools 提供給編碼代理調用。為何值得留意：瀏覽器除錯成代理標準工具鏈。來源：[來源：github.com](https://github.com/trending) （類型：社群；查證：已抽原文）
-- **backnotprop/plannotator**（TypeScript，11,035 星，單日 +412）：讓人在代理規劃、決策、改碼各階段審閱並一鍵回饋。為何值得留意：人類審批點被產品化。來源：[來源：github.com](https://github.com/trending) （類型：社群；查證：已抽原文）
-- **Tencent/LoopForge**：自託管的編碼代理交付流程，編排 CodeBuddy、Codex 與 Claude Code，並設人手批准閘。為何值得留意：多代理流水線需要審批控制。來源：[來源：github.com](https://github.com/trending) （類型：社群；查證：已抽原文）
+- **GoogleChrome/modern-web-guidance-src**（TypeScript，7,047 星，單日 +1,220）：把最新網頁平台實務注入編碼代理。為何值得留意：代理寫前端的過時語法有官方補丁。來源：[來源：github.com](https://github.com/trending) （類型：社群；查證：已抽原文）
+- **elementalsouls/Claude-BugHunter**（Python，6,300 星，單日 +221）：82 個技能、15 個 slash 指令、681 條已披露報告模式的漏洞獵捕技能包。為何值得留意：紅隊知識被封裝成可審核技能。來源：[來源：github.com](https://github.com/trending) （類型：社群；查證：已抽原文）
+- **NVIDIA/SkillEvaluator**（Python，1,587 星，單日 +205）：以品質閘、語意重疊偵測及合成資料集評估代理技能。為何值得留意：技能數量爆炸後需要評分機制。來源：[來源：github.com](https://github.com/trending) （類型：社群；查證：已抽原文）
 :::
 
 ::: section global 全球重點新聞
 ## 全球重點新聞
 
-- **UnrealIRCd 高危漏洞遭利用**：labeled-response 模組未轉義 IRCv3 的 label 標籤，任何用戶在兩部以上互連伺服器的網絡即可用伺服器權限執行指令；維護者稱是 15 年來最嚴重問題，公開後已見攻擊。CVE-2026-114713｜CVSS 8.6｜受影響：UnrealIRCd 6.0.0 至 6.2.7（5.x 亦受影響）｜已被利用(KEV)？是，11月13日加入，11月16日到期｜修補：6.2.7.1 或 hot-patch｜HKCERT 級別：未見公告。為何重要：普通用戶即可奪取 IRC 網絡控制權。來源：[來源：forums.unrealircd.org](https://forums.unrealircd.org/viewtopic.php?t=9487) （類型：官方；查證：已抽原文）
-- **Cursor 確認外洩導致惡意 Claude Code 擴充**：11月13日公布事故報告，Fireworks AI 一把存取金鑰被盜，讀走含未遮蔽憑證的代理軌跡，攻擊者再以盜得憑證於 10月29日在 Cursor 市集發布惡意 Claude Code 擴充 2.1.312 及 2.1.313，上架約 11 小時，最多 5,000 名開發者或受影響；少於 0.05% 用戶的代理軌跡外洩。為何重要：AI 開發平台成供應鏈新入口。來源：[來源：bleepingcomputer.com](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) （類型：媒體；查證：已抽原文）
-- **Chrome 修補今年第八個已被利用零日**：CVE-2026-125350 為 Chromium XML 元件的 use-after-free，11月6日匿名報告、已遭利用，影響 Chrome、Edge、Opera 等。CVE-2026-125350｜CVSS 未列｜受影響：Chrome 157 之前版本｜已被利用(KEV)？是，11月10日加入，11月24日到期｜修補：Chrome 157（HKCERT 指 157.0.8103.78／.79 或之後）｜HKCERT 級別：中度風險。為何重要：瀏覽器零日仍是主流入口。來源：[來源：cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) （類型：官方；查證：已抽原文）
-- **美國搗破北韓 FaceStealer 行動**：11月14日報道，行動歷時 18 個月，以深偽及 ClickFix 誘騙加密貨幣及開源開發者，涉款逾 4 億美元；當局識別 900 多段秘密錄製影像、677 名目標分布 58 國；司法部另稱與私人企業就 64 億美元 Binance 竊案凍結逾 27 億美元。為何重要：開發者社交工程直接威脅供應鏈。來源：[來源：bleepingcomputer.com](https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/) （類型：媒體；查證：已抽原文）
-- **Plex2Shell 攻擊 QNAP NAS 用戶**：QNAP 11月13日警告，四漏洞鏈可未經認證在 Plex Media Server 執行任意程式碼，暫無資料損失；外露裝置應視為可能已失陷，重裝 Plex 並輪換密碼。CVE-2026-96652、CVE-2026-96654、CVE-2026-96655、CVE-2026-96656｜CVSS 未列｜受影響：Plex Media Server 1.43.3 之前（QNAP App Center 版本）｜已被利用(KEV)？已廣泛利用（KEV 狀態未在本頁列明）｜修補：1.43.3 或之後｜HKCERT 級別：未見公告。為何重要：家用 NAS 是高價值外露目標。來源：[來源：securityweek.com](https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/) （類型：媒體；查證：已抽原文）
+- **Check Point 本地提權漏洞遭利用**：Gaia OS DynamicCLI 以 root 身分監聽世界可寫本地 socket 且不驗證連線程序，已認證本地用戶可送指令以 root 執行。CVE-2026-123039｜CVSS 未列｜受影響：Check Point 防火牆、多域管理伺服器、Security Gateway 等｜已被利用(KEV)？是，11月13日加入，11月16日到期｜修補：按廠方 sk1000362｜HKCERT 級別：未見公告。為何重要：邊界設備本地提權等於全網失守。來源：[來源：cisa.gov](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) （類型：官方；查證：已抽原文）
+- **微軟 11 月更新修補 1,235 個漏洞**：含 66 個嚴重及 1 個已被利用的 Outlook 零日，開啟特製郵件檔可令 Outlook 連上攻擊者網絡位置並洩漏 NTLMv2 雜湊；MSRC 官方頁11月15日修訂，列 1,096 個自家 CVE。CVE-2026-124194｜CVSS 6.5｜受影響：多個 Outlook 版本｜已被利用(KEV)？是，11月10日加入，11月24日到期｜修補：11月保安更新｜HKCERT 級別：未見公告。為何重要：雜湊外洩可離線破解再橫向移動。來源：[來源：bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/) （類型：媒體；查證：已抽原文）
+- **法國 Maileva 外洩 2,200 萬人姓名及地址**：La Poste 子公司 9 月中被入侵，11月15日確認；受影響者是客戶企業寄件的收件人，涵蓋社會房屋住戶、化驗所及醫院病人，部分催款信內容曾被讀取；銀行資料未外洩，已通報 CNIL 並提刑事控告。為何重要：代寄服務令無直接關係的市民中招。來源：[來源：securityaffairs.com](https://securityaffairs.com/203126/data-breach/data-breach-at-la-poste-subsidiary-maileva-affects-22-million-people-in-france.html) （類型：媒體；查證：已抽原文）
+- **意大利罰 Meta 8.05 億歐元**：監管機構指 Facebook 未經具體同意讀取 Android 用戶相簿，涉約 2,000 萬人；Meta 主張應由愛爾蘭監管，被指 ePrivacy 不適用一站式機制，當局保留就 2026 年新雲端相簿功能另案審視。為何重要：相簿權限屬最高風險授權。來源：[來源：securityaffairs.com](https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html) （類型：媒體；查證：已抽原文）
 :::
 
 ::: section hk 香港本地
 ## 香港本地
 
-- **香港迪士尼 1.7 萬個門票二維碼被盜**：11月13日晚公布網絡事件，11月14日官網顯示系統維護、暫停購票及訂酒店；據了解內部系統約 1.7 萬個二維碼被盜，網上票務由 Cityline 負責；警方暫列「有犯罪或不誠實意圖而取用電腦」，交大嶼山警區重案組，暫未有人被捕。為何重要：票務憑證外洩可直接變現。來源：[來源：hk01.com](https://hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60410846/) （類型：媒體；查證：已抽原文）
-- **崇光百貨 82 萬會員資料外洩**：11月12日通報，11月5日發現會員系統有不正常讀取紀錄，涉約 820,000 名會員的姓名、電郵、電話及積分結餘；私隱專員公署已按既定機制展開調查。為何重要：外洩資料成為精準釣魚原料。來源：[來源：wenweipo.com](https://wenweipo.com/a/202611/12/AP6af5d5b9e4b028ec0193ae50.html) （類型：媒體；查證：已抽原文）
-- **HKCERT 警告外洩風險滯後**：11月14日指出，事故公布並非風險結束，而是後續針對性攻擊的開端；騙徒會把外洩資料與暗網數據交叉比對，再冒充商戶或雲端服務發出「賬戶異常」、「資料外洩需重新驗證」訊息；建議全面啟用 2FA 及只用官方渠道核實。為何重要：二次詐騙通常在數週後才爆發。來源：[來源：it-square.hk](https://it-square.hk/article/2026/11/20261114hkcertphishingalert) （類型：媒體；查證：已抽原文）
-- **HKCERT：Google Chrome 多個漏洞**：11月12日公告，遠端攻擊者可致阻斷服務、遠端執行程式碼、繞過保安限制及資料洩露。CVE-2026-126840 至 CVE-2026-126922｜CVSS 未列｜受影響：Chrome 157.0.8103.78（Linux）／157.0.8103.78 及 .79（Mac、Windows）之前｜已被利用(KEV)？未見｜修補：上述版本或之後｜HKCERT 級別：中度風險。為何重要：瀏覽器是最高頻攻擊面。來源：[來源：hkcert.org](https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20261112) （類型：官方；查證：已抽原文）
+- **都會大學約 5,000 人資料外洩**：11月4日發現資訊保安事故，翌日電郵通知全校並刊聲明；外洩包括姓名、出生日期、電話、地址、電郵及曾繳學費日期與金額，不涉銀行戶口；暗網帖文聲稱另有身份證號碼及 GPA；私隱專員公署11月9日接報並展開調查。為何重要：學費與成績可作精準冒充材料。來源：[來源：news.mingpao.com](https://news.mingpao.com/ins/%E6%B8%AF%E8%81%9E/article/20261115/s00001/1794747040813/) （類型：媒體；查證：已抽原文）
+- **「銳眼」今日啟用人面識別**：計劃推行兩年已助破 2,192 宗案、拘 2,831 人，全港逾 1 萬支鏡頭，2028 年目標 6 萬支，首階段約 4 個商場接入；處長稱主要用於刑事偵查及尋找失蹤長者，商場接駁須設強防火牆防資料外洩。為何重要：私隱與治安界線進入實務階段。來源：[來源：wenweipo.com](https://www.wenweipo.com/a/202611/15/AP6af97b94e4b028ec0194090b.html) （類型：媒體；查證：已抽原文）
+- **國際刑警大會月底首次在港舉行**：3 年籌備近尾聲，已進行約 10 次綵排；本港年初參與「銀色通告」先導計劃針對非法資金流向，配合跨境反詐平台做到 24 小時止付；詐騙集團仍集中東盟，部分遷往中東及非洲。為何重要：跨境止付是把騙款留在境內的關鍵。來源：[來源：news.rthk.hk](https://news.rthk.hk/rthk/ch/component/k2/1877881-20261115.htm) （類型：媒體；查證：已抽原文）
 :::
 
 ::: section events 活動與展會
 ## 活動與展會
 
-- **香港網絡安全與未來應變研討會 2027**：日期 2027-01-07｜地點 香港灣仔博覽道1號香港會議展覽中心2樓 S222–S230｜形式 線下研討會｜報名狀態 費用全免，報名於 2026 年 11 月中開始。來源：[來源：hkcert.org](https://www.hkcert.org/tc/event/hong-kong-cyber-trust-and-future-readiness-seminar-2027) （類型：官方；查證：已抽原文）
-- **第二十八屆高交會（亞洲人工智能產業鏈展、亞洲機器人產業鏈展）**：日期 2026-11-26 至 11-28｜地點 深圳國際會展中心（寶安）｜形式 線下展會｜報名狀態 11月25日中午12時前完成預登記免費，逾期收 120 元人民幣。來源：[來源：chtf.com](https://www.chtf.com/canguanzhiyin/gonggao/) （類型：官方；查證：已抽原文）
-- **GenAI 深圳 2026**：日期 2026-12-04 至 12-05｜地點 深圳（主會場以官網公布為準）｜形式 線下大會，設主旨演講、行業分論壇、初創路演及工作坊｜報名狀態 一般參會者須加入候補名單，講者及合作夥伴另行申請。來源：[來源：genaishenzhen.com](https://www.genaishenzhen.com/cn/) （類型：官方；查證：已抽原文）
+- **2026 大灣區 AI 應用生態 x 數字基礎設施大會**：日期 2026-12-15｜地點 深圳國際交流中心 A 館｜形式 線下大會，設主論壇、專題論壇及 Future Connect 產業對接會｜報名狀態 公開邀約，官網列會議諮詢聯絡，未公布截止日。來源：[來源：isc.org.cn](https://www.isc.org.cn/article/31071952957992960.html) （類型：官方；查證：已抽原文）
+- **OFweek 2026（第十一屆）中國人工智能與物聯網技術創新大會**：日期 2026-12-18｜地點 深圳達實大廈 2 樓會議中心報告廳｜形式 線下，上午產業趨勢論壇、下午邊緣智能與端側論壇，同場發布藍皮書及頒獎｜報名狀態 官網設參會諮詢，未列費用及截止日。來源：[來源：ofweek.com](https://www.ofweek.com/seminar/2026/AIoT/) （類型：官方；查證：已抽原文）
+- 香港本期未見新公布活動，最近一個為 2027-01-07 香港網絡安全與未來應變研討會（已於昨日報道）。
 :::
 
 ::: section misc 其他要點
 ## 其他要點
 
-- **NVIDIA 宣布行政總裁交接**：11月12日公布，黃仁勳辭任總裁、行政總裁及董事，即時生效；財務總監 Colette Kress 出任臨時行政總裁並兼任原職，Harvey C. Jones 成為首任董事會主席；第三季業績維持 11月17日公布。來源：[來源：nvidianews.nvidia.com](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) （類型：官方；查證：已抽原文）
-- **OpenAI 重組機械人團隊**：11月13日 Fortune 報道並獲公司確認，研究人員併入 Mark Chen 主管的研究組織，應用機械人及硬件團隊撥歸 Greg Brockman 的 Applied 部門；官方稱 GPT-6 Astra 等通用模型可直接用於機械人，NVIDIA 模擬測試成功率 74.8%，專用模型為 51%；首部人形機械人公開示範目標為 2027 年。來源：[來源：the-decoder.com](https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/) （類型：媒體；查證：已抽原文）
+- **Anthropic 啟動 IPO 路演**：11月10日公布擬發行 8.25 億股 A 類普通股，其中 8.01 億股由公司發行、2,364 萬股由現有股東出售，招股價 70 至 78 美元，擬以代號 ANT 在 Nasdaq 環球精選市場上市。來源：[來源：anthropic.com](https://anthropic.com/news/roadshow-launch) （類型：官方；查證：已抽原文）
+- **警方擬建 200 個無人機機庫**：11月15日表示目標在全港各區設立 200 個機庫，構建與地面協調的「空中巡邏」網絡以配合追捕，正於港島試行以克服高樓密集的技術限制。來源：[來源：wenweipo.com](https://www.wenweipo.com/a/202611/15/AP6af97b94e4b028ec0194090b.html) （類型：媒體；查證：已抽原文）
 :::
 
 ::: section followup 昨日跟進
 ## 昨日跟進
 
-- **MiniMax-H3-Image 續升**：下載 437k→518k、讚 996→1,106。來源：[來源：huggingface.co](https://huggingface.co/models?sort=trending) （類型：官方；查證：已抽原文）
-- **QwenLM/qwen-code 星數上升**：由約 29,772 升至 30,288，單日 +116。來源：[來源：github.com](https://github.com/trending) （類型：社群；查證：已抽原文）
-- **thinkingmachines/Inkling-2-Small 讚數上升**：223→261，下載 1.06k。來源：[來源：huggingface.co](https://huggingface.co/models?sort=trending) （類型：官方；查證：已抽原文）
+- **MiniMax-H3-Image 續升**：下載 518k→571k、讚 1,106→1,170。來源：[來源：huggingface.co](https://huggingface.co/models?sort=trending) （類型：官方；查證：已抽原文）
+- **ZONOS3-Mini 大幅增長**：下載 19,743→39.9k、讚 306→383。來源：[來源：huggingface.co](https://huggingface.co/models?sort=trending) （類型：官方；查證：已抽原文）
 :::
 
 <div class="ns-footer">
-<p>資料截至 2026-11-15 05:30（HKT）；本期覆蓋 2026-11-13 至 2026-11-15。</p>
+<p>資料截至 2026-11-16 05:30（HKT）；本期覆蓋 2026-11-10 至 2026-11-16，重點為 11-15 至 11-16。</p>
 </div>

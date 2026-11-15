@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sat, 14 Nov 2026 21:45:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 21:45:47 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-16（星期一）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-16</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-16</guid>
+      <pubDate>Sun, 15 Nov 2026 21:30:00 GMT</pubDate>
+      <description>都大 5,000 人資料外洩，暗網疑售 GPA。 / 銳眼今日啟用人面識別，涉逾萬支鏡頭。 / Check Point 漏洞列入 KEV，今日屆滿。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-15（星期日）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-15</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-18</guid>
       <pubDate>Sat, 17 Oct 2026 21:30:00 GMT</pubDate>
       <description>DeepSeek 推出 V4.1-Flash-1017，MIT 開源權重，DeepSWE 77.0。 / HKCERT 列思科電郵閘道漏洞為高度風險，確認已被利用。 / 金管局公布銀行人工智能 ART 框架，測試代理式應用管治。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-17（星期六）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-17</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-17</guid>
-      <pubDate>Fri, 16 Oct 2026 21:30:00 GMT</pubDate>
-      <description>CISA 新增 Fortinet 與 BeyondTrust 兩項 KEV，聯邦限期 10 月 19 日。 / Microsoft 完成 MAI-Base-2 預訓練，總參數 2.8 兆、啟動 800 億。 / HKCERT 評 Chrome 為中度風險，修補版本 155.0.8059.84。</description>
     </item>
   </channel>
 </rss>
