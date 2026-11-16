@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-17",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-17",
+      "title": "每日科技與資安摘要 — 2026-11-17（星期二）",
+      "date_published": "2026-11-17T05:30:00+08:00",
+      "summary": "Uber 14.9 萬司機車牌資料經 Fireworks 外洩。 / 台積電 4.6 萬員工紀錄疑經雲端商流出。 / OpenAI 開放 CSAM 分類器，四機構入駐評估。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-16",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-16",
       "title": "每日科技與資安摘要 — 2026-11-16（星期一）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-19（星期一）",
       "date_published": "2026-10-19T05:30:00+08:00",
       "summary": "Anthropic 承諾撥出 5% 股份予公共利益基金，估值每升 50% 可再加 2%。 / BeyondTrust 與 Fortinet 已利用漏洞列入 KEV，美國聯邦限期為今日。 / 廉署起訴五人涉科技券詐騙，調查涉及約 470 宗申請、逾一億元。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-18",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-18",
-      "title": "每日科技與資安摘要 — 2026-10-18（星期日）",
-      "date_published": "2026-10-18T05:30:00+08:00",
-      "summary": "DeepSeek 推出 V4.1-Flash-1017，MIT 開源權重，DeepSWE 77.0。 / HKCERT 列思科電郵閘道漏洞為高度風險，確認已被利用。 / 金管局公布銀行人工智能 ART 框架，測試代理式應用管治。"
     }
   ]
 }

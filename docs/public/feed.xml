@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Sun, 15 Nov 2026 21:45:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 21:45:47 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-17（星期二）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-17</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-17</guid>
+      <pubDate>Mon, 16 Nov 2026 21:30:00 GMT</pubDate>
+      <description>Uber 14.9 萬司機車牌資料經 Fireworks 外洩。 / 台積電 4.6 萬員工紀錄疑經雲端商流出。 / OpenAI 開放 CSAM 分類器，四機構入駐評估。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-16（星期一）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-16</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-19</guid>
       <pubDate>Sun, 18 Oct 2026 21:30:00 GMT</pubDate>
       <description>Anthropic 承諾撥出 5% 股份予公共利益基金，估值每升 50% 可再加 2%。 / BeyondTrust 與 Fortinet 已利用漏洞列入 KEV，美國聯邦限期為今日。 / 廉署起訴五人涉科技券詐騙，調查涉及約 470 宗申請、逾一億元。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-18（星期日）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-18</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-18</guid>
-      <pubDate>Sat, 17 Oct 2026 21:30:00 GMT</pubDate>
-      <description>DeepSeek 推出 V4.1-Flash-1017，MIT 開源權重，DeepSWE 77.0。 / HKCERT 列思科電郵閘道漏洞為高度風險，確認已被利用。 / 金管局公布銀行人工智能 ART 框架，測試代理式應用管治。</description>
     </item>
   </channel>
 </rss>
