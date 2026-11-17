@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-18",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-18",
+      "title": "每日科技與資安摘要 — 2026-11-18（星期三）",
+      "date_published": "2026-11-18T05:30:00+08:00",
+      "summary": "GPT-6.2 Astra／Sol 上線，Astra 每百萬輸入 token 8 美元。 / Optimizely 被入侵，178 個機構網站曾供應惡意 JavaScript。 / 東瀛遊、屈臣氏、都會大學同涉第三方系統事故。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-17",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-17",
       "title": "每日科技與資安摘要 — 2026-11-17（星期二）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-20（星期二）",
       "date_published": "2026-10-20T05:30:00+08:00",
       "summary": "美國文職機關須移除 DeepSeek 產品及第三方衍生服務。 / 微軟以 Guardian Agents 持續監督企業內人工智能代理。 / MiniMax 推出 M3.1 Flash，官方稱代理任務成本降七成。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-19",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-19",
-      "title": "每日科技與資安摘要 — 2026-10-19（星期一）",
-      "date_published": "2026-10-19T05:30:00+08:00",
-      "summary": "Anthropic 承諾撥出 5% 股份予公共利益基金，估值每升 50% 可再加 2%。 / BeyondTrust 與 Fortinet 已利用漏洞列入 KEV，美國聯邦限期為今日。 / 廉署起訴五人涉科技券詐騙，調查涉及約 470 宗申請、逾一億元。"
     }
   ]
 }
