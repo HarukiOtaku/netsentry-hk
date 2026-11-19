@@ -6,6 +6,13 @@
   "language": "zh-HK",
   "items": [
     {
+      "id": "https://netsentry-hk.vercel.app/digests/2026-11-20",
+      "url": "https://netsentry-hk.vercel.app/digests/2026-11-20",
+      "title": "每日科技與資安摘要 — 2026-11-20（星期五）",
+      "date_published": "2026-11-20T05:30:00+08:00",
+      "summary": "Synology DSM 漏洞野外利用，HKCERT 評極高風險。 / 歐盟委員會系統被攻陷逾十日，疑涉 ARTEX 框架。 / Gemini 4 Neon 上線，輸入每百萬 token 3 美元。"
+    },
+    {
       "id": "https://netsentry-hk.vercel.app/digests/2026-11-19",
       "url": "https://netsentry-hk.vercel.app/digests/2026-11-19",
       "title": "每日科技與資安摘要 — 2026-11-19（星期四）",
@@ -207,13 +214,6 @@
       "title": "每日科技與資安摘要 — 2026-10-22（星期四）",
       "date_published": "2026-10-22T05:30:00+08:00",
       "summary": "PHP 推出 8.5.12 等四個版本，修補兩項未認證遠端執行漏洞。 / 微軟指 Storm-0940 以 ARTEX 在三小時內取得雲端特權。 / NVIDIA 於柏林發表 OpenShell 代理安全參考架構。"
-    },
-    {
-      "id": "https://netsentry-hk.vercel.app/digests/2026-10-21",
-      "url": "https://netsentry-hk.vercel.app/digests/2026-10-21",
-      "title": "每日科技與資安摘要 — 2026-10-21（星期三）",
-      "date_published": "2026-10-21T05:30:00+08:00",
-      "summary": "CISA 將 Plex、SiteGuard 及西門子漏洞列入已知利用目錄。 / DeepSeek 開源生產推論框架 DeepInfer，授權 Apache 2.0。 / OpenAI 收購藥物研發協調平台 Orchestra Bio。"
     }
   ]
 }

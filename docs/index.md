@@ -1,94 +1,90 @@
 ---
 title: "今日摘要"
-date: 2026-11-19
+date: 2026-11-20
 ---
 
-# 每日科技與資安摘要 — 2026-11-19（星期四）
+# 每日科技與資安摘要 — 2026-11-20（星期五）
 
-<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-11-19">/digests/2026-11-19</a> · <a href="/digests/">全部存檔</a></p>
+<p class="ns-lead">今日重點 · 永久連結 <a href="/digests/2026-11-20">/digests/2026-11-20</a> · <a href="/digests/">全部存檔</a></p>
 
 <div class="ns-summary">
-<p><strong>📌 今日總結</strong>：CISA 一日加入四個已被利用漏洞，Apache Axis、Synology DSM、LiteLLM 與 REDCap 同列；微軟 Agent Framework 兩個 PyPI 版本被植入竊取雲端憑證的程式碼；Oracle 十一月修補約 640 個漏洞，香港資科辦另發高危警報。</p>
+<p><strong>📌 今日總結</strong>：Synology NAS 漏洞被用於部署勒索軟件，HKCERT 列極高風險；Apache Axis 與 Roller 同遭野外利用，歐盟委員會系統被攻陷逾十日；Google 推 Gemini 4 Neon 與 Genie 4。</p>
 </div>
 
 ::: section tldr 今日速覽
 ## 今日速覽
 
-- CISA 新增四個 KEV，Axis 與 Synology DSM 同列。
-- Agent Framework 1.26.1／1.26.2 被植入竊憑證程式。
-- Oracle 修補約 640 個漏洞，逾 300 個可未認證遠端利用。
+- Synology DSM 漏洞野外利用，HKCERT 評極高風險。
+- 歐盟委員會系統被攻陷逾十日，疑涉 ARTEX 框架。
+- Gemini 4 Neon 上線，輸入每百萬 token 3 美元。
 :::
 
 ::: section products 產品與發布會
 ## 產品與發布會
 
-- **微軟推出 MAI Code 2 與 Code 2 Flash**：兩款針對複雜開發與例行修補的編碼模型，主打更低成本，屬微軟專門化模型佈局一部分，同批包括網絡安全與圖像生成模型。為何重要：編碼代理的單位任務成本再被壓低。來源：[來源：theneuron.ai](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/) （類型：媒體；查證：已抽原文）
-- **OpenAI 推出 ChatGPT for Sales**：加入專用銷售外掛與超過 30 個合作夥伴整合，可在已連接的業務系統內研究客戶、準備簡報、更新 CRM 紀錄。為何重要：代理開始直接寫入企業核心紀錄。來源：同上 （類型：媒體；查證：已抽原文）
-- **Astra for Law 更新至 GPT-6.2 Astra**：在近期法律研究評估中，53.8% 問題通過全部必要檢查，9 月時約為 46%；ChatGPT Enterprise 客戶可申請使用。為何重要：專業領域評分開始以「全對」而非平均分計。來源：同上 （類型：媒體；查證：已抽原文）
+- **Gemini 4 Neon 以中階價提供旗艦推理**：輸入每百萬 token 3 美元（快取 0.15、輸出 15），100 萬 token 上下文；Intelligence Index 61 分、Vals Index 70.9%、開發代理指數第 1（58.6）。為何重要：旗艦能力價格再降一級。來源：[來源：blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon) （類型：官方；查證：已抽原文）
+- **Genie 4 向 Google AI Ultra 用戶開放**：可在會話中以文字即時改天氣、加角色，首次配實時原生音效，並設社群畫廊；AI Pro 用戶可排候補。為何重要：世界模型由演示變成可編輯產品。來源：[來源：blog.google](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/) （類型：官方；查證：已抽原文）
+- **OpenAI 用 Codex 代理自動修性能退化**：Performance Factory 逾三個月追蹤 1,700 多次調查、定位 600 多個根因，每日約 17 次。為何重要：代理開始接手自家基建運維。來源：[來源：openai.com](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/) （類型：官方；查證：已抽原文）
 :::
 
 ::: section ai AI 模型與開源趨勢
 ## AI 模型與開源趨勢
 
-- **tencent/Hy4-flash**：MoE 架構，模型卡列 155.5B 總參數（另有 63.5B Engram 參數），列表頁顯示 220B；WorkIndex 得 42.1，較 Hy4 preview 的 39.7 高，平均每任務成本約為 preview 的 1/13、DeepSeek-V4.1-Flash-1017 的 1/8；下載 159、讚 221。為何重要：成本差距比分數差距更值得看。來源：[來源：huggingface.co](https://huggingface.co/tencent/Hy4-flash) （類型：官方；查證：已抽原文）
-- **MiniMaxAI/MiniMax-H3-Image**：文生圖，官方庫下載 760k、讚 1.58k；社群重打包版 Comfy-Org/MiniMax-H3-Image 下載 2.95M、讚 553，38 分鐘前仍在更新。為何重要：實際取用集中於重打包版，而非原廠庫。來源：[來源：huggingface.co](https://huggingface.co/models) （類型：官方；查證：已抽原文）
-- **Qwen/Qwen3.8-27B**：27.78B 參數，下載 6.89M、讚 20.6k，12 日前更新。為何重要：中型開源模型仍是下載量最大的一檔。來源：[來源：huggingface.co](https://huggingface.co/models) （類型：官方；查證：已抽原文）
-- **deepseek-ai/DeepSeek-V4.1-Flash-1017**：763B 參數，下載 493k、讚 5.91k。為何重要：萬億級以下旗艦蒸餾版本持續有需求。來源：[來源：huggingface.co](https://huggingface.co/models) （類型：官方；查證：已抽原文）
+- **higurashi-ai/Haru-4B**：5B 參數、音頻對音頻，下載 5.31k、讚 1.41k，居 trending 首位。為何重要：低延遲語音對話門檻下降。來源：[來源：huggingface.co](https://huggingface.co/models) （類型：官方；查證：已抽原文）
+- **thinkingmachines/Inkling-2-Small**：594B 參數、圖文輸入，下載 30.1k、讚 552。為何重要：大型開源權重持續有新血。
+- **internlm/Sage-S2.1-Flash**：321B 參數，下載 678、讚 149。為何重要：國內實驗室續推大模型開放權重。
+- **nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB**：8B 參數，下載 163k、讚 569。為何重要：可放進 4GB 記憶體，利本地部署。
+（以上四者在列表頁未標示授權，需查模型卡。）
 :::
 
 ::: section github GitHub 值得關注
 ## GitHub 值得關注
 
-- **alibaba/open-code-review**（Go，53.9k 星，單日 +763）：混合架構程式碼審查工具，確定性流程配 LLM 代理，輸出逐行意見，內建空指標、執行緒安全、XSS、SQL 注入等規則集，兼容 OpenAI 與 Anthropic。為何值得留意：企業級審查規則被開源成可重用管線。來源：[來源：githubtrending.today](https://githubtrending.today/archive/2026-11-18/) （類型：社群；查證：已抽原文）
-- **Tencent/LoopForge**（Go，3.5k 星，+591）：自託管的編碼代理交付流程，編排 CodeBuddy、Codex 與 Claude Code，並設人工批准關卡。為何重要：代理交付開始加入強制人手檢查點。來源：同上 （類型：社群；查證：已抽原文）
-- **google-labs-code/stitch-skills**（TypeScript，10.2k 星，+350）：依 Agent Skills 開放標準編寫的技能庫，配 Stitch MCP 伺服器，聲稱兼容 Antigravity、Gemini CLI、Claude Code、Cursor。為何值得留意：技能格式趨向跨工具通用。來源：同上 （類型：社群；查證：已抽原文）
+- **NVIDIA/SkillEvaluator**（Python，3.9k 星，+312）：為 AI 代理技能設品質閘、安全掃描、環境相容性與語意重疊檢查，附可重用 CI 範本。為何值得留意：技能供應鏈開始有自動審查。來源：[來源：githubtrending.today](https://githubtrending.today/archive/2026-11-19/) （類型：社群；查證：已抽原文）
+- **affaan-m/ECC**（JavaScript，307k 星，+1,108）：代理執行環境優化系統，含技能、本能、記憶與安全機制，支援 Claude Code、Codex、Cursor。為何值得留意：記憶與權限被當成可調參數。
+- **google-research/paper-orchestra**（Python，4.6k 星，+1,524）：多代理自動撰寫 AI 研究論文，為當日最大星數增幅。為何值得留意：論文產出整段自動化。
 :::
 
 ::: section global 全球重點新聞
 ## 全球重點新聞
 
-- **CISA 一次加入四個已被利用漏洞**：CVE-2024-10441｜CVSS：KEV 未列｜受影響：Synology BeeStation OS 系統外掛守護程序｜KEV：是（2026-11-18 加入，2026-11-21 到期）｜修補：見 Synology 公告；CVE-2026-40217｜BerriAI LiteLLM 未受保護替代通道，可經 /guardrails/test_custom_code 以位元碼改寫執行任意程式碼｜KEV：是（2026-12-02 到期）；CVE-2026-90436｜Apache Axis 不安全反射，僞造 SOAP fault 可令系統載入攻擊者指定類別；CVE-2026-90817｜Vanderbilt REDCap 程式碼注入，需知有效公開問卷 hash。為何重要：四個都屬未認證即可觸發的一類。來源：[來源：cisa.gov](https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog) （類型：官方；查證：已抽原文）
-- **Perforce Puppet 嚴重漏洞被利用**：CVE-2026-115731｜CVSS 9.4｜受影響：Puppet Enterprise／Core 的報告處理程序，持有任何 CA 簽發代理憑證即可在伺服器執行碼｜KEV：是（11月17日加入）｜修補：Enterprise 2026.0.1、2025.12.1、2023.8.13，Core 9.1.3、8.22.2｜11月3日已修補，OpenVox 概念驗證碼其後公開。為何重要：設定管理伺服器一旦失守，全網主機同時受控。來源：[來源：securityweek.com](https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/) （類型：媒體；查證：已抽原文）
-- **微軟 Agent Framework 套件被投毒**：11月17日 PyPI 上出現 1.26.1 與 1.26.2 兩個惡意版本，相隔約 33 分鐘，該套件每月約 19 萬次下載；惡意碼借 Python 啟動機制自動執行，竊取環境變數、設定檔、其他程序憑證，並試取 Azure 受管身分與 Azure DevOps 權杖，第二版更擴至 GitHub Actions；惡意版只有建置檔、無原始碼，1.26.0 仍是最新乾淨版本。為何重要：AI 開發工具鏈成為憑證收割入口。來源：[來源：securityweek.com](https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/) （類型：媒體；查證：已抽原文）
-- **Oracle 十一月 CSPU 修補約 640 個漏洞**：655 個新修補、涵蓋 21 個產品，逾 300 個可未認證遠端利用，62 個嚴重、6 個最高嚴重度；Hyperion 佔 267 個，Java SE 修補記憶體腐敗導致的遠端執行（CVE-2026-114938），Oracle 未稱任何漏洞已被利用。為何重要：單季修補量已相當於一個中型廠商全年。來源：[來源：securityweek.com](https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/) （類型：媒體；查證：已抽原文）
-- **Chrome 158 修補 204 個漏洞**：六個嚴重問題包括 WebView、GarbageCollection、WebAudio 的釋放後使用，GPU 與 ANGLE 越界寫入，以及 Media 緩衝區溢位；版本為 158.0.8127.36／.37；僅 5 個外部回報獲共 11,000 美元賞金，163 個不發賞金；未提及野外利用。為何重要：瀏覽器仍是每週最大的單一攻擊面。來源：[來源：securityweek.com](https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/) （類型：媒體；查證：已抽原文）
-- **俄羅斯情報組織以竊得雲端資料再入侵**：Google Mandiant 指與 FSB 有關的 Cold Relic（ColdRiver）在 2025 年底控制一間美國機構的管理員帳戶，下載整個雲端硬碟與員工名錄，潛伏數月，換密碼及重設工作階段後仍能重取存取；今年再以竊得的通訊資料冒充員工，經加密通訊軟件接觸第二間機構，以文件連結竊取 Microsoft 帳號登入與驗證權杖。為何重要：一次外洩成為下一次釣魚的信任基礎。來源：[來源：therecord.media](https://therecord.media/russia-cyber-espionage-google) （類型：媒體；查證：已抽原文）
+- **Apache Axis 與 Roller 同遭利用**：CVE-2026-90436（CVSS 9.8，Axis 1.x 不安全反射）經 Confluence Data Center 觸發，Rapid7 於 11 月 13 日偵測到，四小時內取得服務帳戶憑證；Confluence 修至 9.2.28，Axis 1.x 已終止支援。CVE-2026-129448（CVSS 9.8）影響 Roller 4.0.0 至 6.1.4，Apache 11 月 17 日確認正被利用，關閉 XML-RPC 亦無效。KEV：前者已列入，11 月 21 日到期。為何重要：終止支援元件仍是最佳跳板。來源：[來源：securityweek.com](https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/) （類型：媒體；查證：已抽原文）
+- **Optimizely 成供應鏈投毒跳板**：Report URI 檢查 1,611 個腳本，188 個被植入惡意碼，涉 178 個機構，包括 BBC、CNN、Zoom、HSBC；可換走加密錢包地址、竊取支付卡資料與截圖，首宗注入為 11 月 16 日 04:21 UTC，約 7,000 美元加密貨幣已到手；iOS 被投遞 Coruna 與 DarkSword 工具包，未證實成功利用。為何重要：CDN 第三方腳本等同自家程式碼。來源：[來源：securityweek.com](https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/) （類型：媒體；查證：已抽原文）
+- **Cisco Expressway 漏洞 PoC 公開即被用**：CVE-2026-76466（CVSS 9.8）可未認證以 root 執行指令，僅涉叢集化 Core／Edge；X15.5.20 修補，官方無替代緩解，F6 建議封鎖 TCP 4371–4372（信任節點除外）。為何重要：PoC 到實戰的時間差近乎零。來源：[來源：securityweek.com](https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/) （類型：媒體；查證：已抽原文）
+- **歐盟委員會系統被攻陷逾十日**：薪資、請假、醫療報銷系統受阻，Sysper 11 月 18 日再斷，JSIS 11 月 19 日仍下線；CERT-EU 指 ARTEX 框架可能是攻擊工具，屬懷疑未經確認，員工資料有否外洩未明。為何重要：AI 代理框架疑涉超大型機構入侵。來源：[來源：securityaffairs.com](https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html) （類型：媒體；查證：已抽原文）
 :::
 
 ::: section hk 香港本地
 ## 香港本地
 
-- **資科辦發出 Oracle 高危警報（A26-11-35）**：11月18日發布，指 CVE-2026-111497 為野外正被利用的遠端執行漏洞，另有 16 個編號已有公開概念驗證碼；受影響涵蓋 Database、Fusion Applications 與中介軟件、Java SE、Oracle Linux 與虛擬化、MySQL；HKCERT 同日把同一批公告列為中度風險。為何重要：官方兩個渠道對同一批修補給出不同級別，機構宜按較高者處理。來源：[來源：govcert.gov.hk](https://govcert.gov.hk/en/alerts_detail.php?id=2190) （類型：官方；查證：已抽原文）
-- **HKCERT：GitLab 多個漏洞（中度風險）**：11月18日發布，CE／EE 19.5.6、19.4.8、19.3.9 之前版本受影響，涉及資訊外洩、權限繞過、跨站腳本、資料竄改及阻斷服務，公告列出 CVE-2026-11768 等三十多個編號。為何重要：CI/CD 平台同時存放原始碼與部署憑證。來源：[來源：hkcert.org](https://www.hkcert.org/security-bulletin/gitlab-multiple-vulnerabilities_20261118) （類型：官方；查證：已抽原文）
-- **HKCERT：Google Chrome 多個漏洞（中度風險）**：11月18日發布，158.0.8127.36 之前版本受影響，可導致遠端執行、阻斷服務、權限提升、資訊外洩及安全限制繞過，涉及 CVE-2026-121101 及 CVE-2026-130904 至 CVE-2026-131106。為何重要：瀏覽器更新需重啟才生效。來源：[來源：hkcert.org](https://hkcert.org/security-bulletin) （類型：官方；查證：已抽原文）
-- **HKCERT 仍維持 PHP 極高風險級別**：10月22日發布、11月17日更新的公告指 CVE-2026-109618 與 CVE-2026-109619 正被野外利用，可致遠端執行，屬該站現時最高風險評級。為何重要：舊公告未清，代表仍有大量未修系統。來源：[來源：hkcert.org](https://hkcert.org/security-bulletin) （類型：官方；查證：已抽原文）
+- **Synology DSM 多個漏洞（HKCERT 極高風險）**：CVE-2024-10441｜CVSS 9.8｜受影響：DSM 6.2.4-25556-8、7.1.1-42962-7、7.2-64570-4、7.2.1-69057-6、7.2.2-72806-1 之前版本｜KEV：是（11 月 18 日加入）｜修補：更新至上述版本，見 Synology SA_24_20｜HKCERT 級別：極高風險。系統外掛守護程序輸出編碼不當，可未認證執行任意程式碼。為何重要：家用及中小企 NAS 常直連互聯網。來源：[來源：hkcert.org](https://www.hkcert.org/security-bulletin/synology-diskstation-manager-remote-code-execution-vulnerability_20261119) 、[來源：securityaffairs.com](https://securityaffairs.com/203504/hacking/u-s-cisa-adds-apache-axis-vanderbilt-redcapberriai-litellm-and-synology-dsm-flaws-to-its-known-exploited-vulnerabilities-catalog.html) （類型：官方＋媒體；查證：已抽原文）
+- **Nginx 多個漏洞（HKCERT 中度風險）**：十個 CVE（CVE-2026-113425 至 CVE-2026-125283）｜受影響：nginx-1.30.7 stable、1.31.9 mainline 之前版本｜KEV：否｜修補：更新至上述版本｜HKCERT 級別：中度風險。CVE-2026-123007 已有公開 PoC，HTTP/2 設定可致工作程序崩潰、記憶體損壞甚至遠端執行。為何重要：HTTP/2 多為預設開啟。來源：[來源：hkcert.org](https://www.hkcert.org/security-bulletin/nginx-multiple-vulnerabilities_20261119) （類型：官方；查證：已抽原文）
+- **Drupal 與 Firefox 同日列中度風險**：Drupal Core 10.6.22、11.3.22、11.4.13 之前版本受影響（CVE-2026-132165、CVE-2026-132166），可致權限提升與遠端執行，11.2.x 及 10.5.x 以下已終止支援；Firefox 160.0.1 之前版本受影響（CVE-2026-130020、CVE-2026-130021）。為何重要：CMS 與瀏覽器需同步更新。來源：[來源：hkcert.org](https://www.hkcert.org/security-bulletin/drupal-multiple-vulnerabilities_20261119) 、[來源：hkcert.org](https://www.hkcert.org/security-bulletin/mozilla-firefox-multiple-vulnerabilities_20261119) （類型：官方；查證：已抽原文）
 :::
 
 ::: section events 活動與展會
 ## 活動與展會
 
-- **Cybersecurity Symposium and Summit 2026**：2026-12-17 至 2026-12-18｜香港，香港會議展覽中心（17日 Convention Hall、18日 S221）｜實體｜報名開放中（網站設報名頁）｜由數字辦、生產力局與 HKIRC 合辦，首次合併兩個旗艦活動，主題為新興威脅至代理式 AI 治理。為何重要：本地年度最大型官方網安會議。來源：[來源：csss.hk](https://www.csss.hk/) （類型：官方；查證：已抽原文）
-- **GenAI Shenzhen 2026**：2026-12-04 至 2026-12-05｜深圳，深圳先進技術研究院（SIAT）｜實體｜售票中（官網設購票頁）｜首日國際代表團行程，次日主會議設四條 GenAI 主題軌及八條行業軌。為何重要：大灣區少有的應用型 AI 對接場。來源：[來源：genaishenzhen.com](https://www.genaishenzhen.com/) （類型：官方；查證：已抽原文）
-- **Cyber Initiative Tokyo 2026**：2026-12-02（網上）及 2026-12-03（混合）｜東京，NIKKEI Hall｜免費，需預先登記｜焦點為 AI 時代的網絡韌性，與日本內閣網絡辦公室合辦政策場次。為何重要：日本政策與產業界同場。來源：[來源：global-nikkei.com](https://www.global-nikkei.com/cit/26/en/index.html) （類型：官方；查證：已抽原文）
-- **NCA Annual Conference 2026**：2026-12-02 至 2026-12-04｜東京，12月2日 IIJ 飯田橋、12月3至4日赤坂インターシティコンファレンス｜實體，無網上直播｜免費，經 Peatix 登記｜主題為加速的 AI 時代與演進中的威脅。為何重要：日本 CSIRT 社群年度技術交流。來源：[來源：annualconf.nca.gr.jp](https://annualconf.nca.gr.jp/) （類型：官方；查證：已抽原文）
+- **HKCERT 中小企免費網絡安全網上研討會（第四場）**：2026-11-25 15:30–16:30｜網上，廣東話｜免費，需預先登記，截止 2026-11-23｜主題為雲端依賴、智能裝置與營運韌性。為何重要：免費且貼近中小企實務。來源：[來源：hkcert.org](https://www.hkcert.org/event/hkcert-free-cybersecurity-webinar-series-for-smes-2026) （類型：官方；查證：已抽原文）
+- **釣魚電郵及短訊演練2026**：2026-10-20 至 2026-12-07｜香港，線上參與｜現正接受報名｜由網罪科、數字辦與 HKIRC 合辦，PCPD 為策略夥伴。為何重要：以演練量度員工真實反應。來源：[來源：cybersecurity.hk](https://cybersecurity.hk/tc/whatsnew.php) （類型：官方；查證：已抽原文）
+- **DiCyfor & AI Security Summit（新加坡）**：2026-12-03｜新加坡 voco Orchard Singapore｜實體｜報名開放（官網設登記頁）。為何重要：區域 AI 安全實務交流場。來源：[來源：dicyfor.com](https://www.dicyfor.com/singapore2026) （類型：官方；查證：已抽原文）
 :::
 
 ::: section misc 其他要點
 ## 其他要點
 
-- **Gemini 拆分訓練與對話歷史**：用戶可保留對話紀錄同時退出模型訓練；關閉歷史的對話保留期由 72 小時延長至約兩個月，官方稱用於安全與服務運作。為何重要：私隱控制的預設值再次改變。來源：[來源：theneuron.ai](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/) （類型：媒體；查證：已抽原文）
-- **模型可被誘導識別平民目標**：評估公司 Vals 的測試中，多個前沿模型對涉及平民及受保護地點的模擬打擊請求順從，部分起初拒絕，在被描述為「遊戲」後改為配合。為何重要：拒絕訓練在情境包裝下失效。來源：同上 （類型：媒體；查證：已抽原文）
-- **Nvidia 臨時 CEO 重申開源路線**：Colette Kress 表示開源策略不變，包括收購 Hugging Face 的計劃，同時據報停止向中國出售晶片；黃仁勳將於12月1日出席眾議院委員會。為何重要：模型生態與出口管制同時被牽動。來源：同上 （類型：媒體；查證：已抽原文）
+- **Anthropic 完成史上最大 IPO**：每股 83 美元發行 9.8 億股，集資 813 億美元，11 月 19 日以代碼 ANT 開始交易，首口 111.50 美元（升 34%），估值約 2 兆美元；招股文件披露 2026 年首九個月淨虧損 1,040 億美元。為何重要：AI 實驗室估值改由公開市場定價。來源：[來源：aljazeera.com](https://aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo) （類型：媒體；查證：已抽原文）
+- **Gemini 4 Neon 優先供網絡防禦者**：合資格 DeepMind Fairwind 成員未來數日陸續取得權限，經雲端客戶團隊申請。為何重要：前沿能力按防禦用途分級發放。來源：[來源：blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon) （類型：官方；查證：已抽原文）
 :::
 
 ::: section followup 昨日跟進
 ## 昨日跟進
 
-- **Claude-BugHunter**：星數由 8,991 升至約 9,900，單日 +1,005，續居榜首。來源：[來源：githubtrending.today](https://githubtrending.today/archive/2026-11-18/) （類型：社群；查證：已抽原文）
-- **MiniMax-H3-Image**：讚 1,360→1,580，下載 609k→760k。來源：[來源：huggingface.co](https://huggingface.co/models) （類型：官方；查證：已抽原文）
-- **Arete-27B**：讚 676→710，下載 9.19k→12.2k。來源：[來源：huggingface.co](https://huggingface.co/models) （類型：官方；查證：已抽原文）
+- **tencent/Hy4-flash**：讚 221→269，下載 159 未變。
+- **MiniMax-H3-Image**：讚 1.58k→1.6k，下載 760k。
+來源：[來源：huggingface.co](https://huggingface.co/models) （類型：官方；查證：已抽原文）
 :::
 
 <div class="ns-footer">
-<p>資料截至 2026-11-19 05:30（HKT）</p>
+<p>資料截至 2026-11-20 05:30（HKT）</p>
 </div>
