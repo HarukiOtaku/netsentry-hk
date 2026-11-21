@@ -6,7 +6,14 @@
     <atom:link href="https://netsentry-hk.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>每日科技、資安與 AI 摘要：5 分鐘掌握重點，每條資訊都導向原始來源。</description>
     <language>zh-HK</language>
-    <lastBuildDate>Thu, 19 Nov 2026 21:45:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 10:42:57 GMT</lastBuildDate>
+    <item>
+      <title>每日科技與資安摘要 — 2026-11-21（星期六）</title>
+      <link>https://netsentry-hk.vercel.app/digests/2026-11-21</link>
+      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-11-21</guid>
+      <pubDate>Fri, 20 Nov 2026 21:30:00 GMT</pubDate>
+      <description>vCenter 零日 CVE-2026-123890 列入 KEV，23 日到期。 / KVM 客機可讀 127GB 主機記憶體，修補已出。 / Windows 鎖機畫面繞過 FastUnlock 仍無修補。</description>
+    </item>
     <item>
       <title>每日科技與資安摘要 — 2026-11-20（星期五）</title>
       <link>https://netsentry-hk.vercel.app/digests/2026-11-20</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-23</guid>
       <pubDate>Thu, 22 Oct 2026 21:30:00 GMT</pubDate>
       <description>HKCERT 確認 PHP2Shell 正被廣泛利用，評極高度風險。 / GitLab 修補 CVSS 10.0 未認證遠端執行，影響自 7.0 起。 / LiteLLM 1.107.0 於 PyPI 及 Docker 遭植入竊密程式。</description>
-    </item>
-    <item>
-      <title>每日科技與資安摘要 — 2026-10-22（星期四）</title>
-      <link>https://netsentry-hk.vercel.app/digests/2026-10-22</link>
-      <guid isPermaLink="true">https://netsentry-hk.vercel.app/digests/2026-10-22</guid>
-      <pubDate>Wed, 21 Oct 2026 21:30:00 GMT</pubDate>
-      <description>PHP 推出 8.5.12 等四個版本，修補兩項未認證遠端執行漏洞。 / 微軟指 Storm-0940 以 ARTEX 在三小時內取得雲端特權。 / NVIDIA 於柏林發表 OpenShell 代理安全參考架構。</description>
     </item>
   </channel>
 </rss>
