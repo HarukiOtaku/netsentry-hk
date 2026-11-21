@@ -434,7 +434,13 @@ ${items}
  * 個人／內部專屬規則由環境變數 NETSENTRY_BANNED_JSON 指向的檔案提供。
  */
 const BASE_PATTERNS = [
-  { re: /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/, label: '電郵地址' },
+  {
+    // 真實電郵才攔截；.local／.localhost／.test／.example／.invalid 屬保留域名
+    // （RFC 6762／2606），技術上唔可能係真人電郵，常見於產品內建帳戶
+    // （例如 VMware 嘅 administrator@vsphere.local）
+    re: /\b[A-Za-z0-9._%+-]+@(?![A-Za-z0-9.-]*\.(?:local|localhost|test|example|invalid)\b)[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/,
+    label: '電郵地址',
+  },
   { re: /同你有關|你部|你嘅|你手上|你嘅設定|你自己部/, label: '第二人稱／針對特定讀者' },
   {
     re: /ssh-ed25519|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,}|AIza[0-9A-Za-z_-]{20,}/,
